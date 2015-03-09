@@ -1,0 +1,1537 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="renderer" content="webkit">
+
+    <title>豆瓣电影标签：科幻</title>
+
+    <meta name="baidu-site-verification" content="cZdR4xxR7RxmM4zE" />
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+
+
+
+
+
+    <link rel="apple-touch-icon" href="/pics/movie/apple-touch-icon.png">
+    <link href="http://s.doubanio.com/f/shire/5d546bd6e07d202f3cc0083a2e77880fb77f57a9/css/douban.css" rel="stylesheet" type="text/css">
+    <link href="http://s.doubanio.com/f/shire/743d4e6e191bdb7fd688d1f93e089220603909b6/css/separation/_all.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript">var _head_start = new Date();</script>
+    <script type="text/javascript" src="http://s.doubanio.com/f/movie/e9d9543ebc06f2964039a2e94898f84ce77fc070/js/movie/lib/jquery.js"></script>
+    <script type="text/javascript" src="http://s.doubanio.com/f/shire/6072cbd9e3d56db50f819890f57164950110117c/js/douban.js"></script>
+    <script type="text/javascript" src="http://s.doubanio.com/f/shire/edd963ebd2d664b02e07affb6d4db29ac3e41a73/js/separation/_all.js"></script>
+
+    <style type="text/css"></style>
+    <script type="text/javascript"></script>
+    <link rel="stylesheet" href="http://s.doubanio.com/misc/mixed_static/1abd9832742bf222.css">
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <script type="text/javascript">var _body_start = new Date();</script>
+
+
+
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav">
+  <div class="bd">
+
+
+
+
+
+
+
+<div class="top-nav-info">
+
+      <a href="http://www.douban.com/accounts/login?source=movie" class="nav-login" rel="nofollow">登录</a>
+      <a href="http://www.douban.com/accounts/register?source=movie" class="nav-register" rel="nofollow">注册</a>
+</div>
+
+
+
+    <div class="top-nav-doubanapp">
+
+        <a href="http://www.douban.com/doubanapp/app?channel=top-nav" class="lnk-doubanapp">下载豆瓣客户端</a>
+        <div id="top-nav-appintro" class="more-items">
+            <p class="slogan">汇集一亿人的生活趣味</p>
+            <p class="qrcode">
+                扫码直接下载
+            </p>
+            <div class="download">
+                <a href="http://www.douban.com/doubanapp/redirect?channel=top-nav&amp;direct_dl=1&amp;download=iOS">Download on the App Store</a>
+                <a href="http://www.douban.com/doubanapp/redirect?channel=top-nav&amp;direct_dl=1&amp;download=Android" class="download-android">Download Android</a>
+            </div>
+        </div>
+        <div id="doubanapp-tip">
+            <a href="http://www.douban.com/doubanapp/app?channel=qipao" class="tip-link">新版发布，可以刷广播啦</a>
+            <a href="javascript: void 0;" class="tip-close">×</a>
+        </div>
+    </div>
+
+    <div class="global-nav-items">
+      <ul>
+
+
+            <li>
+            <a href="http://www.douban.com/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-main&#34;,&#34;uid&#34;:&#34;0&#34;}">豆瓣</a>
+            </li>
+
+
+            <li>
+            <a href="http://book.douban.com/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-book&#34;,&#34;uid&#34;:&#34;0&#34;}">读书</a>
+            </li>
+
+
+            <li class="on">
+            <a href="http://movie.douban.com/" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-movie&#34;,&#34;uid&#34;:&#34;0&#34;}">电影</a>
+            </li>
+
+
+            <li>
+            <a href="http://music.douban.com/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-music&#34;,&#34;uid&#34;:&#34;0&#34;}">音乐</a>
+            </li>
+
+
+            <li>
+            <a href="http://www.douban.com/location/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-location&#34;,&#34;uid&#34;:&#34;0&#34;}">同城</a>
+            </li>
+
+
+            <li>
+            <a href="http://www.douban.com/group/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-group&#34;,&#34;uid&#34;:&#34;0&#34;}">小组</a>
+            </li>
+
+
+            <li>
+            <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-read&#34;,&#34;uid&#34;:&#34;0&#34;}">阅读</a>
+            </li>
+
+
+            <li>
+            <a href="http://douban.fm/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-fm&#34;,&#34;uid&#34;:&#34;0&#34;}">豆瓣FM</a>
+            </li>
+
+
+            <li>
+            <a href="http://dongxi.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-commodity&#34;,&#34;uid&#34;:&#34;0&#34;}">东西</a>
+            </li>
+
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+
+                    <tr><td><a href="http://9.douban.com" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-9&#34;,&#34;uid&#34;:&#34;0&#34;}">九点</a></td></tr>
+
+                    <tr><td><a href="http://alphatown.com" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-town&#34;,&#34;uid&#34;:&#34;0&#34;}">阿尔法城</a></td></tr>
+
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-mobile&#34;,&#34;uid&#34;:&#34;0&#34;}">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+
+    <!-- header ad begin -->
+
+<a href="/doubanfilmawards_nominees_5th/result" target="_blank" class="ban-header">
+    <img src=" http://t.douban.com/img/files/file-1426239179.png" alt="第5届豆瓣电影鑫像奖结果">
+</a>
+
+
+
+    <!-- header ad end -->
+
+  </div>
+  </div>
+  <div class="nav-secondary">
+
+      <div class="nav-items nav-anon">
+          <ul>
+
+                     <li><a href="http://movie.douban.com/nowplaying/">影讯&amp;购票</a></li>
+
+                     <li><a href="http://movie.douban.com/explore">选电影</a></li>
+
+
+                    <li class="site-nav-bt">
+                        <a href="http://movie.douban.com/tv/">电视剧</a>
+                    </li>
+
+                     <li><a href="http://movie.douban.com/chart">排行榜</a></li>
+
+                     <li><a href="http://movie.douban.com/tag/">分类</a></li>
+
+                            <li><a href="http://movie.douban.com/review/best/">影评</a></li>
+
+                     <li class="site-nav-bt"><a href="http://movie.douban.com/trailers">预告片</a></li>
+
+                    <li class="site-nav-bt">
+                        <a href="http://movie.douban.com/askmatrix/hot_questions/all">问答</a>
+                    </li>
+
+          </ul>
+      </div>
+  </div>
+
+
+</div>
+
+
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+
+
+
+
+
+
+
+    <div id="wrapper">
+
+
+
+    <div id="content">
+
+    <h1>电影标签：
+                <span class="tags-name">科幻</span><sup class="tags-del"></sup>
+    </h1>
+
+        <div class="grid-16-8 clearfix">
+
+
+            <div class="article">
+
+
+    <table width="100%" class="infobox">
+        <tbody>
+            <tr>
+                <td class="tablelt"></td>
+                <td class="tablect"></td>
+                <td class="tablert"></td>
+            </tr>
+            <tr>
+                <td class="tablelc">
+                    <td class="tablecc">
+                        <div class="tags-result" id="related_tags">
+                        </div>
+                    </td>
+                    <td class="tablerc"></td>
+            </tr>
+            <tr>
+                <td class="tablelb"></td>
+                <td class="tablecb"></td>
+                <td class="tablerb"></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+        <div class="clearfix">
+        <span class="rr greyinput">
+                    综合排序
+                    &nbsp;/&nbsp;
+                    <a href="http://movie.douban.com/tag/%E7%A7%91%E5%B9%BB?type=S">评分排序</a>
+                    &nbsp;/&nbsp;
+                    <a href="http://movie.douban.com/tag/%E7%A7%91%E5%B9%BB?type=R">日期排序</a>
+                    &nbsp;/&nbsp;
+                    <a href="http://movie.douban.com/tag/%E7%A7%91%E5%B9%BB?type=O">标注次数排序</a>
+        </span>
+    </div>
+
+
+
+
+
+
+
+<div class="">
+    <p class="ul first"></p>
+    <table width="100%" class="">
+        <tr class="item">
+            <td width="100" valign="top">
+
+
+                    <a class="nbg" href="http://movie.douban.com/subject/11026735/"  title="超能陆战队">
+                        <img src="http://img5.douban.com/view/movie_poster_cover/ipst/public/p2224568669.jpg" alt="超能陆战队" class=""/>
+                    </a>
+            </td>
+
+            <td valign="top">
+
+
+                <div class="pl2">
+
+                    <a href="http://movie.douban.com/subject/11026735/"  class="">
+                        超能陆战队
+                        / <span style="font-size:12px;">大英雄联盟(港) / 大英雄天团(台)</span>
+                    </a>
+
+
+
+                    <p class="pl">2014-10-23(东京电影节) / 2014-11-07(美国) / 2015-02-28(中国大陆) / 斯科特·安第斯 / 瑞恩·波特 / 丹尼尔·海尼 / T·J·米勒 / 杰米·钟 / 小达蒙·韦恩斯 / 珍尼希斯·罗德里格兹 / 詹姆斯·克伦威尔 / 艾伦·图代克 / 玛娅·鲁道夫 / 亚布拉哈姆·本鲁比...</p>
+
+
+
+
+
+                        <div class="star clearfix">
+                                    <span class="allstar45"></span>
+                                    <span class="rating_nums">8.7</span>
+
+
+                            <span class="pl">(145209人评价)</span>
+                        </div>
+
+
+                </div>
+
+            </td>
+        </tr>
+    </table>
+    <div id="collect_form_11026735"></div>
+    <p class="ul"></p>
+    <table width="100%" class="">
+        <tr class="item">
+            <td width="100" valign="top">
+
+
+                    <a class="nbg" href="http://movie.douban.com/subject/5154799/"  title="木星上行">
+                        <img src="http://img3.douban.com/view/movie_poster_cover/ipst/public/p2230222544.jpg" alt="木星上行" class=""/>
+                    </a>
+            </td>
+
+            <td valign="top">
+
+
+                <div class="pl2">
+
+                    <a href="http://movie.douban.com/subject/5154799/"  class="">
+                        木星上行
+                        / <span style="font-size:12px;">木升战纪(港) / 朱比特崛起(台)</span>
+                    </a>
+
+
+
+                    <p class="pl">2015-02-06(美国) / 2015-03-06(中国大陆) / 查宁·塔图姆 / 米拉·库尼斯 / 肖恩·宾 / 埃迪·雷德梅恩 / 道格拉斯·布斯 / 裴斗娜 / 詹姆斯·达西 / 特瑞·吉列姆 / 塔彭丝·米德尔顿 / 凡妮莎·柯比 / 蒂姆·皮戈特-史密斯 / 爱德华·霍格 / 奇克·盖瑞...</p>
+
+
+
+
+
+                        <div class="star clearfix">
+                                    <span class="allstar30"></span>
+                                    <span class="rating_nums">5.6</span>
+
+
+                            <span class="pl">(18351人评价)</span>
+                        </div>
+
+
+                </div>
+
+            </td>
+        </tr>
+    </table>
+    <div id="collect_form_5154799"></div>
+    <p class="ul"></p>
+    <table width="100%" class="">
+        <tr class="item">
+            <td width="100" valign="top">
+
+
+                    <a class="nbg" href="http://movie.douban.com/subject/6533054/"  title="饥饿游戏3：嘲笑鸟(上)">
+                        <img src="http://img3.douban.com/view/movie_poster_cover/ipst/public/p2222078042.jpg" alt="饥饿游戏3：嘲笑鸟(上)" class=""/>
+                    </a>
+            </td>
+
+            <td valign="top">
+
+
+                <div class="pl2">
+
+                    <a href="http://movie.douban.com/subject/6533054/"  class="">
+                        饥饿游戏3：嘲笑鸟(上)
+                        / <span style="font-size:12px;">饥饿游戏：自由幻梦I(台) / 饥饿游戏终极篇：自由幻梦1(港)</span>
+                    </a>
+
+
+
+                    <p class="pl">2014-11-10(伦敦首映) / 2014-11-21(美国) / 2015-02-08(中国大陆) / 詹妮弗·劳伦斯 / 乔什·哈切森 / 利亚姆·海姆斯沃斯 / 伍迪·哈里森 / 唐纳德·萨瑟兰 / 菲利普·塞默·霍夫曼 / 朱丽安·摩尔 / 维罗·希尔兹 / 山姆·克拉弗林 / 伊丽莎白·班克斯...</p>
+
+
+
+
+
+                        <div class="star clearfix">
+                                    <span class="allstar30"></span>
+                                    <span class="rating_nums">5.7</span>
+
+
+                            <span class="pl">(43846人评价)</span>
+                        </div>
+
+
+                </div>
+
+            </td>
+        </tr>
+    </table>
+    <div id="collect_form_6533054"></div>
+    <p class="ul"></p>
+    <table width="100%" class="">
+        <tr class="item">
+            <td width="100" valign="top">
+
+
+                    <a class="nbg" href="http://movie.douban.com/subject/1889243/"  title="星际穿越">
+                        <img src="http://img3.douban.com/view/movie_poster_cover/ipst/public/p2206088801.jpg" alt="星际穿越" class=""/>
+                    </a>
+            </td>
+
+            <td valign="top">
+
+
+                <div class="pl2">
+
+                    <a href="http://movie.douban.com/subject/1889243/"  class="">
+                        星际穿越
+                        / <span style="font-size:12px;">星际启示录(港) / 星际效应(台)</span>
+                    </a>
+
+
+
+                    <p class="pl">2014-11-07(美国) / 2014-11-12(中国大陆) / 马修·麦康纳 / 安妮·海瑟薇 / 杰西卡·查斯坦 / 迈克尔·凯恩 / 麦肯吉·弗依 / 蒂莫西·柴勒梅德 / 约翰·利特高 / 韦斯·本特利 / 大卫·吉雅西 / 比尔·欧文 / 马特·达蒙 / 卡西·阿弗莱克 / 托弗·戈瑞斯...</p>
+
+
+
+
+
+                        <div class="star clearfix">
+                                    <span class="allstar45"></span>
+                                    <span class="rating_nums">9.1</span>
+
+
+                            <span class="pl">(261692人评价)</span>
+                        </div>
+
+
+                </div>
+
+            </td>
+        </tr>
+    </table>
+    <div id="collect_form_1889243"></div>
+    <p class="ul"></p>
+    <table width="100%" class="">
+        <tr class="item">
+            <td width="100" valign="top">
+
+
+                    <a class="nbg" href="http://movie.douban.com/subject/24404677/"  title="超体">
+                        <img src="http://img3.douban.com/view/movie_poster_cover/ipst/public/p2201909284.jpg" alt="超体" class=""/>
+                    </a>
+            </td>
+
+            <td valign="top">
+
+
+                <div class="pl2">
+
+                    <a href="http://movie.douban.com/subject/24404677/"  class="">
+                        超体
+                        / <span style="font-size:12px;">LUCY：超能煞姬(港) / 露西(台)</span>
+                    </a>
+
+
+                        <span style="font-size: 13px; padding-left: 3px; color: #00A65F;">[可播放]</span>
+
+                    <p class="pl">2014-07-25(美国) / 2014-08-06(法国) / 2014-10-24(中国大陆) / 斯嘉丽·约翰逊 / 摩根·弗里曼 / 崔岷植 / 阿马尔·维克德 / 朱利安·林希德-图特 / 乔汗·菲利普·阿斯巴克 / 安娜丽·提普顿 / 詹·奥利弗·施罗德 / 弗雷德里克·周 / 克莱尔·陈 /...</p>
+
+
+
+
+
+                        <div class="star clearfix">
+                                    <span class="allstar35"></span>
+                                    <span class="rating_nums">7.0</span>
+
+
+                            <span class="pl">(158920人评价)</span>
+                        </div>
+
+
+                </div>
+
+            </td>
+        </tr>
+    </table>
+    <div id="collect_form_24404677"></div>
+    <p class="ul"></p>
+    <table width="100%" class="">
+        <tr class="item">
+            <td width="100" valign="top">
+
+
+                    <a class="nbg" href="http://movie.douban.com/subject/4746257/"  title="明日边缘">
+                        <img src="http://img5.douban.com/view/movie_poster_cover/ipst/public/p2185073849.jpg" alt="明日边缘" class=""/>
+                    </a>
+            </td>
+
+            <td valign="top">
+
+
+                <div class="pl2">
+
+                    <a href="http://movie.douban.com/subject/4746257/"  class="">
+                        明日边缘
+                        / <span style="font-size:12px;">异空战士(港) / 明日边界(台)</span>
+                    </a>
+
+
+                        <span style="font-size: 13px; padding-left: 3px; color: #00A65F;">[可播放]</span>
+
+                    <p class="pl">2014-06-06(美国/中国大陆) / 汤姆·克鲁斯 / 艾米莉·布朗特 / 布莱丹·格里森 / 比尔·帕克斯顿 / 约纳斯·阿姆斯特朗 / 托尼·威 / 奇克·盖瑞 / 弗朗茨·德拉姆 / 德拉戈米尔·米希克 / 夏洛特·莱李 / 羽田正义 / 特伦斯·梅纳德 / 诺亚·泰勒...</p>
+
+
+
+
+
+                        <div class="star clearfix">
+                                    <span class="allstar40"></span>
+                                    <span class="rating_nums">8.1</span>
+
+
+                            <span class="pl">(158840人评价)</span>
+                        </div>
+
+
+                </div>
+
+            </td>
+        </tr>
+    </table>
+    <div id="collect_form_4746257"></div>
+    <p class="ul"></p>
+    <table width="100%" class="">
+        <tr class="item">
+            <td width="100" valign="top">
+
+
+                    <a class="nbg" href="http://movie.douban.com/subject/7065154/"  title="银河护卫队">
+                        <img src="http://img3.douban.com/view/movie_poster_cover/ipst/public/p2198455702.jpg" alt="银河护卫队" class=""/>
+                    </a>
+            </td>
+
+            <td valign="top">
+
+
+                <div class="pl2">
+
+                    <a href="http://movie.douban.com/subject/7065154/"  class="">
+                        银河护卫队
+                        / <span style="font-size:12px;">银河守护队(港) / 星际异攻队(台)</span>
+                    </a>
+
+
+                        <span style="font-size: 13px; padding-left: 3px; color: #00A65F;">[可播放]</span>
+
+                    <p class="pl">2014-08-01(美国) / 2014-10-10(中国大陆) / 克里斯·普拉特 / 佐伊·索尔达娜 / 布莱德利·库珀 / 范·迪塞尔 / 戴夫·巴蒂斯塔 / 李·佩斯 / 迈克尔·鲁克 / 凯伦·吉兰 / 杰曼·翰苏 / 本尼西奥·德尔·托罗 / 约翰·C·赖利 / 格伦·克洛斯 / 劳拉·哈德克...</p>
+
+
+
+
+
+                        <div class="star clearfix">
+                                    <span class="allstar40"></span>
+                                    <span class="rating_nums">8.0</span>
+
+
+                            <span class="pl">(153112人评价)</span>
+                        </div>
+
+
+                </div>
+
+            </td>
+        </tr>
+    </table>
+    <div id="collect_form_7065154"></div>
+    <p class="ul"></p>
+    <table width="100%" class="">
+        <tr class="item">
+            <td width="100" valign="top">
+
+
+                    <a class="nbg" href="http://movie.douban.com/subject/20278505/"  title="前目的地">
+                        <img src="http://img3.douban.com/view/movie_poster_cover/ipst/public/p2219662154.jpg" alt="前目的地" class=""/>
+                    </a>
+            </td>
+
+            <td valign="top">
+
+
+                <div class="pl2">
+
+                    <a href="http://movie.douban.com/subject/20278505/"  class="">
+                        前目的地
+                        / <span style="font-size:12px;">宿命论(港) / 超时空拦截(台)</span>
+                    </a>
+
+
+                        <span style="font-size: 13px; padding-left: 3px; color: #00A65F;">[可播放]</span>
+
+                    <p class="pl">2014-08-28(澳大利亚) / 2015-01-09(中国大陆/美国) / 伊桑·霍克 / 莎拉·斯努克 / 诺亚·泰勒 / 弗雷娅·斯塔福 / 伊莉斯·詹森 / 凯特·沃尔夫 / 迈德琳·怀斯特 / 亚历克西斯·费尔南德斯 / 克里斯托弗·卡比 / 罗伯·詹金斯 / 艾丽西娅·帕夫利斯...</p>
+
+
+
+
+
+                        <div class="star clearfix">
+                                    <span class="allstar40"></span>
+                                    <span class="rating_nums">7.5</span>
+
+
+                            <span class="pl">(40716人评价)</span>
+                        </div>
+
+
+                </div>
+
+            </td>
+        </tr>
+    </table>
+    <div id="collect_form_20278505"></div>
+    <p class="ul"></p>
+    <table width="100%" class="">
+        <tr class="item">
+            <td width="100" valign="top">
+
+
+                    <a class="nbg" href="http://movie.douban.com/subject/3541415/"  title="盗梦空间">
+                        <img src="http://img3.douban.com/view/movie_poster_cover/ipst/public/p513344864.jpg" alt="盗梦空间" class=""/>
+                    </a>
+            </td>
+
+            <td valign="top">
+
+
+                <div class="pl2">
+
+                    <a href="http://movie.douban.com/subject/3541415/"  class="">
+                        盗梦空间
+                        / <span style="font-size:12px;">潜行凶间(港) / 全面启动(台)</span>
+                    </a>
+
+
+                        <span style="font-size: 13px; padding-left: 3px; color: #00A65F;">[可播放]</span>
+
+                    <p class="pl">2010-07-08(伦敦首映) / 2010-07-16(美国) / 2010-09-01(中国大陆) / 莱昂纳多·迪卡普里奥 / 约瑟夫·高登-莱维特 / 艾伦·佩吉 / 渡边谦 / 汤姆·哈迪 / 迪利普·劳 / 玛丽昂·歌迪亚 / 希里安·墨菲 / 汤姆·贝伦杰 / 迈克尔·凯恩 / 卢卡斯·哈斯...</p>
+
+
+
+
+
+                        <div class="star clearfix">
+                                    <span class="allstar50"></span>
+                                    <span class="rating_nums">9.2</span>
+
+
+                            <span class="pl">(565991人评价)</span>
+                        </div>
+
+
+                </div>
+
+            </td>
+        </tr>
+    </table>
+    <div id="collect_form_3541415"></div>
+    <p class="ul"></p>
+    <table width="100%" class="">
+        <tr class="item">
+            <td width="100" valign="top">
+
+
+                    <a class="nbg" href="http://movie.douban.com/subject/25807345/"  title="彗星来的那一夜">
+                        <img src="http://img3.douban.com/view/movie_poster_cover/ipst/public/p2187896711.jpg" alt="彗星来的那一夜" class=""/>
+                    </a>
+            </td>
+
+            <td valign="top">
+
+
+                <div class="pl2">
+
+                    <a href="http://movie.douban.com/subject/25807345/"  class="">
+                        彗星来的那一夜
+                        / <span style="font-size:12px;">相干性</span>
+                    </a>
+
+
+                        <span style="font-size: 13px; padding-left: 3px; color: #00A65F;">[可播放]</span>
+
+                    <p class="pl">2013-09-19(奥斯汀奇幻电影节) / 2014-08-06(美国) / 艾米丽·芭尔多尼 / 莫瑞·史特林 / 尼古拉斯·布兰登 / 伊丽莎白·格瑞斯 / 亚历克斯·马努吉安 / 劳伦·马赫 / 雨果·阿姆斯特朗 / 劳伦·斯卡法莉娅 / 美国 / 英国 / 詹姆斯·沃德·布柯特...</p>
+
+
+
+
+
+                        <div class="star clearfix">
+                                    <span class="allstar45"></span>
+                                    <span class="rating_nums">8.3</span>
+
+
+                            <span class="pl">(53669人评价)</span>
+                        </div>
+
+
+                </div>
+
+            </td>
+        </tr>
+    </table>
+    <div id="collect_form_25807345"></div>
+    <p class="ul"></p>
+    <table width="100%" class="">
+        <tr class="item">
+            <td width="100" valign="top">
+
+
+                    <a class="nbg" href="http://movie.douban.com/subject/21349345/"  title="移动迷宫">
+                        <img src="http://img5.douban.com/view/movie_poster_cover/ipst/public/p2201485029.jpg" alt="移动迷宫" class=""/>
+                    </a>
+            </td>
+
+            <td valign="top">
+
+
+                <div class="pl2">
+
+                    <a href="http://movie.douban.com/subject/21349345/"  class="">
+                        移动迷宫
+                        / <span style="font-size:12px;">迷宫行者</span>
+                    </a>
+
+
+                        <span style="font-size: 13px; padding-left: 3px; color: #00A65F;">[可播放]</span>
+
+                    <p class="pl">2014-09-19(美国) / 2014-10-28(中国大陆) / 托马斯·桑斯特 / 威尔·保尔特 / 阿梅尔·艾米恩 / 迪伦·欧布莱恩 / 卡雅·斯考达里奥 / 美国 / 加拿大 / 英国 / themazerunnermovie.com / 韦斯·鲍尔 / 113分钟 / 移动迷宫 / 动作 / 科幻 / 悬疑 / 惊悚 / Noah...</p>
+
+
+
+
+
+                        <div class="star clearfix">
+                                    <span class="allstar35"></span>
+                                    <span class="rating_nums">6.8</span>
+
+
+                            <span class="pl">(61827人评价)</span>
+                        </div>
+
+
+                </div>
+
+            </td>
+        </tr>
+    </table>
+    <div id="collect_form_21349345"></div>
+    <p class="ul"></p>
+    <table width="100%" class="">
+        <tr class="item">
+            <td width="100" valign="top">
+
+
+                    <a class="nbg" href="http://movie.douban.com/subject/1652587/"  title="阿凡达">
+                        <img src="http://img3.douban.com/view/movie_poster_cover/ipst/public/p1204213484.jpg" alt="阿凡达" class=""/>
+                    </a>
+            </td>
+
+            <td valign="top">
+
+
+                <div class="pl2">
+
+                    <a href="http://movie.douban.com/subject/1652587/"  class="">
+                        阿凡达
+                        / <span style="font-size:12px;">天神下凡 / 化身</span>
+                    </a>
+
+
+                        <span style="font-size: 13px; padding-left: 3px; color: #00A65F;">[可播放]</span>
+
+                    <p class="pl">2009-12-18(美国) / 2010-01-04(中国大陆) / 萨姆·沃辛顿 / 佐伊·索尔达娜 / 西格妮·韦弗 / 史蒂芬·朗 / 米歇尔·罗德里格兹 / 乔·大卫·摩尔  / 乔瓦尼·瑞比西 / 美国 / 英国 / 詹姆斯·卡梅隆 / 162 分钟 / 171分钟(特别版) / 178 分钟(加长版)...</p>
+
+
+
+
+
+                        <div class="star clearfix">
+                                    <span class="allstar45"></span>
+                                    <span class="rating_nums">8.6</span>
+
+
+                            <span class="pl">(407394人评价)</span>
+                        </div>
+
+
+                </div>
+
+            </td>
+        </tr>
+    </table>
+    <div id="collect_form_1652587"></div>
+    <p class="ul"></p>
+    <table width="100%" class="">
+        <tr class="item">
+            <td width="100" valign="top">
+
+
+                    <a class="nbg" href="http://movie.douban.com/subject/7046723/"  title="猩球崛起2：黎明之战">
+                        <img src="http://img3.douban.com/view/movie_poster_cover/ipst/public/p2196211285.jpg" alt="猩球崛起2：黎明之战" class=""/>
+                    </a>
+            </td>
+
+            <td valign="top">
+
+
+                <div class="pl2">
+
+                    <a href="http://movie.douban.com/subject/7046723/"  class="">
+                        猩球崛起2：黎明之战
+                        / <span style="font-size:12px;">猿人争霸战：猩凶崛起(港) / 猩球崛起：黎明的进击(台)</span>
+                    </a>
+
+
+                        <span style="font-size: 13px; padding-left: 3px; color: #00A65F;">[可播放]</span>
+
+                    <p class="pl">2014-07-11(美国) / 2014-08-29(中国大陆) / 安迪·瑟金斯 / 杰森·克拉科 / 加里·奥德曼 / 凯丽·拉塞尔 / 托比·凯贝尔 / 柯蒂·斯密特-麦菲 / 柯克·埃斯沃多 / 尼克·瑟斯顿 / 泰瑞·诺塔里 / 卡琳·考诺娃 / 朱迪·格雷尔 / 乔恩·阿兹 / 恩里克·穆西安诺...</p>
+
+
+
+
+
+                        <div class="star clearfix">
+                                    <span class="allstar40"></span>
+                                    <span class="rating_nums">7.5</span>
+
+
+                            <span class="pl">(115616人评价)</span>
+                        </div>
+
+
+                </div>
+
+            </td>
+        </tr>
+    </table>
+    <div id="collect_form_7046723"></div>
+    <p class="ul"></p>
+    <table width="100%" class="">
+        <tr class="item">
+            <td width="100" valign="top">
+
+
+                    <a class="nbg" href="http://movie.douban.com/subject/10485647/"  title="X战警：逆转未来">
+                        <img src="http://img5.douban.com/view/movie_poster_cover/ipst/public/p2181156848.jpg" alt="X战警：逆转未来" class=""/>
+                    </a>
+            </td>
+
+            <td valign="top">
+
+
+                <div class="pl2">
+
+                    <a href="http://movie.douban.com/subject/10485647/"  class="">
+                        X战警：逆转未来
+                        / <span style="font-size:12px;">变种特攻：未来同盟战(港) / X战警：未来昔日(台)</span>
+                    </a>
+
+
+                        <span style="font-size: 13px; padding-left: 3px; color: #00A65F;">[可播放]</span>
+
+                    <p class="pl">2014-05-23(美国/中国大陆) / 詹姆斯·麦卡沃伊 / 迈克尔·法斯宾德 / 休·杰克曼 / 埃文·彼得斯 / 尼古拉斯·霍尔特 / 伊恩·麦克莱恩 / 哈莉·贝瑞 / 詹妮弗·劳伦斯 / 帕特里克·斯图尔特 / 艾伦·佩吉 / 安娜·帕奎因 / 彼特·丁拉基 / 肖恩·阿什莫...</p>
+
+
+
+
+
+                        <div class="star clearfix">
+                                    <span class="allstar45"></span>
+                                    <span class="rating_nums">8.3</span>
+
+
+                            <span class="pl">(170635人评价)</span>
+                        </div>
+
+
+                </div>
+
+            </td>
+        </tr>
+    </table>
+    <div id="collect_form_10485647"></div>
+    <p class="ul"></p>
+    <table width="100%" class="">
+        <tr class="item">
+            <td width="100" valign="top">
+
+
+                    <a class="nbg" href="http://movie.douban.com/subject/3075287/"  title="源代码">
+                        <img src="http://img3.douban.com/view/movie_poster_cover/ipst/public/p988260245.jpg" alt="源代码" class=""/>
+                    </a>
+            </td>
+
+            <td valign="top">
+
+
+                <div class="pl2">
+
+                    <a href="http://movie.douban.com/subject/3075287/"  class="">
+                        源代码
+                        / <span style="font-size:12px;">启动原始码(台) / 危机解密(港)</span>
+                    </a>
+
+
+                        <span style="font-size: 13px; padding-left: 3px; color: #00A65F;">[可播放]</span>
+
+                    <p class="pl">2011-04-01(美国) / 2011-08-30(中国大陆) / 杰克·吉伦哈尔 / 维拉·法米加 / 米歇尔·莫娜汉 / 杰弗里·怀特 / 拉塞尔·皮特斯 / 詹姆斯·A·伍兹 / 迈克尔·阿登 / 乔·柯布登  / 卡斯·安瓦尔 / 美国 / 加拿大 / 邓肯·琼斯 / 93分钟 / 源代码 / 剧情...</p>
+
+
+
+
+
+                        <div class="star clearfix">
+                                    <span class="allstar45"></span>
+                                    <span class="rating_nums">8.3</span>
+
+
+                            <span class="pl">(302306人评价)</span>
+                        </div>
+
+
+                </div>
+
+            </td>
+        </tr>
+    </table>
+    <div id="collect_form_3075287"></div>
+    <p class="ul"></p>
+    <table width="100%" class="">
+        <tr class="item">
+            <td width="100" valign="top">
+
+
+                    <a class="nbg" href="http://movie.douban.com/subject/6722879/"  title="她">
+                        <img src="http://img5.douban.com/view/movie_poster_cover/ipst/public/p2166850749.jpg" alt="她" class=""/>
+                    </a>
+            </td>
+
+            <td valign="top">
+
+
+                <div class="pl2">
+
+                    <a href="http://movie.douban.com/subject/6722879/"  class="">
+                        她
+                        / <span style="font-size:12px;">云端情人(台) / 触不到的她(港)</span>
+                    </a>
+
+
+                        <span style="font-size: 13px; padding-left: 3px; color: #00A65F;">[可播放]</span>
+
+                    <p class="pl">2013-12-18(美国) / 杰昆·菲尼克斯 / 斯嘉丽·约翰逊 / 艾米·亚当斯 / 鲁妮·玛拉 / 奥利维亚·王尔德 / 斯派克·琼斯 / 波茜娅·道布尔戴 / 克里斯·普拉特 / 克里斯汀·韦格 / 美国 / www.herthemovie.com / 斯派克·琼斯 / 126分钟 / 她 / 剧情 / 爱情...</p>
+
+
+
+
+
+                        <div class="star clearfix">
+                                    <span class="allstar45"></span>
+                                    <span class="rating_nums">8.3</span>
+
+
+                            <span class="pl">(133582人评价)</span>
+                        </div>
+
+
+                </div>
+
+            </td>
+        </tr>
+    </table>
+    <div id="collect_form_6722879"></div>
+    <p class="ul"></p>
+    <table width="100%" class="">
+        <tr class="item">
+            <td width="100" valign="top">
+
+
+                    <a class="nbg" href="http://movie.douban.com/subject/6424814/"  title="分歧者：异类觉醒">
+                        <img src="http://img5.douban.com/view/movie_poster_cover/ipst/public/p2196353608.jpg" alt="分歧者：异类觉醒" class=""/>
+                    </a>
+            </td>
+
+            <td valign="top">
+
+
+                <div class="pl2">
+
+                    <a href="http://movie.douban.com/subject/6424814/"  class="">
+                        分歧者：异类觉醒
+                        / <span style="font-size:12px;">分歧者：异类叛逃(港) / 分歧者</span>
+                    </a>
+
+
+                        <span style="font-size: 13px; padding-left: 3px; color: #00A65F;">[可播放]</span>
+
+                    <p class="pl">2014-03-21(美国) / 2014-09-08(中国大陆) / 谢琳·伍德蕾 / 提奥·詹姆斯 / 艾什莉·贾德 / 杰·科特尼 / 雷·史蒂文森 / 佐伊·克罗维兹 / 迈尔斯·特勒 / 托尼·戈德温 / 安塞尔·艾尔高特 / 李美琪 / 梅奇·费法 / 凯特·温丝莱特 / 本·劳埃德-休斯...</p>
+
+
+
+
+
+                        <div class="star clearfix">
+                                    <span class="allstar35"></span>
+                                    <span class="rating_nums">6.4</span>
+
+
+                            <span class="pl">(45301人评价)</span>
+                        </div>
+
+
+                </div>
+
+            </td>
+        </tr>
+    </table>
+    <div id="collect_form_6424814"></div>
+    <p class="ul"></p>
+    <table width="100%" class="">
+        <tr class="item">
+            <td width="100" valign="top">
+
+
+                    <a class="nbg" href="http://movie.douban.com/subject/1291843/"  title="黑客帝国">
+                        <img src="http://img3.douban.com/view/movie_poster_cover/ipst/public/p1910908765.jpg" alt="黑客帝国" class=""/>
+                    </a>
+            </td>
+
+            <td valign="top">
+
+
+                <div class="pl2">
+
+                    <a href="http://movie.douban.com/subject/1291843/"  class="">
+                        黑客帝国
+                        / <span style="font-size:12px;">廿二世纪杀人网络(港) / 骇客任务(台)</span>
+                    </a>
+
+
+                        <span style="font-size: 13px; padding-left: 3px; color: #00A65F;">[可播放]</span>
+
+                    <p class="pl">1999-03-31(美国) / 基努·里维斯 / 凯瑞-安·莫斯 / 劳伦斯·菲什伯恩 / 雨果·维文 / 格洛丽亚·福斯特 / 乔·潘托里亚诺 / Marcus Chong / Julian Arahanga / 马特·多兰 / 美国 / 澳大利亚 / 安迪·沃卓斯基 / 拉娜·沃卓斯基 / 136分钟 / 黑客帝国 /...</p>
+
+
+
+
+
+                        <div class="star clearfix">
+                                    <span class="allstar45"></span>
+                                    <span class="rating_nums">8.7</span>
+
+
+                            <span class="pl">(194853人评价)</span>
+                        </div>
+
+
+                </div>
+
+            </td>
+        </tr>
+    </table>
+    <div id="collect_form_1291843"></div>
+    <p class="ul"></p>
+    <table width="100%" class="">
+        <tr class="item">
+            <td width="100" valign="top">
+
+
+                    <a class="nbg" href="http://movie.douban.com/subject/3793783/"  title="地心引力">
+                        <img src="http://img3.douban.com/view/movie_poster_cover/ipst/public/p2159078612.jpg" alt="地心引力" class=""/>
+                    </a>
+            </td>
+
+            <td valign="top">
+
+
+                <div class="pl2">
+
+                    <a href="http://movie.douban.com/subject/3793783/"  class="">
+                        地心引力
+                        / <span style="font-size:12px;">引力边缘(港) / 地球引力</span>
+                    </a>
+
+
+                        <span style="font-size: 13px; padding-left: 3px; color: #00A65F;">[可播放]</span>
+
+                    <p class="pl">2013-08-28(威尼斯电影节) / 2013-10-04(美国) / 2013-11-19(中国大陆) / 桑德拉·布洛克 / 乔治·克鲁尼 / 艾德·哈里斯 / 奥托·伊格内修森 / 法尔杜特·夏尔马 / 艾米·沃伦 / 巴舍尔·萨维奇 / 美国 / 英国 / 阿方索·卡隆 / 91分钟 / 地心引力 / 剧情...</p>
+
+
+
+
+
+                        <div class="star clearfix">
+                                    <span class="allstar40"></span>
+                                    <span class="rating_nums">7.8</span>
+
+
+                            <span class="pl">(194135人评价)</span>
+                        </div>
+
+
+                </div>
+
+            </td>
+        </tr>
+    </table>
+    <div id="collect_form_3793783"></div>
+    <p class="ul"></p>
+    <table width="100%" class="">
+        <tr class="item">
+            <td width="100" valign="top">
+
+
+                    <a class="nbg" href="http://movie.douban.com/subject/2131459/"  title="机器人总动员">
+                        <img src="http://img3.douban.com/view/movie_poster_cover/ipst/public/p449665982.jpg" alt="机器人总动员" class=""/>
+                    </a>
+            </td>
+
+            <td valign="top">
+
+
+                <div class="pl2">
+
+                    <a href="http://movie.douban.com/subject/2131459/"  class="">
+                        机器人总动员
+                        / <span style="font-size:12px;">太空奇兵·威E(港) / 瓦力(台)</span>
+                    </a>
+
+
+                        <span style="font-size: 13px; padding-left: 3px; color: #00A65F;">[可播放]</span>
+
+                    <p class="pl">2008-06-27(美国) / 本·贝尔特 / 艾丽莎·奈特 / 杰夫·格尔林 / 佛莱德·威拉特 / 美国 / disney.go.com/disneypictures/wall-e/ / 安德鲁·斯坦顿 / 98分钟 / 机器人总动员 / 喜剧 / 爱情 / 科幻 / 动画 / 冒险 / 安德鲁·斯坦顿 Andrew Stanton / 吉姆·里尔顿...</p>
+
+
+
+
+
+                        <div class="star clearfix">
+                                    <span class="allstar50"></span>
+                                    <span class="rating_nums">9.3</span>
+
+
+                            <span class="pl">(369327人评价)</span>
+                        </div>
+
+
+                </div>
+
+            </td>
+        </tr>
+    </table>
+    <div id="collect_form_2131459"></div>
+</div>
+
+
+
+
+
+
+
+
+
+        <div class="paginator">
+        <span class="prev">
+            &lt;前页
+        </span>
+
+
+
+                <span class="thispage" data-total-page="137">1</span>
+
+            <a href="http://movie.douban.com/tag/%E7%A7%91%E5%B9%BB?start=20&amp;type=T" >2</a>
+
+
+            <a href="http://movie.douban.com/tag/%E7%A7%91%E5%B9%BB?start=40&amp;type=T" >3</a>
+
+
+            <a href="http://movie.douban.com/tag/%E7%A7%91%E5%B9%BB?start=60&amp;type=T" >4</a>
+
+
+            <a href="http://movie.douban.com/tag/%E7%A7%91%E5%B9%BB?start=80&amp;type=T" >5</a>
+
+
+            <a href="http://movie.douban.com/tag/%E7%A7%91%E5%B9%BB?start=100&amp;type=T" >6</a>
+
+
+            <a href="http://movie.douban.com/tag/%E7%A7%91%E5%B9%BB?start=120&amp;type=T" >7</a>
+
+
+            <a href="http://movie.douban.com/tag/%E7%A7%91%E5%B9%BB?start=140&amp;type=T" >8</a>
+
+
+            <a href="http://movie.douban.com/tag/%E7%A7%91%E5%B9%BB?start=160&amp;type=T" >9</a>
+
+            <span class="break">...</span>
+
+            <a href="http://movie.douban.com/tag/%E7%A7%91%E5%B9%BB?start=2700&amp;type=T" >136</a>
+
+            <a href="http://movie.douban.com/tag/%E7%A7%91%E5%B9%BB?start=2720&amp;type=T" >137</a>
+
+        <span class="next">
+            <link rel="next" href="http://movie.douban.com/tag/%E7%A7%91%E5%B9%BB?start=20&amp;type=T"/>
+            <a href="http://movie.douban.com/tag/%E7%A7%91%E5%B9%BB?start=20&amp;type=T" >后页&gt;</a>
+        </span>
+
+        </div>
+
+
+
+
+            </div>
+            <div class="aside">
+
+
+
+    <div style="background-color:#f2f7f6;padding:10px 15px;font-size:14px;width:270px;"><a href="/category/">试试新的电影分类筛选 &gt;</a></div>
+
+    <br/>
+    <div id="dale_movie_tag_top_right"></div>
+
+
+    <h2>
+        相关的标签
+            &nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;
+    </h2>
+
+
+<div id="tag_list">
+
+        <span><a href="http://movie.douban.com/tag/%E7%BE%8E%E5%9B%BD%E7%94%B5%E5%BD%B1">美国电影</a></span>&nbsp; &nbsp;
+
+        <span><a href="http://movie.douban.com/tag/Babylon5">Babylon5</a></span>&nbsp; &nbsp;
+
+        <span><a href="http://movie.douban.com/tag/%E7%BE%8E%E5%89%A7">美剧</a></span>&nbsp; &nbsp;
+
+        <span><a href="http://movie.douban.com/tag/%E5%8A%A8%E4%BD%9C">动作</a></span>&nbsp; &nbsp;
+
+        <span><a href="http://movie.douban.com/tag/%E7%BE%8E%E5%9B%BD">美国</a></span>&nbsp; &nbsp;
+
+        <span><a href="http://movie.douban.com/tag/%E6%83%8A%E6%82%9A">惊悚</a></span>&nbsp; &nbsp;
+
+        <span><a href="http://movie.douban.com/tag/%E6%98%9F%E9%99%85">星际</a></span>&nbsp; &nbsp;
+
+        <span><a href="http://movie.douban.com/tag/%E5%A4%96%E6%98%9F%E4%BA%BA">外星人</a></span>&nbsp; &nbsp;
+</div>
+
+            <br/>
+
+    <form name="tsp_form" action="http://movie.douban.com/tag/" method="GET">
+        <input name="search_text" class="j a_search_text" type="text" size="24" maxlength="36" title="去其他标签" value=""/>
+        <input class="butt" type="submit" value="进入"/>
+    </form><br/><br/>
+
+        <p class="pl2 mb30">&gt; <a href="http://movie.douban.com/tag/">浏览全部电影标签</a></p>
+
+
+
+
+            </div>
+            <div class="extra">
+
+
+<!-- douban ad begin -->
+<div id="dale_movie_tag_bottom_super_banner"></div>
+<script type="text/javascript">
+    (function (global) {
+        var body = global.document.body,
+            html = global.document.documentElement;
+
+        var height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
+        if (height >= 2000) {
+            (global.DoubanAdSlots = global.DoubanAdSlots || []).push('dale_movie_tag_bottom_super_banner');
+        }
+    })(this);
+</script>
+<!-- douban ad end -->
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="footer">
+            <div class="footer-extra"></div>
+
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2015 douban.com, all rights reserved
+</span>
+
+<a href="http://www.douban.com/hnypt/variformcyst.py" style="display: none;"></a>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://s.doubanio.com/misc/mixed_static/b4383f2ea3e3f33.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="http://s.doubanio.com/f/shire/ae32cb8310a09ba836b958b79d2cd1e706db2fed/css/ui/dialog.css" />
+    <link rel="stylesheet" type="text/css" href="http://s.doubanio.com/f/movie/bdff90f9422698e33a4ad6aa1cb4aa5ce9890d29/css/movie/mod/reg_login_pop.css" />
+    <script type="text/javascript" src="http://s.doubanio.com/f/shire/38311a6c074fc29d6900856bf39a433061b98d6e/js/do.js" data-cfg-autoload="false"></script>
+    <script type="text/javascript" src="http://s.doubanio.com/f/shire/4b3bad5e25de78678d700dd5353570dce3e6bbcc/js/ui/dialog.js"></script>
+    <script type="text/javascript">
+        var HTTPS_DB='https://www.douban.com';
+var account_pop={open:function(c,e){if(e){referrer="?referrer="+encodeURIComponent(e)}else{referrer="?referrer="+window.location.href}var g="",a="";if(c==="reg"){g="用户注册";a=HTTPS_DB+"/accounts/popup/movie_register"+referrer}else{if(c==="login"){g="用户登录";a=HTTPS_DB+"/accounts/popup/movie_login"+referrer}}var b=dui.Dialog({width:701,title:g,height:400,cls:"account_pop",isHideTitle:true,modal:true,content:"<iframe scrolling='no' frameborder='0' src='"+a+"'></iframe>"},true),d=b.node;d.undelegate();d.delegate(".dui-dialog-close","click",function(){var h=$("body");h.find("#login_msk").hide();h.find(".account_pop").remove()});if($(window).width()<700){var f="";if(c==="reg"){f=HTTPS_DB+"/accounts/register"+referrer}else{if(c==="login"){f=HTTPS_DB+"/accounts/login"+referrer}}window.location.href=f}else{b.open()}}};if(Douban&&Douban.init_show_login){Douban.init_show_login=function(b){var a=$(b);a.click(function(){var c=a.data("ref")||"";account_pop.open("login",c);return false})}}Do(function(){$("body").delegate(".pop_register","click",function(b){b.preventDefault();var a=$(this).data("ref")||"";account_pop.open("reg",a);return false});$("body").delegate(".pop_login","click",function(b){b.preventDefault();var a=$(this).data("ref")||"";account_pop.open("login",a);return false})});
+    </script>
+
+
+    <!-- douban ad begin -->
+    <script type="text/javascript" src="http://s.doubanio.com/f/movie/a7fa647f7e4b54847c5489fab4050bed91c2006a/js/movie/tag.js"></script>
+
+
+
+
+
+
+<script type="text/javascript">
+    (function (global) {
+        var newNode = global.document.createElement('script'),
+            existingNode = global.document.getElementsByTagName('script')[0],
+            adSource = '//erebor.douban.com/',
+            userId = '',
+            browserId = 'H0wJu/pbGPs',
+            criteria = '3:/tag/科幻?start=0&amp;type=T',
+            preview = '',
+            debug = false,
+            adSlots = ['dale_movie_tag_top_right'];
+
+        global.DoubanAdRequest = {src: adSource, uid: userId, bid: browserId, crtr: criteria, prv: preview, debug: debug};
+        global.DoubanAdSlots = (global.DoubanAdSlots || []).concat(adSlots);
+
+        newNode.setAttribute('type', 'text/javascript');
+        newNode.setAttribute('src', 'http://s.doubanio.com/f/shire/0a3e8bdd48446950d821b65613a24e86be2b067a/js/ad.js');
+        newNode.setAttribute('async', true);
+        existingNode.parentNode.insertBefore(newNode, existingNode);
+    })(this);
+</script>
+
+
+
+
+
+
+
+
+
+
+    <!-- douban ad end -->
+
+
+
+
+<script type="text/javascript">
+var _paq = _paq || [];
+_paq.push(['trackPageView']);
+_paq.push(['enableLinkTracking']);
+(function() {
+    var p=(('https:' == document.location.protocol) ? 'https' : 'http'), u=p+'://fundin.douban.com/';
+    _paq.push(['setTrackerUrl', u+'piwik']);
+    _paq.push(['setSiteId', '100001']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript';
+    g.defer=true;
+    g.async=true;
+    g.src=p+'://s.doubanio.com/dae/fundin/piwik.js';
+    s.parentNode.insertBefore(g,s);
+})();
+</script>
+
+<script type="text/javascript">
+var setMethodWithNs = function(namespace) {
+  var ns = namespace ? namespace + '.' : ''
+    , fn = function(string) {
+        if(!ns) {return string}
+        return ns + string
+      }
+  return fn
+}
+
+var gaWithNamespace = function(fn, namespace) {
+  var method = setMethodWithNs(namespace)
+  fn.call(this, method)
+}
+
+var _gaq = _gaq || []
+  , accounts = [
+      { id: 'UA-7019765-1', namespace: 'douban' }
+    , { id: 'UA-7019765-19', namespace: '' }
+    ]
+  , gaInit = function(account) {
+      gaWithNamespace(function(method) {
+        gaInitFn.call(this, method, account)
+      }, account.namespace)
+    }
+  , gaInitFn = function(method, account) {
+      _gaq.push([method('_setAccount'), account.id]);
+      _gaq.push([method('_setSampleRate'), '60']);
+
+
+  _gaq.push([method('_addOrganic'), 'google', 'q'])
+  _gaq.push([method('_addOrganic'), 'baidu', 'wd'])
+  _gaq.push([method('_addOrganic'), 'soso', 'w'])
+  _gaq.push([method('_addOrganic'), 'youdao', 'q'])
+  _gaq.push([method('_addOrganic'), 'so.360.cn', 'q'])
+  _gaq.push([method('_addOrganic'), 'sogou', 'query'])
+  if (account.namespace) {
+    _gaq.push([method('_addIgnoredOrganic'), '豆瓣'])
+    _gaq.push([method('_addIgnoredOrganic'), 'douban'])
+    _gaq.push([method('_addIgnoredOrganic'), '豆瓣网'])
+    _gaq.push([method('_addIgnoredOrganic'), 'www.douban.com'])
+  }
+
+      if (account.namespace === 'douban') {
+        _gaq.push([method('_setDomainName'), '.douban.com'])
+      }
+
+        _gaq.push([method('_setCustomVar'), 1, 'responsive_view_mode', 'desktop', 3])
+
+        _gaq.push([method('_setCustomVar'), 2, 'login_status', '0', 2]);
+
+      _gaq.push([method('_trackPageview')])
+    }
+
+for(var i = 0, l = accounts.length; i < l; i++) {
+  var account = accounts[i]
+  gaInit(account)
+}
+
+
+;(function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+})()
+</script>
+
+
+
+
+
+
+
+
+    <!-- hador11-->
+
+  <script>_SPLITTEST=''</script>
+
+<script>var _check_hijack = function () {
+    var _sig = "H0wJu/pb", _login = false, bid = get_cookie('bid');
+    if (location.protocol != "file:" && (
+            typeof(bid) != "string" && _login ||
+            typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+        location.href += (/\?/.test(location.href)?"&":"?") + (
+                "_r=" + Math.random().toString(16).substring(2));
+    }};
+if (typeof(Do) != 'undefined') Do(_check_hijack);
+else if (typeof(get_cookie) != 'undefined') _check_hijack();
+</script></body>
+
+</html>
+
