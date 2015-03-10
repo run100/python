@@ -128,12 +128,13 @@ except:
     print "Error: unable to fecth data"
 
 
-def insert_data(dbconn, cursor, ms, tag_id, tag_name  ):
+def insert_data( ms ):
+    global dbconn,cursor,tagid, tag_name
     for m in ms:
         #for i in range(0, 6):
         #    print m[i]
         sql = "INSERT INTO douban_movie( tag_id, tag_name, title, thumb_url, detail_url, intro, score, score_num) "
-        sql += " VALUES ('%d', '%s', '%s', '%s', '%s', '%s', '%s', '%s')" % ( tagid, tag_name, m[0], m[1], m[2], m[3], m[4], m[5])
+        sql += " VALUES ('%d', '%s', '%s', '%s', '%s', '%s', '%s', '%s')" % ( tagid, keyword, m[0], m[1], m[2], m[3], m[4], m[5])
 
         try:
             cursor.execute(sql)
@@ -146,7 +147,7 @@ def insert_data(dbconn, cursor, ms, tag_id, tag_name  ):
 ms = match_content(unicodehtml)
 
 #加入数据库
-insert_data(dbconn, cursor, ms, tagid, keyword)
+insert_data( ms )
 
 def url_get_html(url):
     headers = {
@@ -171,7 +172,7 @@ for i in range(1, total):
     #break
     htmlconent = url_get_html(tmpurl)
     msnext = match_content(htmlconent)
-    insert_data(dbconn, cursor, msnext, tagid, keyword)
+    insert_data(msnext)
     print i,start,tmpurl
 
 cursor.close()
