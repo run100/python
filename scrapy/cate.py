@@ -45,7 +45,7 @@ tags = []
 for m in matchs:
     #tags.append([m[0], m[1]])
     #print m[0], m[1]
-    sql = "INSERT INTO douban_tag(cate_name, cate_num) VALUES ('%s', '%s')" % (m[0], m[1])
+    sql = "INSERT INTO douban_tag(tag_name, tag_num) VALUES ('%s', '%s')" % (m[0], m[1])
     try:
         cursor.execute(sql)
         dbconn.commit()

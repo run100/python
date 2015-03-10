@@ -17,10 +17,10 @@ sys.setdefaultencoding('utf-8')
 
 keyword = '科幻'
 
-#keywordquote = urllib.quote_plus(keyword)
+keywordquote = urllib.quote_plus(keyword)
 
 perage = 20
-url = 'http://movie.douban.com/tag/%E7%A7%91%E5%B9%BB?type=T&start=0'
+url = 'http://movie.douban.com/tag/'+str(keywordquote) #&start=0
 
 #print url
 
@@ -30,12 +30,31 @@ url = 'http://movie.douban.com/tag/%E7%A7%91%E5%B9%BB?type=T&start=0'
 #加码
 #print urllib.quote_plus('科幻')
 
+'''
 file = os.path.abspath('.') + '/tag_list.txt'
 with open(file) as f:
     html = f.read()
 
 unicodehtml = html.decode("utf-8")
+'''
+
+headers = {
+    'User-Agent':'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6'
+}
+
+
+#request = urllib2.Request(url)
+request = urllib2.Request(
+    url = url,
+    headers = headers
+)
+
+response = urllib2.urlopen(request)
+html = response.read()
+unicodehtml = html.decode("utf-8")
+
 #print unicodehtml
+#exit()
 
 #获取总页数
 totalr = re.compile(r'data-total-page="(.*?)"', re.S)
@@ -93,34 +112,71 @@ def match_content(htmls):
     return movies
 
 
-ms = match_content(unicodehtml)
-
 # 连接数据库
 dbconn = MySQLdb.connect(host="localhost", user="root", passwd="", db="scrapy",charset="utf8")
 cursor = dbconn.cursor()
 
-for m in ms:
-    #for i in range(0, 6):
-    #    print m[i]
+#取tagid
+ksql = "SELECT * FROM douban_tag WHERE tag_name='%s'" % (keyword)
+#print ksql
+tagid = 0
+try:
+    cursor.execute(ksql)
+    data = cursor.fetchone()
+    tagid = data[0]
+except:
+    print "Error: unable to fecth data"
 
 
-    sql = "INSERT INTO douban_movie( tag_name, title, thumb_url, detail_url, intro, score, score_num) "
-    sql += " VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s')" % ( keyword, m[0], m[1], m[2], m[3], m[4], m[5])
+def insert_data(dbconn, cursor, ms, tag_id, tag_name  ):
+    for m in ms:
+        #for i in range(0, 6):
+        #    print m[i]
+        sql = "INSERT INTO douban_movie( tag_id, tag_name, title, thumb_url, detail_url, intro, score, score_num) "
+        sql += " VALUES ('%d', '%s', '%s', '%s', '%s', '%s', '%s', '%s')" % ( tagid, tag_name, m[0], m[1], m[2], m[3], m[4], m[5])
 
-    #print sql
-    #exit()
+        try:
+            cursor.execute(sql)
+            dbconn.commit()
+        except Exception, e:
+            dbconn.rollback()
+            print "MySQL Error %s: %s" % (e.args[0], e.args[1])
 
-    try:
-        cursor.execute(sql)
-        dbconn.commit()
-    except Exception, e:
-        dbconn.rollback()
-        print "MySQL Error %s: %s" % (e.args[0], e.args[1])
+#提取单页内容数组
+ms = match_content(unicodehtml)
 
+#加入数据库
+insert_data(dbconn, cursor, ms, tagid, keyword)
 
-#循环页面匹配
-for i in range(0, total):
+def url_get_html(url):
+    headers = {
+        'User-Agent':'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6'
+    }
+
+    #request = urllib2.Request(url)
+    request = urllib2.Request(
+        url = url,
+        headers = headers
+    )
+
+    response = urllib2.urlopen(request)
+    html = response.read()
+    return  html.decode("utf-8")
+
+#入口 循环页面匹配
+for i in range(1, total):
     start = i*20
+    tmpurl = url + '?start=' + str(start)
+    #print url
+    #break
+    htmlconent = url_get_html(tmpurl)
+    msnext = match_content(htmlconent)
+    insert_data(dbconn, cursor, msnext, tagid, keyword)
+    print i,start,tmpurl
+
+cursor.close()
+#关闭数据库连接
+dbconn.close()
 
 
 
