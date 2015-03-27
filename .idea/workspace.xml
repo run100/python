@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="990cc72a-0ed1-4870-8c07-65d647dfd40c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/date/dt.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gitst.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/news/new.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scrapy/t.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/date/t1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thread/t1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scrapy/tag_all_get.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scrapy/tag_list_sql.txt" />
       <change type="DELETED" beforePath="V:\python\time\time.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scrapy/douban_tag_list.py" afterPath="$PROJECT_DIR$/scrapy/douban_tag_list.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scrapy/tag_list.txt" afterPath="$PROJECT_DIR$/scrapy/tag_list.txt" />
