@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="990cc72a-0ed1-4870-8c07-65d647dfd40c" name="Default" comment="">
+      <change type="DELETED" beforePath="V:\python\time\time.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scrapy/douban_tag_list.py" afterPath="$PROJECT_DIR$/scrapy/douban_tag_list.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scrapy/tag_list.txt" afterPath="$PROJECT_DIR$/scrapy/tag_list.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python.iws" />
@@ -25,8 +27,8 @@
     <SUITE FILE_PATH="coverage/python$5.coverage" NAME="5 Coverage Results" MODIFIED="1426055972874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/home/users/chromev/python" />
     <SUITE FILE_PATH="coverage/python$smtp.coverage" NAME="smtp Coverage Results" MODIFIED="1426211394739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/email" />
     <SUITE FILE_PATH="coverage/python$pickle.coverage" NAME="pickle Coverage Results" MODIFIED="1426129536713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/io" />
-    <SUITE FILE_PATH="coverage/python$time.coverage" NAME="time Coverage Results" MODIFIED="1426121897156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/time" />
     <SUITE FILE_PATH="coverage/python$process.coverage" NAME="process Coverage Results" MODIFIED="1426130314303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/io" />
+    <SUITE FILE_PATH="coverage/python$time.coverage" NAME="time Coverage Results" MODIFIED="1426727468935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/time" />
     <SUITE FILE_PATH="coverage/python$1.coverage" NAME="1 Coverage Results" MODIFIED="1426121924602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/io" />
     <SUITE FILE_PATH="coverage/python$down.coverage" NAME="down Coverage Results" MODIFIED="1426063245529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/home/users/chromev/python" />
     <SUITE FILE_PATH="coverage/python$os.coverage" NAME="os Coverage Results" MODIFIED="1426127350330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/io" />
@@ -54,8 +56,8 @@
       <file leaf-file-name="cate.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy/cate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1309">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="24" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="669" max-vertical-offset="1386">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
               <folding>
                 <element signature="e#46#59#0" expanded="true" />
                 <marker date="1425895893193" expanded="true" signature="1020:1081" placeholder="INSERT INTO ..." />
@@ -64,38 +66,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="douban_tag_list.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="douban_tag_list.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy/douban_tag_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09450172" vertical-offset="2478" max-vertical-offset="3468">
-              <caret line="149" column="17" selection-start-line="149" selection-start-column="17" selection-end-line="149" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1102" max-vertical-offset="4914">
+              <caret line="75" column="16" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="16" />
               <folding>
                 <element signature="e#47#60#0" expanded="true" />
-                <marker date="1425963254559" expanded="true" signature="2609:2653" placeholder="SELECT * FRO..douban_movie..." />
-                <marker date="1425963254559" expanded="true" signature="2969:3067" placeholder="INSERT INTO ..." />
+                <marker date="1427438607132" expanded="true" signature="3896:3940" placeholder="SELECT * FRO..douban_movie..." />
+                <marker date="1427438607132" expanded="true" signature="4592:4697" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="t1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thread/t1.py">
+      <file leaf-file-name="new.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/news/new.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-              <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.87628865" vertical-offset="318" max-vertical-offset="936">
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
-                <element signature="e#47#60#0" expanded="true" />
+                <element signature="e#76#89#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tag_list.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy/tag_list.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="5780" max-vertical-offset="26231">
-              <caret line="340" column="34" selection-start-line="340" selection-start-column="20" selection-end-line="340" selection-end-column="34" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -113,7 +105,6 @@
         <option value="$PROJECT_DIR$/5.py" />
         <option value="$PROJECT_DIR$/re/1.py" />
         <option value="$PROJECT_DIR$/re/down.py" />
-        <option value="$PROJECT_DIR$/time/time.py" />
         <option value="$PROJECT_DIR$/io/1.txt" />
         <option value="$PROJECT_DIR$/io/io1.py" />
         <option value="$PROJECT_DIR$/io/os.py" />
@@ -128,10 +119,17 @@
         <option value="$PROJECT_DIR$/scrapy/bug.py" />
         <option value="$PROJECT_DIR$/scrapy/cate.html" />
         <option value="$PROJECT_DIR$/scrapy/cate.txt" />
-        <option value="$PROJECT_DIR$/scrapy/tag_list.txt" />
         <option value="$PROJECT_DIR$/scrapy/cate.py" />
         <option value="$PROJECT_DIR$/thread/t1.py" />
+        <option value="$PROJECT_DIR$/time/time.py" />
+        <option value="$PROJECT_DIR$/date/t1.py" />
+        <option value="$PROJECT_DIR$/date/dt.py" />
+        <option value="$PROJECT_DIR$/scrapy/tag_list.txt" />
+        <option value="$PROJECT_DIR$/scrapy/t.txt" />
+        <option value="$PROJECT_DIR$/scrapy/tag_list_sql.txt" />
+        <option value="$PROJECT_DIR$/scrapy/tag_all_get.py" />
         <option value="$PROJECT_DIR$/scrapy/douban_tag_list.py" />
+        <option value="$PROJECT_DIR$/news/new.py" />
       </list>
     </option>
   </component>
@@ -193,6 +191,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -235,18 +234,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scrapy" />
+              <option name="myItemId" value="news" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="editor.preferences.import" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -269,27 +267,7 @@
       <recent name="Z:\python\for" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.cate">
-    <configuration default="false" name="mysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/db" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/db/mysql.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.time">
     <configuration default="false" name="smtp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -364,6 +342,26 @@
       <module name="python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy/cate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="time" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/time" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/time/time.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -618,19 +616,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.mysql" />
-      <item index="1" class="java.lang.String" itemvalue="Python.smtp" />
-      <item index="2" class="java.lang.String" itemvalue="Python.baidu" />
-      <item index="3" class="java.lang.String" itemvalue="Python.debug" />
-      <item index="4" class="java.lang.String" itemvalue="Python.cate" />
+      <item index="0" class="java.lang.String" itemvalue="Python.smtp" />
+      <item index="1" class="java.lang.String" itemvalue="Python.baidu" />
+      <item index="2" class="java.lang.String" itemvalue="Python.debug" />
+      <item index="3" class="java.lang.String" itemvalue="Python.cate" />
+      <item index="4" class="java.lang.String" itemvalue="Python.time" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.cate" />
-        <item index="1" class="java.lang.String" itemvalue="Python.debug" />
-        <item index="2" class="java.lang.String" itemvalue="Python.baidu" />
-        <item index="3" class="java.lang.String" itemvalue="Python.smtp" />
-        <item index="4" class="java.lang.String" itemvalue="Python.mysql" />
+        <item index="0" class="java.lang.String" itemvalue="Python.time" />
+        <item index="1" class="java.lang.String" itemvalue="Python.cate" />
+        <item index="2" class="java.lang.String" itemvalue="Python.debug" />
+        <item index="3" class="java.lang.String" itemvalue="Python.baidu" />
+        <item index="4" class="java.lang.String" itemvalue="Python.smtp" />
       </list>
     </recent_temporary>
   </component>
@@ -648,11 +646,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.260574" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27190334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -698,6 +696,124 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/scrapy/cate.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="669" max-vertical-offset="1386">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
+          <folding>
+            <element signature="e#46#59#0" expanded="true" />
+            <marker date="1425895893193" expanded="true" signature="1020:1081" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/douban_tag_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4080" max-vertical-offset="4932">
+          <caret line="237" column="29" selection-start-line="237" selection-start-column="29" selection-end-line="237" selection-end-column="29" />
+          <folding>
+            <element signature="e#47#60#0" expanded="true" />
+            <marker date="1427438607132" expanded="true" signature="3896:3940" placeholder="SELECT * FRO..douban_movie..." />
+            <marker date="1427438607132" expanded="true" signature="4592:4697" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/tag_all_get.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1062">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1426146176508" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..douban_tag..." />
+            <marker date="1426146176508" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..douban_tag..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread/t1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="558">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="55" />
+          <folding>
+            <element signature="e#47#60#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/cate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1309">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
+          <folding>
+            <element signature="e#46#59#0" expanded="true" />
+            <marker date="1425895893193" expanded="true" signature="1020:1081" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/douban_tag_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4658">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#47#60#0" expanded="true" />
+            <marker date="1427438607132" expanded="true" signature="3896:3940" placeholder="SELECT * FRO..douban_movie..." />
+            <marker date="1427438607132" expanded="true" signature="4592:4697" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/tag_all_get.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="850">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+          <folding>
+            <marker date="1426146176508" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..douban_tag..." />
+            <marker date="1426146176508" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..douban_tag..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/cate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1309">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <element signature="e#46#59#0" expanded="true" />
+            <marker date="1425895893193" expanded="true" signature="1020:1081" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/douban_tag_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3553">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#47#60#0" expanded="true" />
+            <marker date="1427438607132" expanded="true" signature="3896:3940" placeholder="SELECT * FRO..douban_movie..." />
+            <marker date="1427438607132" expanded="true" signature="4592:4697" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread/t1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="544">
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+          <folding>
+            <element signature="e#47#60#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/tag_list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="26146" max-vertical-offset="26248">
+          <caret line="1538" column="0" selection-start-line="1538" selection-start-column="0" selection-end-line="1538" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/cate.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1309">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="24" selection-end-column="34" />
           <folding>
@@ -713,8 +829,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#47#60#0" expanded="true" />
-            <marker date="1425963254559" expanded="true" signature="2609:2653" placeholder="SELECT * FRO..douban_movie..." />
-            <marker date="1425963254559" expanded="true" signature="2969:3067" placeholder="INSERT INTO ..." />
+            <marker date="1427438607132" expanded="true" signature="3896:3940" placeholder="SELECT * FRO..douban_movie..." />
+            <marker date="1427438607132" expanded="true" signature="4592:4697" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -723,7 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="5780" max-vertical-offset="26231">
           <caret line="340" column="34" selection-start-line="340" selection-start-column="20" selection-end-line="340" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -759,13 +874,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/time/time.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/class/p2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38511327" vertical-offset="0" max-vertical-offset="618">
@@ -784,13 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33241758" vertical-offset="27810" max-vertical-offset="37893">
           <caret line="1647" column="0" selection-start-line="1647" selection-start-column="0" selection-end-line="1647" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/time/time.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25373134" vertical-offset="0" max-vertical-offset="402">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -913,10 +1014,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/date/dt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2857143" vertical-offset="0" max-vertical-offset="595">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/date/t1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/tag_list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18728523" vertical-offset="5280" max-vertical-offset="25976">
+          <caret line="317" column="23" selection-start-line="317" selection-start-column="19" selection-end-line="317" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/t.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/tag_list_sql.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="552">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scrapy/cate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1309">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="24" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
           <folding>
             <element signature="e#46#59#0" expanded="true" />
             <marker date="1425895893193" expanded="true" signature="1020:1081" placeholder="INSERT INTO ..." />
@@ -926,30 +1065,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thread/t1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
           <folding>
-            <element signature="e#47#60#0" expanded="true" />
+            <element signature="e#47#60#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/tag_list.txt">
+    <entry file="file://$PROJECT_DIR$/scrapy/tag_all_get.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5603" max-vertical-offset="26231">
-          <caret line="340" column="34" selection-start-line="340" selection-start-column="20" selection-end-line="340" selection-end-column="34" />
-          <folding />
+        <state vertical-scroll-proportion="-0.0605042" vertical-offset="216" max-vertical-offset="1062">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <marker date="1426146176508" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..douban_tag..." />
+            <marker date="1426146176508" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..douban_tag..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy/douban_tag_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09450172" vertical-offset="2478" max-vertical-offset="3468">
-          <caret line="149" column="17" selection-start-line="149" selection-start-column="17" selection-end-line="149" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1102" max-vertical-offset="4914">
+          <caret line="75" column="16" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="16" />
           <folding>
             <element signature="e#47#60#0" expanded="true" />
-            <marker date="1425963254559" expanded="true" signature="2609:2653" placeholder="SELECT * FRO..douban_movie..." />
-            <marker date="1425963254559" expanded="true" signature="2969:3067" placeholder="INSERT INTO ..." />
+            <marker date="1427438607132" expanded="true" signature="3896:3940" placeholder="SELECT * FRO..douban_movie..." />
+            <marker date="1427438607132" expanded="true" signature="4592:4697" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.87628865" vertical-offset="318" max-vertical-offset="936">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="e#76#89#0" expanded="true" />
           </folding>
         </state>
       </provider>
