@@ -9,7 +9,9 @@ __mtime__ = '2015/12/24'
 """
 
 
-import sys;
+import sys
+
+print(sys.argv)
 
 def test():
     args = sys.argv

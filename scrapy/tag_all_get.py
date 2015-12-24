@@ -39,7 +39,7 @@ try:
 except:
     print "Error: unable to fecth all data"
 
-#print sys.argv[1]
+#print hello.argv[1]
 def python_data(name, num):
     print name
     os.system( 'python '+ os.path.abspath('.') +'/douban_tag_list.py  '+ name )
