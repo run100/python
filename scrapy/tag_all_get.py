@@ -16,9 +16,9 @@ sys.setdefaultencoding('utf-8')
 
 #写入日志
 '''
-file = os.path.abspath('.') + '/t.txt'
+IO = os.path.abspath('.') + '/t.txt'
 for i in range(1, 100):
-    file_object = open(file, 'a+')
+    file_object = open(IO, 'a+')
     file_object.write( 'assss\r\n' )
     file_object.close()
 '''

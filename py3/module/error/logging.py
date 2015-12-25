@@ -1,15 +1,19 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-__title__ = ''
-__author__ = 'Administrator'
-__mtime__ = '2015/12/25'
-# code is far away from bugs with the god animal protecting
-    I love animals. They taste delicious.
-"""
+
+import sys
+print(sys._home)
 
 import logging
+print(logging.info('aaa'))
 
-logging.warning('Watch out!') # will print a message to the console
+#import logging.config
 
-print('end')
+#logging.info('aaa')
+
+'''
+s = '0'
+n = int(s)
+logging.info('n = %d' % n)
+print(10 / n)
+'''
