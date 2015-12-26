@@ -18,13 +18,12 @@ def _format_addr(s):
         Header(name, 'utf-8').encode(), \
         addr.encode('utf-8') if isinstance(addr, unicode) else addr))
 
-from_addr = "zzw2006372@163.com"
-password = "zzw@163.com"
-smtp_server = "smtp.163.com"
-smtp_port = "25"
-to_addr = "727271755@qq.com"
+from_addr = raw_input('From: ')
+password = raw_input('Password: ')
+to_addr = raw_input('To: ')
+smtp_server = raw_input('SMTP server: ')
 
-msg = MIMEText('hello, send by Python...', 'plain', 'utf-8')
+msg = MIMEText('hello, send by Python...中文', 'plain', 'utf-8')
 msg['From'] = _format_addr(u'Python爱好者 <%s>' % from_addr)
 msg['To'] = _format_addr(u'管理员 <%s>' % to_addr)
 msg['Subject'] = Header(u'来自SMTP的问候……', 'utf-8').encode()

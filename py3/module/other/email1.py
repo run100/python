@@ -18,10 +18,10 @@ msg = MIMEText('hello, send by Python...', 'plain', 'utf-8')
 # 输入收件人地址:
 #to_addr = raw_input('To: ')
 
-from_addr = "727271755@qq.com"
-password = "1987@163.com"
-smtp_server = "smtp.qq.com"
-to_addr = "727271755@qq.com"
+from_addr = raw_input('From: ')
+password = raw_input('Password: ')
+to_addr = raw_input('To: ')
+smtp_server = raw_input('SMTP server: ')
 
 
 import smtplib
