@@ -4,7 +4,7 @@
 
 import urllib
 import urllib2
-import re
+import re1
 import thread
 import time
 import MySQLdb
@@ -85,7 +85,7 @@ if not constDebug:
 #exit()
 
 #获取总页数
-totalr = re.compile(r'data-total-page="(.*?)"', re.S)
+totalr = re1.compile(r'data-total-page="(.*?)"', re1.S)
 matchs = totalr.findall(unicodehtml)
 
 total = 0
@@ -117,7 +117,7 @@ def match_content(htmls):
     '''
     patternstr += '</td>\s*'
     patternstr += '</tr>'
-    all = re.compile(r''+ patternstr +'', re.S)
+    all = re1.compile(r''+ patternstr +'', re1.S)
     allm = all.findall(htmls)
     #print allm
     #exit()
@@ -126,28 +126,28 @@ def match_content(htmls):
         #print item[1] #详细页
 
         # 标题
-        titletmp = re.sub(re.compile(r'[\r\n|\n|\s*]'), '', item[2])
-        titletmp = re.sub(re.compile(r'<.*?>'), '', titletmp)
+        titletmp = re1.sub(re1.compile(r'[\r\n|\n|\s*]'), '', item[2])
+        titletmp = re1.sub(re1.compile(r'<.*?>'), '', titletmp)
         #print titletmp
 
         # 内容
-        introm = re.compile(r'<p\s*class="pl">(.*?)</p>', re.S)
+        introm = re1.compile(r'<p\s*class="pl">(.*?)</p>', re1.S)
         introarr = introm.findall(item[3])
         introstr = introarr[0]
 
         # 评分
         score = '0'
-        scorem = re.compile(r'<span\s*class="rating_nums">(.*?)</span>', re.S)
+        scorem = re1.compile(r'<span\s*class="rating_nums">(.*?)</span>', re1.S)
         scorearr = scorem.findall(item[3])
         if scorearr:
             score = scorearr[0]
 
         # 评分人数
         score_num = '0'
-        scorenumm= re.compile('<span\s*class="pl">\((.*?)\)</span>', re.S)
+        scorenumm= re1.compile('<span\s*class="pl">\((.*?)\)</span>', re1.S)
         scorenumarr = scorenumm.findall(item[3])
         if scorenumarr:
-            score_num = re.sub( re.compile(u'[\u4e00-\u9fa5]+'), '', scorenumarr[0] )
+            score_num = re1.sub( re1.compile(u'[\u4e00-\u9fa5]+'), '', scorenumarr[0] )
 
         #print score_num
         #exit()

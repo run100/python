@@ -7,7 +7,7 @@ import string
 import MySQLdb
 import os
 
-import re
+import re1
 '''
 headers = {
     'User-Agent':'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6'
@@ -34,7 +34,7 @@ with open(file, 'r') as f:
 unicodehtml = unicodehtml.decode("utf-8")
 #print unicodehtml
 
-p = re.compile(u'<td><a\s+href="\.\/[\u4e00-\u9fa5]+">(.*?)<\/a><b>\((\d*)\)<\/b></td>', re.S)
+p = re1.compile(u'<td><a\s+href="\.\/[\u4e00-\u9fa5]+">(.*?)<\/a><b>\((\d*)\)<\/b></td>', re1.S)
 matchs = p.findall(unicodehtml)
 
 # 连接数据库

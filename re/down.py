@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 
 import urllib2
-import re
+import re1
 import os
 
 
 URL = 'http://image.baidu.com/channel/wallpaper'
 read=urllib2.urlopen(URL).read()
-pat = re.compile(r'src="http://.+?.js">')
-urls = re.findall(pat, read)
+pat = re1.compile(r'src="http://.+?.js">')
+urls = re1.findall(pat, read)
 print urls
 for i in urls:
     url = i.replace('src="','').replace('">', '')

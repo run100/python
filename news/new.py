@@ -5,7 +5,7 @@ __author__ = 'Administrator'
 
 import urllib
 import urllib2
-import re
+import re1
 import thread
 import time
 import MySQLdb

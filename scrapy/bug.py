@@ -3,7 +3,7 @@
 
 import urllib
 import urllib2
-import re
+import re1
 import thread
 import time
 import MySQLdb
@@ -33,7 +33,7 @@ class Spider_Model:
 
         # 找出所有的class="conent"的div标记
         #print unicodehtml
-        matchs = re.findall('<div.*?class="content".*?title="(.*?)">(.*?)</div>', unicodehtml, re.S)
+        matchs = re1.findall('<div.*?class="content".*?title="(.*?)">(.*?)</div>', unicodehtml, re1.S)
         #print matchs
         contents = []
         for m in matchs:
