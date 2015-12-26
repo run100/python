@@ -23,7 +23,10 @@ password = raw_input('Password: ')
 to_addr = raw_input('To: ')
 smtp_server = raw_input('SMTP server: ')
 
-msg = MIMEText('hello, send by Python...中文', 'plain', 'utf-8')
+#msg = MIMEText('hello, send by Python...中文', 'plain', 'utf-8')
+msg = MIMEText('<html><body><h1>Hello</h1>' +
+    '<p>send by <a href="http://www.python.org">Python</a>...</p>' +
+    '</body></html>', 'html', 'utf-8')
 msg['From'] = _format_addr(u'Python爱好者 <%s>' % from_addr)
 msg['To'] = _format_addr(u'管理员 <%s>' % to_addr)
 msg['Subject'] = Header(u'来自SMTP的问候……', 'utf-8').encode()
