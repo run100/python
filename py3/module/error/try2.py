@@ -8,7 +8,7 @@ __mtime__ = '2015/12/25'
     I love animals. They taste delicious.
 """
 
-import logging
+import logging_test
 
 def foo(s):
     return 10/int(s)
@@ -21,7 +21,7 @@ def main():
     try:
         bar('0')
     except Exception as e:
-        logging.exception(e)
+        logging_test.exception(e)
 
 
 

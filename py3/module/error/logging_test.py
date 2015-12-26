@@ -1,15 +1,18 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import sys
-print(sys._home)
+# import sys
+# print(sys._home)
 
 import logging
-print(logging.info('aaa'))
+logging.basicConfig(level=logging.DEBUG)
+
+
+
 
 #import logging.config
 
-#logging.info('aaa')
+logging.info('aaa')
 
 '''
 s = '0'
