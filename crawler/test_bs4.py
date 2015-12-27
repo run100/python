@@ -8,8 +8,12 @@ __mtime__ = '2015/12/27'
     I love animals. They taste delicious.
 """
 
-import bs4
-print(bs4)
+#import bs4
+#print(bs4)
+
+from bs4 import BeautifulSoup
+import re
+
 html_doc = """
 <html><head><title>The Dormouse's story</title></head>
 <body>
@@ -23,3 +27,19 @@ and they lived at the bottom of a well.</p>
 
 <p class="story">...</p>
 """
+soup = BeautifulSoup(html_doc, 'html.parser', from_encoding='utf-8')
+links = soup.find_all('a')
+for link in links:
+    print(link.name, link['href'], link.get_text())
+
+# 获取所有链接
+link_node = soup.find('a', href='http://example.com/lacie')
+print(link_node.name, link_node['href'], link_node.get_text())
+
+# 正则表达式
+link_node = soup.find('a', href=re.compile(r"ill"))
+print(link_node.name, link_node['href'], link_node.get_text())
+
+# 获取段落文字
+p_node = soup.find('p', class_="title")
+print(p_node.name,  p_node.get_text())
