@@ -19,9 +19,9 @@ class SpiderMain(object):
         self.parser = html_parser.HtmlParser()
         self.outputer = html_outputer.HtmlOutputer()
 
-    def craw(self, root_url):
+    def craw(self, url):
         count = 1
-        self.urls.add_new_url(root_url)
+        self.urls.add_new_url(url)
         while self.urls.has_new_url():
             new_url = self.urls.get_new_url()
             print("craw %d:%s" % (count, new_url))
