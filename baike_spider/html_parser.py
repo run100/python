@@ -21,6 +21,7 @@ class HtmlParser(object):
         soup = BeautifulSoup(con1, 'html.parser', from_encoding='utf-8')
         new_urls = self._get_new_urls(page_url, soup)
         new_datas = self._get_new_datas(page_url, soup)
+
         return new_urls, new_datas
 
     def _get_new_urls(self, page_url, soup):
@@ -30,8 +31,6 @@ class HtmlParser(object):
             new_url = link['href']
             new_full_url = urlparse.urljoin(page_url, new_url)
             new_urls.add(new_full_url)
-
-        print(links)
         return new_urls
 
 
@@ -48,6 +47,6 @@ class HtmlParser(object):
         #<div class="lemma-summary" label-module="lemmaSummary">
         summary_node = soup.find('div', class_="lemma-summary")
         res_data['summary'] = summary_node.get_text()
-        print(res_data)
+
         return res_data
 
