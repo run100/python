@@ -5,7 +5,8 @@ import time, MySQLdb
 
 #import MySQLdb.cursors
 
-conn = MySQLdb.connect(host="192.168.148.132", user="root", passwd="", db="test")
+#conn = MySQLdb.connect(host="192.168.148.132", user="root", passwd="", db="test")
+conn = MySQLdb.connect(host="localhost", user="root", passwd="root", db="test")
 print(conn)
 
 cursor = conn.cursor()
@@ -15,6 +16,8 @@ cursor.execute("SELECT VERSION()")
 data = cursor.fetchone()
 
 print "Database version : %s " % data
+
+exit()
 
 # 创建表
 # sql = "create table  user(id int(4) not null primary key auto_increment,name varchar(128) not null, created int(10))"
