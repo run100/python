@@ -25,12 +25,13 @@ class HtmlParser(object):
 
     def _get_new_urls(self, page_url, soup):
         new_urls = set()
-        links = soup.find_all('a', href=re.compile(r"/view/\d+\.html"))
+        links = soup.find_all('a', href=re.compile(r"/view/\d+\.htm"))
         for link in links:
             new_url = link['href']
             new_full_url = urlparse.urljoin(page_url, new_url)
             new_urls.add(new_full_url)
 
+        print(links)
         return new_urls
 
 
@@ -45,8 +46,8 @@ class HtmlParser(object):
         res_data['title'] = title_node.get_text()
 
         #<div class="lemma-summary" label-module="lemmaSummary">
-        summary_node = soup.find('div', class_="lemma-summary", )
+        summary_node = soup.find('div', class_="lemma-summary")
         res_data['summary'] = summary_node.get_text()
-
+        print(res_data)
         return res_data
 

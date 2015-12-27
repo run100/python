@@ -35,4 +35,5 @@ class UrlManager(object):
     def get_new_url(self):
         new_url = self.new_urls.pop()
         self.old_urls.add(new_url)
+        return new_url
 
