@@ -8,6 +8,7 @@ __mtime__ = '2015/12/28'
     I love animals. They taste delicious.
 """
 
+import MySQLdb
 
 class Outputer(object):
 
@@ -19,6 +20,10 @@ class Outputer(object):
             return None
 
         self.datas.append(condata)
+
+    def insert_mysql(self):
+
+        MySQLdb.connect(host="localhost")
 
 
     def output_html(self):
