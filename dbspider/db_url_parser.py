@@ -25,7 +25,7 @@ class UrlParser(object):
         urls = self.get_data_urls(soup, page_url)
         content = self.get_data_content(soup, page_url)
 
-        return urls,content
+        return urls, content
 
     def get_data_urls(self, soup, page_url):
         urls = set()
@@ -53,8 +53,5 @@ class UrlParser(object):
         # 匹配简介 <span property="v:summary" class=""></span>
         summary_node = soup.find('span', property="v:summary")
         res_data['summary'] = summary_node.get_text()
-
-        print(res_data)
-
         return res_data
 
