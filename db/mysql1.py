@@ -27,16 +27,27 @@ print "Database version : %s " % data
 #cursor.execute(sql)
 # exit()
 # # 写入
+# try:
+#     sql = "insert into user(name,created) values(%s, %s)"
+#     param = ["中文2", 111]
+#     n = cursor.execute(sql, ["中文", 111])
+#     conn.commit()
+#     print('insert',n)
+# except MySQLdb.Error,e:
+#      print "Mysql Error %d: %s" % (e.args[0], e.args[1])
+#      conn.rollback()
+
 try:
+    values = []
+    for i in range(20):
+        values.append(("姓名"+str(i), i))
     sql = "insert into user(name,created) values(%s, %s)"
-    param = ["中文2", 111]
-    n = cursor.execute(sql, ["中文", 111])
+    n = cursor.executemany(sql, values)
     conn.commit()
     print('insert',n)
 except MySQLdb.Error,e:
      print "Mysql Error %d: %s" % (e.args[0], e.args[1])
      conn.rollback()
-
 
 #
 # # 更新
