@@ -44,9 +44,10 @@ class DbMain(object):
 
             count = count + 1
 
-        self.outputer.insert_mysql()
+        #self.outputer.insert_mysql()
 
 if __name__ == '__main__':
-    base_url = 'http://movie.douban.com/subject/3077412'
+    #base_url = 'http://movie.douban.com/subject/3077412'
+    base_url = 'http://movie.douban.com/subject/5912992/?from=subject-page'
     db_spider = DbMain()
     db_spider.craw(base_url)
