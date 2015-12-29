@@ -10,6 +10,7 @@ __mtime__ = '2015/12/29'
 
 REDIS_HOST = "localhost"
 REDIS_PORT = "6379"
+REDIS_DB = 0
 
 MYSQL_HOST = "127.0.01"
 MYSQL_USER = "root"

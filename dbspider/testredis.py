@@ -11,6 +11,11 @@ __mtime__ = '2015/12/29'
 import redis
 import global1
 
-cache = redis.StrictRedis(host=global1.REDIS_HOST, port=global1.REDIS_PORT)
+cache = redis.StrictRedis(host=global1.REDIS_HOST, port=global1.REDIS_PORT, db=global1.REDIS_DB)
 
 print(u'get和set操作')
+key1 = 'blog:title'
+cache.set(key1, u'忠旺')
+print(cache.get(key1))
+#print(cache.expire(key1, 60))
+print(cache.ttl(key1))
