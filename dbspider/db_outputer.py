@@ -10,6 +10,10 @@ __mtime__ = '2015/12/28'
 
 import MySQLdb
 import time
+import sys
+
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 
 class Outputer(object):
@@ -25,7 +29,7 @@ class Outputer(object):
 
     def insert_mysql(self):
 
-        conn = MySQLdb.connect(host="127.0.0.1", user="root", passwd="root", db="test")
+        conn = MySQLdb.connect(host="127.0.0.1", user="root", passwd="root", db="test", charset="utf8")
         cursor = conn.cursor()
 
         try:
