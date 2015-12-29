@@ -9,6 +9,8 @@ __mtime__ = '2015/12/28'
 """
 
 import MySQLdb
+import time
+
 
 class Outputer(object):
 
@@ -23,7 +25,27 @@ class Outputer(object):
 
     def insert_mysql(self):
 
-        MySQLdb.connect(host="localhost")
+        conn = MySQLdb.connect(host="127.0.0.1", user="root", passwd="root", db="test")
+        cursor = conn.cursor()
+
+        try:
+            for data in self.datas:
+                sql = "INSERT INTO douban_movies(title, url, average, summary)"
+                sql = sql + " VALUES(%s, %s, %s, %s) "
+                print(sql)
+                param = (data['title'].encode('utf-8')
+                         , data['url']
+                         , data['average']
+                         , data['summary'].encode('utf-8')
+                        )
+                print(param)
+                n = cursor.execute(sql, param)
+                print("n is %d" % n)
+                conn.commit()
+        except MySQLdb.Error, e:
+            print "Mysql Error %d: %s" % (e.args[0], e.args[1])
+            conn.rollback()
+
 
 
     def output_html(self):

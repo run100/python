@@ -6,7 +6,7 @@ import time, MySQLdb
 #import MySQLdb.cursors
 
 #conn = MySQLdb.connect(host="192.168.148.132", user="root", passwd="", db="test")
-conn = MySQLdb.connect(host="localhost", user="root", passwd="root", db="test")
+conn = MySQLdb.connect(host="127.0.0.1", user="root", passwd="root", db="test")
 print(conn)
 
 cursor = conn.cursor()
@@ -26,7 +26,7 @@ exit()
 # # 写入
 # try:
 #     sql = "insert into user(name,created) values(%s, %d)"
-#     param = ("aaa",int(time().time))
+#     param = ("aaa",int(time.time()))
 #     n = cursor.execute(sql)
 #     conn.commit()
 #     print('insert',n)

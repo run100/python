@@ -39,12 +39,12 @@ class DbMain(object):
             #记录数据
             self.outputer.collect_data(condata)
 
-            if count > 100:
+            if count > 0:
                 break
 
             count = count + 1
 
-        self.outputer.output_html()
+        self.outputer.insert_mysql()
 
 if __name__ == '__main__':
     base_url = 'http://movie.douban.com/subject/3077412'
