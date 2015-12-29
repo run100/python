@@ -25,9 +25,10 @@ class Outputer(object):
         if condata is None:
             return None
 
-        self.datas.append(condata)
+        #self.datas.append(condata)
 
-    def insert_mysql(self):
+
+    def insert_mysql(self, data):
 
         conn = MySQLdb.connect(host="127.0.0.1", user="root", passwd="root", db="test", charset="utf8")
         cursor = conn.cursor()

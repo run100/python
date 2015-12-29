@@ -37,7 +37,8 @@ class MysqlUrls:
         where = ''
 
         if 'url' in kw:
-            where += " AND urlbase64='%s'" % kw['url']
+
+            where += " AND urlbase64='%s'" % base64.b64encode(kw['url'])
 
         if 'iscrawl' in kw:
             where += " AND iscrawl=%s " % kw['iscrawl']
@@ -47,16 +48,15 @@ class MysqlUrls:
             n = cursor.execute(sql)
             cnt = cursor.fetchone()
             print('result has %s row' % cnt)
-            return cnt
+            return int('%d' % cnt)
         except MySQLdb.Error, e:
             print "Mysql Error %d: %s" % (e.args[0], e.args[1])
 
     def insert_url(self, url):
-
-        cnt = self.get_urls_cnt(url=base64.b64encode(url))
-        if cnt > 0:
-            return None
-
+        # cnt = self.get_urls_cnt(url=base64.b64encode(url))
+        # if cnt > 0:
+        #     return None
+        print('insert %s' % url)
         try:
             sql = "INSERT INTO douban_movies_url(url, urlbase64, addtime) VALUES(%s, %s, %s) "
             param = [url, base64.b64encode(url), int(time.time())]
@@ -68,34 +68,56 @@ class MysqlUrls:
             print "Mysql Error %d: %s" % (e.args[0], e.args[1])
             conn.rollback()
 
+    def update_url(self, url):
+        # cnt = self.get_urls_cnt(url=base64.b64encode(url))
+        # if cnt < 1:
+        #     return None
+
+        try:
+            sql = "update douban_movies_url set iscrawl=1 where urlbase64=%s"
+            param = [base64.b64encode(url)]
+            n = cursor.execute(sql, param)
+            conn.commit()
+            print('update %s row' % n)
+            return n
+        except MySQLdb.Error, e:
+            print "Mysql Error %d: %s" % (e.args[0], e.args[1])
+            conn.rollback()
 
     def add_new_url(self, url):
         if url is None:
             return None
 
-        cnt = self.get_urls_cnt(url)
+        cnt = self.get_urls_cnt(url=url)
         if not cnt:
             self.insert_url(url)
 
 
-    # def add_new_urls(self, urls):
-    #     if urls is None or len(urls) == 0:
-    #         return None
-    #
-    #     for url in urls:
-    #         self.add_new_url(url)
-    #
-    # def has_new_url(self):
-    #     return len(cache.smembers(NEW_URLS_KEY)) != 0
-    #
-    # def get_new_url(self):
-    #     tmp = cache.spop(NEW_URLS_KEY)
-    #     print(tmp)
-    #     cache.sadd(OLD_URLS_KEY, tmp)
-    #     return tmp
+    def add_new_urls(self, urls):
+        if urls is None or len(urls) == 0:
+            return None
 
-mtest = MysqlUrls()
-url = 'http://movie.douban.com/subject/3077412'
-mtest.insert_url(url)
-cnt = mtest.get_urls_cnt(url=base64.b64encode(url), iscrawl="0")
-print(cnt)
+        for url in urls:
+            self.add_new_url(url)
+
+    def has_new_url(self):
+        cnt = self.get_urls_cnt(iscrawl=0)
+        return cnt
+
+    def get_new_url(self):
+        sql = "SELECT url FROM douban_movies_url WHERE iscrawl=0 LIMIT 1"
+        cursor.execute(sql)
+        result = cursor.fetchone()
+        url = result[0]
+        self.update_url(url)
+        return url
+
+#mtest = MysqlUrls()
+#url = 'http://movie.douban.com/subject/25798448/?from=subject-page'
+#mtest.add_new_url(url)
+#print(mtest.has_new_url())
+#print(mtest.get_new_url())
+#mtest.insert_url(url)
+#cnt = mtest.get_urls_cnt(url=base64.b64encode(url), iscrawl="0")
+# cnt = mtest.update_url(url)
+# print(cnt)
