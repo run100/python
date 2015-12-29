@@ -12,7 +12,7 @@ REDIS_HOST = "localhost"
 REDIS_PORT = "6379"
 REDIS_DB = 0
 
-MYSQL_HOST = "127.0.01"
+MYSQL_HOST = "127.0.0.1"
 MYSQL_USER = "root"
 MYSQL_PASSWD = "root"
 MYSQL_DB = "test"
