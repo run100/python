@@ -36,13 +36,13 @@ class Outputer(object):
             for data in self.datas:
                 sql = "INSERT INTO douban_movies(title, url, average, summary)"
                 sql = sql + " VALUES(%s, %s, %s, %s) "
-                print(sql)
+                #print(sql)
                 param = (data['title'].encode('utf-8')
                          , data['url']
                          , data['average']
                          , data['summary'].encode('utf-8')
                         )
-                print(param)
+                #print(param)
                 n = cursor.execute(sql, param)
                 print("n is %d" % n)
                 conn.commit()
