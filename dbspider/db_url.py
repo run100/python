@@ -9,7 +9,7 @@ __mtime__ = '2015/12/29'
 """
 import sys
 import time
-
+import base64
 import global1
 import MySQLdb
 
@@ -37,23 +37,29 @@ class MysqlUrls:
         where = ''
 
         if 'url' in kw:
-            where = " AND url='%s'" % kw['url']
+            where += " AND urlbase64='%s'" % kw['url']
 
         if 'iscrawl' in kw:
-            where = " AND iscrawl=%s " % kw['iscrawl']
+            where += " AND iscrawl=%s " % kw['iscrawl']
 
         try:
-            sql = r" SELECT COUNT(1) FROM douban_movies_url WHERE 1 " + where
-            count = cursor.execute(sql)
-            print('has %s row' % count)
-            return count
+            sql = r" SELECT COUNT(1) as cnt FROM douban_movies_url WHERE 1 " + where
+            n = cursor.execute(sql)
+            cnt = cursor.fetchone()
+            print('result has %s row' % cnt)
+            return cnt
         except MySQLdb.Error, e:
             print "Mysql Error %d: %s" % (e.args[0], e.args[1])
 
     def insert_url(self, url):
+
+        cnt = self.get_urls_cnt(url=base64.b64encode(url))
+        if cnt > 0:
+            return None
+
         try:
-            sql = "INSERT INTO douban_movies_url(url, addtime) VALUES(%s, %s) "
-            param = [url, int(time.time())]
+            sql = "INSERT INTO douban_movies_url(url, urlbase64, addtime) VALUES(%s, %s, %s) "
+            param = [url, base64.b64encode(url), int(time.time())]
             n = cursor.execute(sql, param)
             conn.commit()
             print('insert %s row' % n)
@@ -89,6 +95,7 @@ class MysqlUrls:
     #     return tmp
 
 mtest = MysqlUrls()
-#mtest.insert_url('http://movie.douban.com/subject/3077412')
-cnt = mtest.get_urls_cnt(url='http://movie.douban.com/subject/3077412')
+url = 'http://movie.douban.com/subject/3077412'
+mtest.insert_url(url)
+cnt = mtest.get_urls_cnt(url=base64.b64encode(url), iscrawl="0")
 print(cnt)
