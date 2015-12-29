@@ -7,12 +7,12 @@ __mtime__ = '2015/12/28'
 # code is far away from bugs with the god animal protecting
     I love animals. They taste delicious.
 """
-from dbspider import db_url_manager,db_url_downer,db_url_parser,db_outputer
+from dbspider import db_url_manager,redis_url,db_url_downer,db_url_parser,db_outputer
 
 
 class DbMain(object):
     def __init__(self):
-        self.urls = db_url_manager.UrlManager()
+        self.urls = redis_url.RedisUrls()
         self.downloader = db_url_downer.DownLoader()
         self.parser = db_url_parser.UrlParser()
         self.outputer = db_outputer.Outputer()
