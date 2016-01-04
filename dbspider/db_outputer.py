@@ -11,6 +11,7 @@ __mtime__ = '2015/12/28'
 import MySQLdb
 import time
 import sys
+import global1
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -30,7 +31,11 @@ class Outputer(object):
 
     def insert_mysql(self, data):
 
-        conn = MySQLdb.connect(host="127.0.0.1", user="root", passwd="root", db="test", charset="utf8")
+        conn = MySQLdb.connect(host=global1.MYSQL_HOST
+                       , user=global1.MYSQL_USER
+                       , passwd=global1.MYSQL_PASSWD
+                       , db=global1.MYSQL_DB
+                       , charset=global1.MYSQL_CHARSET)
         cursor = conn.cursor()
 
         try:
@@ -45,7 +50,7 @@ class Outputer(object):
                     )
             #print(param)
             n = cursor.execute(sql, param)
-            print("n is %d" % n)
+            print("insert tbl_movies is %d" % n)
             conn.commit()
         except MySQLdb.Error, e:
             print "Mysql Error %d: %s" % (e.args[0], e.args[1])

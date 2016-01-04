@@ -35,19 +35,21 @@ class MysqlUrls:
         crawls = dict({'new': 0, 'old': 1})
 
         where = ''
+        tips = ''
 
         if 'url' in kw:
-
             where += " AND urlbase64='%s'" % base64.b64encode(kw['url'])
+            tips = 'url '
 
         if 'iscrawl' in kw:
             where += " AND iscrawl=%s " % kw['iscrawl']
+            tips = 'crawled '
 
         try:
             sql = r" SELECT COUNT(1) as cnt FROM douban_movies_url WHERE 1 " + where
             n = cursor.execute(sql)
             cnt = cursor.fetchone()
-            print('result has %s row' % cnt)
+            print(tips + 'result has %s row' % cnt)
             return int('%d' % cnt)
         except MySQLdb.Error, e:
             print "Mysql Error %d: %s" % (e.args[0], e.args[1])
@@ -56,13 +58,13 @@ class MysqlUrls:
         # cnt = self.get_urls_cnt(url=base64.b64encode(url))
         # if cnt > 0:
         #     return None
-        print('insert %s' % url)
+        #print('insert %s' % url)
         try:
             sql = "INSERT INTO douban_movies_url(url, urlbase64, addtime) VALUES(%s, %s, %s) "
             param = [url, base64.b64encode(url), int(time.time())]
             n = cursor.execute(sql, param)
             conn.commit()
-            print('insert %s row' % n)
+            #print('insert %s row' % n)
             return n
         except MySQLdb.Error, e:
             print "Mysql Error %d: %s" % (e.args[0], e.args[1])
@@ -78,7 +80,7 @@ class MysqlUrls:
             param = [base64.b64encode(url)]
             n = cursor.execute(sql, param)
             conn.commit()
-            print('update %s row' % n)
+            #print('update %s row' % n)
             return n
         except MySQLdb.Error, e:
             print "Mysql Error %d: %s" % (e.args[0], e.args[1])

@@ -27,9 +27,13 @@ class DbMain(object):
         self.urls.add_new_url(url)
         while self.urls.has_new_url():
             url = self.urls.get_new_url()
-            print('crawl %d : %s' % (count, url))
+            print('crawl index %d : %s' % (count, url))
             #下载
             html_con = self.downloader.down(url)
+
+            if html_con is None:
+                continue
+
             #解析
             urls, condata = self.parser.parse(url, html_con)
 
@@ -39,7 +43,7 @@ class DbMain(object):
             #记录数据
             self.outputer.insert_mysql(condata)
 
-            if count > 100:
+            if count > 1000:
                 break
 
             count = count + 1
@@ -47,7 +51,7 @@ class DbMain(object):
         #self.outputer.insert_mysql()
 
 if __name__ == '__main__':
-    #base_url = 'http://movie.douban.com/subject/3077412'
-    base_url = 'http://movie.douban.com/subject/5912992/?from=subject-page'
+    base_url = 'http://movie.douban.com/subject/1465802/?from=subject-page'
+    #base_url = 'http://movie.douban.com/subject/5912992/?from=subject-page'
     db_spider = DbMain()
     db_spider.craw(base_url)

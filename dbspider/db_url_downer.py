@@ -19,7 +19,13 @@ class DownLoader(object):
         if url is None:
             return None
 
-        resp = urllib2.urlopen(url)
+        try:
+            resp = urllib2.urlopen(url)
+        except urllib2.HTTPError, e:
+            print e.code
+            print e.msg
+            return None
+
         if resp.getcode() != 200:
             return None
 
