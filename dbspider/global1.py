@@ -14,6 +14,6 @@ REDIS_DB = 0
 
 MYSQL_HOST = "127.0.0.1"
 MYSQL_USER = "root"
-MYSQL_PASSWD = "root"
+MYSQL_PASSWD = ""
 MYSQL_DB = "douban"
 MYSQL_CHARSET = "utf8"

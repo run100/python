@@ -7,6 +7,9 @@ __mtime__ = '2015/12/28'
 # code is far away from bugs with the god animal protecting
     I love animals. They taste delicious.
 """
+
+import sys
+sys.path.append('..')
 from dbspider import db_url_manager,redis_url,db_url,db_url_downer,db_url_parser,db_outputer
 
 
