@@ -48,3 +48,7 @@ print(respone.read())
 
 cookie.save(ignore_discard=True, ignore_expires=True)
 
+url_list = 'https://mp.weixin.qq.com/cgi-bin/appmsg?begin=0&count=10&t=media/appmsg_list&type=10&action=list_card&lang=zh_CN&token=971281399'
+
+result = opener.open(url_list)
+print(result.read())

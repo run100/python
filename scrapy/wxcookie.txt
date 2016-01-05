@@ -4,6 +4,6 @@
 
 mp.weixin.qq.com	FALSE	/	TRUE		bizuin	3096479233
 mp.weixin.qq.com	FALSE	/	TRUE		data_bizuin	3096479233
-mp.weixin.qq.com	FALSE	/	TRUE		data_ticket	AgZn5/24LU6vsCNyldZARIjTAwH3yxhgSJ7WnwwiZdU=
-mp.weixin.qq.com	FALSE	/	TRUE		slave_sid	RU9KQjdEZHV5aHA3TkZmNm9IamxvMWhid2dpMG44bnJVMkJRRFpoWXJrQmh1WE1VZXNfa0Y4ZGEyZ2NjTllCWXNfSDU1ZUwzWXRYVDFyU0RKcDZWbl9ETWFNNHBFd3ZfMXpIeFRPTGx2VHhlMDY1X0Vvc1d3eUpBZ1RnRnJMRm0=
+mp.weixin.qq.com	FALSE	/	TRUE		data_ticket	AgY6Spl0GIdU3q/+CYttpPEgAwHWlc+r3iRifo2S1BQ=
+mp.weixin.qq.com	FALSE	/	TRUE		slave_sid	MEExUk8zYTJQSm5pUDFuVUZaZnBKVVV3bDdhZGtXZk9ibEVCTUw2QVhIRGFPYWZWbExHYlFVRVFJZGFoRVNVWFpKc0VxRGJvQkVfM092NFJkSXhHcUQ3dkJGU1FoamlKQmdSN2htWnlSQTQ5a21lMUVvc1d3eUpBZ1RnRnJMRm0=
 mp.weixin.qq.com	FALSE	/	TRUE		slave_user	gh_af0a809ec87a
