@@ -17,9 +17,9 @@ login_header = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
     'Host': 'mp.weixin.qq.com',
     'Connection': 'Keep-Alive'
+    #'Content-Type': 'application/x-www-form-urlencoded', #post
 }
 data = {
-    'a': 1
 }
 
 #提交数据
@@ -40,6 +40,8 @@ opener = urllib2.build_opener(cookieHandler, proxy, urllib2.HTTPHandler)
 respone = opener.open(request)
 
 print(respone.read())
+
+print(cookie)
 
 
 #urllib2.urlopen()
