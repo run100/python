@@ -1,0 +1,9 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+mp.weixin.qq.com	FALSE	/	TRUE		bizuin	3096479233
+mp.weixin.qq.com	FALSE	/	TRUE		data_bizuin	3096479233
+mp.weixin.qq.com	FALSE	/	TRUE		data_ticket	AgaBr4ua5jKwWcB3tVslf6LRAwGiKWSuqQkPmlrZJnM=
+mp.weixin.qq.com	FALSE	/	TRUE		slave_sid	V19fcHZjUHVYY3pPbWlEVFQ2bG5Cck9POENzbmU0N0VLRGwwZ0RGQkN3RUZpR1BndGlRNGVadjRsRTBFQUtna1dYVWdZWkFYYjJpdW5GR2w4ZTZyQkZMNXB5YnE0dHpjRjNiYUhKUGdWWUU0cTQ0QWJIblRxTDFCMHpPdnZjYys=
+mp.weixin.qq.com	FALSE	/	TRUE		slave_user	gh_af0a809ec87a
