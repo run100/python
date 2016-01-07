@@ -80,7 +80,7 @@ class QSBK:
         for item in story:
             inputstr = raw_input()
             self.loadPage()
-            if inputstr == '':
+            if inputstr == 'Q':
                 self.enable = False
                 return
             print u"第%d页\t发布人:%s\t发布时间:%s\t赞:%s\n%s" %(page,item[0],item[2],item[3],item[1])
