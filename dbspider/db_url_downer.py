@@ -8,10 +8,22 @@ __mtime__ = '2015/12/28'
     I love animals. They taste delicious.
 """
 
+import urllib
 import urllib2
 
 
 class DownLoader(object):
+
+    def __init__(self):
+        self.headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+            'Connection': 'keep-alive',
+            'Cache-Control': 'max-age=0'
+        }
+
+        self.proxy_url = '120.195.199.92:80'
+        self.proxy = urllib2.ProxyHandler({'http': self.proxy_url})
+        self.opener = urllib2.build_opener(self.proxy)
 
 
     def down(self, url):
@@ -20,7 +32,9 @@ class DownLoader(object):
             return None
 
         try:
-            resp = urllib2.urlopen(url)
+            #resp = urllib2.urlopen(url)
+            request = urllib2.Resquest(url, headers = self.headers)
+            resp = self.opener.open(request)
         except urllib2.HTTPError, e:
             print e.code
             print e.msg
