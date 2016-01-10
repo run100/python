@@ -21,7 +21,6 @@ class UrlParser(object):
             return None
 
         soup = BeautifulSoup(html_con, 'html.parser', from_encoding='utf-8')
-
         urls = self.get_data_urls(soup, page_url)
         content = self.get_data_content(soup, page_url)
 
@@ -42,9 +41,21 @@ class UrlParser(object):
 
         res_data['url'] = page_url
 
+        f = open('db.txt', 'w')
+        for line in soup:
+            new_line = str(line)
+            f.write(new_line)
+        f.close()
+
         # 匹配标题 <span property="v:itemreviewed">寻龙诀</span>
         title_node = soup.find('span', property="v:itemreviewed")
-        res_data['title'] = title_node.get_text()
+        if title_node is None:
+            res_data['title'] = title_node.get_text()
+        else:
+            print(page_url)
+            exit('title is none')
+
+        exit()
 
         # 匹配评分 <strong class="ll rating_num" property="v:average">8.0</strong>
         average_node = soup.find('strong', property="v:average")

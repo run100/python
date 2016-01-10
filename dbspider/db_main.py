@@ -54,7 +54,7 @@ class DbMain(object):
         #self.outputer.insert_mysql()
 
 if __name__ == '__main__':
-    base_url = 'http://movie.douban.com/subject/1465802/?from=subject-page'
+    base_url = 'http://movie.douban.com/subject/4848104/?from=subject-page'
     #base_url = 'http://movie.douban.com/subject/5912992/?from=subject-page'
     db_spider = DbMain()
     db_spider.craw(base_url)
