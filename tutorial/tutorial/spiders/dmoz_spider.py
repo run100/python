@@ -11,6 +11,8 @@ __mtime__ = '2016/1/15'
 from scrapy.spider import Spider
 from scrapy.selector import Selector
 
+from tutorial.items import DmozItem
+
 class DmozSpider(Spider):
     name = "dmoz"
     allowed_domains = ["dmoz.org"]
