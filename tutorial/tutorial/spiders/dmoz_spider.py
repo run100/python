@@ -21,9 +21,12 @@ class DmozSpider(Spider):
 
     def parse(self, response):
         sel = Selector(response)
-        sites = sel.xpath('//ul/li')
+        sites = sel.xpath('//ul[@class="directory-url"]/li')
+        items = []
         for site in sites:
-            title = site.xpath('a/text()').extract()
-            link = site.xpath('a/@href').extract()
-            desc = site.xpath('text()').extract()
-            print title
+            item = DmozItem()
+            item['title'] = site.xpath('a/text()').extract()
+            item['href'] = site.xpath('a/@href').extract()
+            item['desc'] = site.xpath('text()').extract()
+            items.append(item)
+        return items
