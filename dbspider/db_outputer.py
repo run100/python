@@ -12,6 +12,7 @@ import MySQLdb
 import time
 import sys
 import global1
+import datetime
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -38,15 +39,23 @@ class Outputer(object):
                        , charset=global1.MYSQL_CHARSET)
         cursor = conn.cursor()
 
+        addtime = str(time.time());
+        addtimestr = addtime[0:addtime.find('.')]
+
+        uptimestr = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%I")
+
         try:
             #for data in self.datas:
-            sql = "INSERT INTO douban_movies(title, url, average, summary)"
-            sql = sql + " VALUES(%s, %s, %s, %s) "
+
+            sql = "INSERT INTO douban_movies(title, url, average, summary, addtime, last_update_time)"
+            sql = sql + " VALUES(%s, %s, %s, %s, %s, %s) "
             #print(sql)
             param = (data['title'].encode('utf-8')
                      , data['url']
                      , data['average']
                      , data['summary'].encode('utf-8')
+                     , addtimestr
+                     , uptimestr
                     )
             #print(param)
             n = cursor.execute(sql, param)
