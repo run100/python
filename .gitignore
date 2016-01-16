@@ -1,4 +1,4 @@
 .idea/
 *pyc
 dbspider/global1.py
-*DS_Store
+*.DS_Store

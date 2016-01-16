@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS douban_movies_url(
   urlbase64 VARCHAR(255) NOT NULL DEFAULT '',
   iscrawl TINYINT(1) NOT NULL DEFAULT 0,
   addtime int(11) NOT NULL DEFAULT 0
-)
+);
 
 CREATE TABLE IF NOT EXISTS douban_movies(
   id int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
