@@ -21,7 +21,7 @@ class DownLoader(object):
             'Cache-Control': 'max-age=0'
         }
 
-        self.proxy_url = '120.192.92.188:80'
+        self.proxy_url = '61.162.184.7:8088'
         self.proxy = urllib2.ProxyHandler({'http': self.proxy_url})
         self.opener = urllib2.build_opener(self.proxy)
 

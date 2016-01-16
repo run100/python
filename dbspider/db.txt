@@ -4,32 +4,32 @@ html
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <meta content="webkit" name="renderer">
 <title>
-        超魔神英雄传 (豆瓣)
+        神勇战士 第二季 (豆瓣)
 </title>
 <meta content="cZdR4xxR7RxmM4zE" name="baidu-site-verification"/>
 <meta content="no-cache" http-equiv="Pragma">
 <meta content="Sun, 6 Mar 2005 01:00:00 GMT" http-equiv="Expires">
 <link href="/pics/movie/apple-touch-icon.png" rel="apple-touch-icon">
-<link href="http://img3.douban.com/f/shire/4c4a78bcb952fae81dae642b85d56f3cfcd9040c/css/douban.new_rating.css" rel="stylesheet" type="text/css">
-<link href="http://img3.douban.com/f/shire/d149e012d07540a0085b70c75310d28e3b365e6f/css/separation/_all.css" rel="stylesheet" type="text/css">
+<link href="http://img3.douban.com/f/shire/bdb62d45fb145651da30ac3fec98f21c40cfc962/css/douban.new_rating.css" rel="stylesheet" type="text/css">
+<link href="http://img3.douban.com/f/shire/905cdec30f13cd440e6f988dc5d2d99919f5a1d5/css/separation/_all.css" rel="stylesheet" type="text/css">
 <script type="text/javascript">var _head_start = new Date();</script>
 <script src="http://img3.douban.com/f/movie/e9d9543ebc06f2964039a2e94898f84ce77fc070/js/movie/lib/jquery.js" type="text/javascript"></script>
 <script src="http://img3.douban.com/f/shire/2bb3ef07133715de30da0e3bfcf048e8754e95ae/js/douban.new_rating.js" type="text/javascript"></script>
 <script src="http://img3.douban.com/f/shire/0a62663763aed4fe860029f99d1755b8caa524e7/js/separation/_all.js" type="text/javascript"></script>
-<meta content="超魔神英雄传,超魔神英雄伝ワタル,超魔神英雄传影评,剧情介绍,图片,论坛" name="keywords">
-<meta content="超魔神英雄传电视剧简介和剧情介绍,超魔神英雄传影评、图片、论坛" name="description">
-<meta content="format=html5; url=http://m.douban.com/movie/subject/11534752/" name="mobile-agent"/>
-<link href="android-app://com.douban.movie/doubanmovie/subject/11534752/" rel="alternate"/>
+<meta content="神勇战士 第二季,Bravest Warriors Season 2,神勇战士 第二季影评,剧情介绍,图片,论坛" name="keywords">
+<meta content="神勇战士 第二季电视剧简介和剧情介绍,神勇战士 第二季影评、图片、论坛" name="description">
+<meta content="format=html5; url=http://m.douban.com/movie/subject/25748240/" name="mobile-agent"/>
+<link href="android-app://com.douban.movie/doubanmovie/subject/25748240/" rel="alternate"/>
 <script data-cfg-autoload="false" src="http://img3.douban.com/f/shire/29449d396dacb28fd9949c709ccf02a46b910156/js/do.js" type="text/javascript"></script>
 <script type="text/javascript">
         Do.add('dialog', {path: 'http://img3.douban.com/f/shire/4b3bad5e25de78678d700dd5353570dce3e6bbcc/js/ui/dialog.js', type: 'js'});
-        Do.add('dialog-css', {path: 'http://img3.douban.com/f/shire/ae32cb8310a09ba836b958b79d2cd1e706db2fed/css/ui/dialog.css', type: 'css'});
+        Do.add('dialog-css', {path: 'http://img3.douban.com/f/shire/8377b9498330a2e6f056d863987cc7a37eb4d486/css/ui/dialog.css', type: 'css'});
         Do.add('handlebarsjs', {path: 'http://img3.douban.com/f/movie/ca54296583b9faa46ca0d1eec2c85d855a5f3ca1/js/movie/lib/handlebars.current.js', type: 'js'});
     </script>
 <style type="text/css">
 </style>
 <script type="text/javascript"></script>
-<link href="http://img3.douban.com/misc/mixed_static/1bc3015cbc2bf241.css" rel="stylesheet">
+<link href="http://img3.douban.com/misc/mixed_static/1a48c7d4d43bc892.css" rel="stylesheet">
 <link href="http://img3.douban.com/favicon.ico" rel="shortcut icon" type="image/x-icon">
 </link></link></meta></meta></link></link></link></meta></meta></meta></meta></head>
 <body>
@@ -37,7 +37,7 @@ html
 <div class="global-nav" id="db-global-nav">
 <div class="bd">
 <div class="top-nav-info">
-<a class="nav-login" href="http://www.douban.com/accounts/login?source=movie" rel="nofollow">登录</a>
+<a class="nav-login" href="https://www.douban.com/accounts/login?source=movie" rel="nofollow">登录</a>
 <a class="nav-register" href="http://www.douban.com/accounts/register?source=movie" rel="nofollow">注册</a>
 </div>
 <div class="top-nav-doubanapp">
@@ -88,7 +88,7 @@ html
 <li class="">
 <a data-moreurl-dict='{"from":"top-nav-click-commodity","uid":"0"}' href="http://dongxi.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">东西</a>
 </li>
-<li class="">
+<li class=" market-tip">
 <a data-moreurl-dict='{"from":"top-nav-click-market","uid":"0"}' href="https://market.douban.com/" target="_blank">市集</a>
 </li>
 <li>
@@ -198,8 +198,8 @@ html
 <div id="wrapper">
 <div id="content">
 <h1>
-<span property="v:itemreviewed">超魔神英雄传 超魔神英雄伝ワタル</span>
-<span class="year">(1997)</span>
+<span property="v:itemreviewed">神勇战士 第二季 Bravest Warriors Season 2</span>
+<span class="year">(2013)</span>
 </h1>
 <div class="grid-16-8 clearfix">
 <div class="article">
@@ -207,78 +207,78 @@ html
 <div class="subjectwrap clearfix" typeof="v:Movie" xmlns:v="http://rdf.data-vocabulary.org/#">
 <div class="subject clearfix">
 <div class="" id="mainpic">
-<a class="nbgnbg" href="http://img3.doubanio.com/lpic/s11150109.jpg" title="点击看大图">
-<img alt="超魔神英雄伝ワタル" rel="v:image" src="http://img3.doubanio.com/mpic/s11150109.jpg" title="点击看大图"/>
+<a class="nbgnbg" href="http://movie.douban.com/subject/25748240/photos?type=R" title="点击看更多海报">
+<img alt="Bravest Warriors" rel="v:image" src="http://img3.douban.com/view/movie_poster_cover/spst/public/p2177612750.jpg" title="点击看更多海报"/>
 </a>
 </div>
 <div id="info">
-<span><span class="pl">导演</span>: <span class="attrs"><a href="/search/%E4%BA%95%E5%86%85%E7%A7%80%E6%B2%BB" rel="v:directedBy">井内秀治</a></span></span><br/>
-<span><span class="pl">编剧</span>: <span class="attrs"><a href="/search/%E4%BA%95%E4%B8%8A%E6%95%8F%E6%A0%91">井上敏树</a> / <a href="/celebrity/1321127/">矢立肇</a> / <a href="/search/%E5%B7%9D%E5%B4%8E%E8%A3%95%E4%B9%8B">川崎裕之</a> / <a href="/search/%E5%B0%8F%E5%B1%B1%E9%AB%98%E7%94%9F">小山高生</a> / <a href="/search/%E4%B8%B8%E5%B0%BE%E7%BE%8E%E7%A9%97">丸尾美穗</a> / <a href="/search/%E7%9F%A2%E7%AB%8B%E8%82%87">矢立肇</a></span></span><br/>
-<span class="actor"><span class="pl">主演</span>: <span class="attrs"><a href="/search/%E7%94%B0%E4%B8%AD%E7%9C%9F%E5%BC%93" rel="v:starring">田中真弓</a> / <a href="/search/%E8%A5%BF%E6%9D%91%E7%9F%A5%E9%81%93" rel="v:starring">西村知道</a> / <a href="/search/%E6%9E%97%E5%8E%9F%E6%83%A0%E7%BE%8E" rel="v:starring">林原惠美</a> / <a href="/search/%E4%BC%8A%E4%BB%93%E4%B8%80%E6%81%B5" rel="v:starring">伊仓一恵</a></span></span><br/>
-<span class="pl">类型:</span> <span property="v:genre">动画</span> / <span property="v:genre">冒险</span><br/>
-<span class="pl">官方网站:</span> <a href="http://www.mashin-eiyuuden-wataru.net/" rel="nofollow" target="_blank">http://www.mashin-eiyuuden-wataru.net/</a><br/>
-<span class="pl">制片国家/地区:</span> 日本<br/>
-<span class="pl">语言:</span> 日语<br/>
-<span class="pl">首播:</span> <span content="1997-10-02" property="v:initialReleaseDate">1997-10-02</span><br/>
-<span class="pl">集数:</span> 51<br/>
-<span class="pl">单集片长:</span> 24分钟<br/>
-<span class="pl">又名:</span> 魔神英雄传3<br/>
-</div>
+<span><span class="pl">导演</span>: <span class="attrs"><a href="/celebrity/1332094/" rel="v:directedBy">彭德尔顿·沃德</a></span></span><br/>
+<span><span class="pl">编剧</span>: <span class="attrs"><a href="/search/Breehn%20Burns">Breehn Burns</a></span></span><br/>
+<span class="pl">类型:</span> <span property="v:genre">科幻</span> / <span property="v:genre">动画</span> / <span property="v:genre">短片</span><br/>
+<span class="pl">官方网站:</span> <a href="http://bravestwarriors.cartoonhangover.com/" rel="nofollow" target="_blank">http://bravestwarriors.cartoonhangover.com/</a><br/>
+<span class="pl">制片国家/地区:</span> 美国<br/>
+<span class="pl">语言:</span> 英语<br/>
+<span class="pl">首播:</span> <span content="2013-10-17" property="v:initialReleaseDate">2013-10-17</span><br/>
+<span class="pl">季数:</span> <select id="season"><option value="23229628">1</option><option selected="selected" value="25748240">2</option></select><br/>
+<span class="pl">集数:</span> 12<br/>
+<span class="pl">单集片长:</span> 6分钟<br/>
+<span class="pl">IMDb链接:</span> <a href="http://www.imdb.com/title/tt3263116" rel="nofollow" target="_blank">tt3263116</a><br>
+</br></div>
 </div>
 <div id="interest_sectl">
 <div class="rating_wrap clearbox" rel="v:rating">
 <div class="rating_logo">豆瓣评分</div>
 <div class="rating_self clearfix" typeof="v:Rating">
-<strong class="ll rating_num" property="v:average">8.3</strong>
+<strong class="ll rating_num" property="v:average">9.4</strong>
 <span content="10.0" property="v:best"></span>
 <div class="rating_right ">
-<div class="ll bigstar45"></div>
+<div class="ll bigstar50"></div>
 <div class="rating_sum">
-<a class="rating_people" href="collections"><span property="v:votes">429</span>人评价</a>
+<a class="rating_people" href="collections"><span property="v:votes">81</span>人评价</a>
 </div>
 </div>
 </div>
 <span class="stars5 starstop" title="力荐">
                     5星 
                 </span>
-<div class="power" style="width:60px"></div>
-<span class="rating_per">39.6%</span>
+<div class="power" style="width:64px"></div>
+<span class="rating_per">74.4%</span>
 <br/>
 <span class="stars4 starstop" title="推荐">
                     4星 
                 </span>
-<div class="power" style="width:64px"></div>
-<span class="rating_per">41.9%</span>
+<div class="power" style="width:18px"></div>
+<span class="rating_per">20.9%</span>
 <br/>
 <span class="stars3 starstop" title="还行">
                     3星 
                 </span>
-<div class="power" style="width:24px"></div>
-<span class="rating_per">15.8%</span>
+<div class="power" style="width:4px"></div>
+<span class="rating_per">4.7%</span>
 <br/>
 <span class="stars2 starstop" title="较差">
                     2星 
                 </span>
-<div class="power" style="width:2px"></div>
-<span class="rating_per">1.5%</span>
+<div class="power" style="width:0px"></div>
+<span class="rating_per">0.0%</span>
 <br/>
 <span class="stars1 starstop" title="很差">
                     1星 
                 </span>
-<div class="power" style="width:1px"></div>
-<span class="rating_per">1.1%</span>
+<div class="power" style="width:0px"></div>
+<span class="rating_per">0.0%</span>
 <br/>
 </div>
 </div>
 </div>
 <div class="clearfix" id="interest_sect_level">
-<a class="j a_show_login colbutt ll" href="http://www.douban.com/reason=collectwish&amp;ck=" name="pbtn-11534752-wish" rel="nofollow">
+<a class="j a_show_login colbutt ll" href="http://www.douban.com/reason=collectwish&amp;ck=" name="pbtn-25748240-wish" rel="nofollow">
 <span>想看</span>
 </a>
-<a class="j a_show_login colbutt ll" href="http://www.douban.com/reason=collectdo&amp;ck=" name="pbtn-11534752-do" rel="nofollow">
+<a class="j a_show_login colbutt ll" href="http://www.douban.com/reason=collectdo&amp;ck=" name="pbtn-25748240-do" rel="nofollow">
 <span>在看</span>
 </a>
-<a class="j a_show_login colbutt ll" href="http://www.douban.com/reason=collectcollect&amp;ck=" name="pbtn-11534752-collect" rel="nofollow">
+<a class="j a_show_login colbutt ll" href="http://www.douban.com/reason=collectcollect&amp;ck=" name="pbtn-25748240-collect" rel="nofollow">
 <span>看过</span>
 </a>
 <div class="ll j a_stars">
@@ -286,15 +286,15 @@ html
     
     评价:
     <span id="rating"><span data-hollow="http://img3.douban.com/f/shire/2520c01967207a1735171056ec588c8c1257e5f8/pics/rating_icons/star_hollow_hover.png" data-solid="http://img3.douban.com/f/shire/5a2327c04c0c231bced131ddf3f4467eb80c1c86/pics/rating_icons/star_onmouseover.png" id="stars">
-<a class="j a_show_login" href="http://www.douban.com/register?reason=rate" name="pbtn-11534752-1">
+<a class="j a_show_login" href="http://www.douban.com/register?reason=rate" name="pbtn-25748240-1">
 <img height="16" id="star1" src="http://img3.douban.com/f/shire/2520c01967207a1735171056ec588c8c1257e5f8/pics/rating_icons/star_hollow_hover.png" width="16"/></a>
-<a class="j a_show_login" href="http://www.douban.com/register?reason=rate" name="pbtn-11534752-2">
+<a class="j a_show_login" href="http://www.douban.com/register?reason=rate" name="pbtn-25748240-2">
 <img height="16" id="star2" src="http://img3.douban.com/f/shire/2520c01967207a1735171056ec588c8c1257e5f8/pics/rating_icons/star_hollow_hover.png" width="16"/></a>
-<a class="j a_show_login" href="http://www.douban.com/register?reason=rate" name="pbtn-11534752-3">
+<a class="j a_show_login" href="http://www.douban.com/register?reason=rate" name="pbtn-25748240-3">
 <img height="16" id="star3" src="http://img3.douban.com/f/shire/2520c01967207a1735171056ec588c8c1257e5f8/pics/rating_icons/star_hollow_hover.png" width="16"/></a>
-<a class="j a_show_login" href="http://www.douban.com/register?reason=rate" name="pbtn-11534752-4">
+<a class="j a_show_login" href="http://www.douban.com/register?reason=rate" name="pbtn-25748240-4">
 <img height="16" id="star4" src="http://img3.douban.com/f/shire/2520c01967207a1735171056ec588c8c1257e5f8/pics/rating_icons/star_hollow_hover.png" width="16"/></a>
-<a class="j a_show_login" href="http://www.douban.com/register?reason=rate" name="pbtn-11534752-5">
+<a class="j a_show_login" href="http://www.douban.com/register?reason=rate" name="pbtn-25748240-5">
 <img height="16" id="star5" src="http://img3.douban.com/f/shire/2520c01967207a1735171056ec588c8c1257e5f8/pics/rating_icons/star_hollow_hover.png" width="16"/></a>
 </span><span class="pl" id="rateword"></span>
 <input id="n_rating" type="hidden" value=""/>
@@ -314,8 +314,8 @@ html
 <li>
 </li>
 <li>
-<span class="rec" id="电视剧-11534752">
-<a class="bn-sharing " data-desc="电视剧《超魔神英雄传 超魔神英雄伝ワタル》 (来自豆瓣) " data-pic="http://img3.doubanio.com/lpic/s11150109.jpg" data-title="电视剧《超魔神英雄传 超魔神英雄伝ワタル》 (来自豆瓣) " data-type="电视剧" data-url="http://movie.douban.com/subject/11534752/" href="#">
+<span class="rec" id="电视剧-25748240">
+<a class="bn-sharing " data-desc="电视剧《神勇战士 第二季 Bravest Warriors Season 2》 (来自豆瓣) " data-pic="http://img3.douban.com/view/movie_poster_cover/lpst/public/p2177612750.jpg" data-title="电视剧《神勇战士 第二季 Bravest Warriors Season 2》 (来自豆瓣) " data-type="电视剧" data-url="http://movie.douban.com/subject/25748240/" href="#">
         分享到
     </a>   
     </span>
@@ -336,20 +336,20 @@ html
 
             if (typeof Do == 'function' && 'ready' in Do) {
                 Do(
-                    'http://img3.douban.com/f/shire/ae32cb8310a09ba836b958b79d2cd1e706db2fed/css/ui/dialog.css',
+                    'http://img3.douban.com/f/shire/8377b9498330a2e6f056d863987cc7a37eb4d486/css/ui/dialog.css',
                     'http://img3.douban.com/f/shire/4b3bad5e25de78678d700dd5353570dce3e6bbcc/js/ui/dialog.js',
                     'http://img3.douban.com/f/movie/c4ab132ff4d3d64a83854c875ea79b8b541faf12/js/movie/lib/qrcode.min.js',
                     initShareButton
                 );
             } else if(typeof Douban == 'object' && 'loader' in Douban) {
                 Douban.loader.batch(
-                    'http://img3.douban.com/f/shire/ae32cb8310a09ba836b958b79d2cd1e706db2fed/css/ui/dialog.css',
+                    'http://img3.douban.com/f/shire/8377b9498330a2e6f056d863987cc7a37eb4d486/css/ui/dialog.css',
                     'http://img3.douban.com/f/shire/4b3bad5e25de78678d700dd5353570dce3e6bbcc/js/ui/dialog.js',
                     'http://img3.douban.com/f/movie/c4ab132ff4d3d64a83854c875ea79b8b541faf12/js/movie/lib/qrcode.min.js'
                 ).done(initShareButton);
             }
 
-        })('http://img3.douban.com/f/movie/f1162ff10dc353ebb3697d83fc5b982b4e60b36c/js/movie/lib/sharebutton.js');
+        })('http://img3.douban.com/f/movie/2ec292f1a260672c94a9417e81b4f1667ed42583/js/movie/lib/sharebutton.js');
     </script>
 </li>
 </ul>
@@ -369,18 +369,18 @@ html
         <div class="clearfix form-bd">
             <div class="input-area">
                 <textarea name="text" class="share-text" cols="72" data-mention-api="https://api.douban.com/shuo/in/complete?alt=xd&amp;callback=?"></textarea>
-                <input type="hidden" name="target-id" value="11534752">
+                <input type="hidden" name="target-id" value="25748240">
                 <input type="hidden" name="target-type" value="0">
-                <input type="hidden" name="title" value="超魔神英雄传 超魔神英雄伝ワタル (1997)">
-                <input type="hidden" name="desc" value="导演 井内秀治 主演 田中真弓 / 西村知道 / 日本 / 8.3分(429评价)">
+                <input type="hidden" name="title" value="神勇战士 第二季 Bravest Warriors Season 2 (2013)">
+                <input type="hidden" name="desc" value="导演 彭德尔顿·沃德  / 美国 / 9.4分(81评价)">
                 <input type="hidden" name="redir" value=""/>
                 <div class="mentioned-highlighter"></div>
             </div>
 
             <div class="info-area">
-                    <img class="media" src="http://img3.doubanio.com/spic/s11150109.jpg" />
-                <strong>超魔神英雄传 超魔神英雄伝ワタル (1997)</strong>
-                <p>导演 井内秀治 主演 田中真弓 / 西村知道 / 日本 / 8.3分(429评价)</p>
+                    <img class="media" src="http://img3.douban.com/view/movie_poster_cover/ipst/public/p2177612750.jpg" />
+                <strong>神勇战士 第二季 Bravest Warriors Season 2 (2013)</strong>
+                <p>导演 彭德尔顿·沃德  / 美国 / 9.4分(81评价)</p>
                 <p class="error server-error">&nbsp;</p>
             </div>
         </div>
@@ -410,7 +410,7 @@ html
 
 
     </script>
-<a class="j a_show_login lnk-sharing" data-action_props='{"subject_url":"http:\/\/movie.douban.com\/subject\/11534752\/","subject_title":"超魔神英雄传 超魔神英雄伝ワタル (1997)"}' data-apikey="" data-count="10" data-curl="" data-desc="导演 井内秀治 主演 田中真弓 / 西村知道 / 日本 / 8.3分(429评价)" data-href="http://movie.douban.com/subject/11534752/" data-image="http://img3.doubanio.com/spic/s11150109.jpg" data-mode="plain" data-name="超魔神英雄传 超魔神英雄伝ワタル (1997)" data-object_id="11534752" data-object_kind="1002" data-properties="{}" data-redir="" data-target_action="1" data-target_type="rec" data-text="" data-type="movie" href="/accounts/register?reason=recommend" share-id="11534752">推荐</a>
+<a class="j a_show_login lnk-sharing" data-action_props='{"subject_url":"http:\/\/movie.douban.com\/subject\/25748240\/","subject_title":"神勇战士 第二季 Bravest Warriors Season 2 (2013)"}' data-apikey="" data-count="10" data-curl="" data-desc="导演 彭德尔顿·沃德  / 美国 / 9.4分(81评价)" data-href="http://movie.douban.com/subject/25748240/" data-image="http://img3.douban.com/view/movie_poster_cover/ipst/public/p2177612750.jpg" data-mode="plain" data-name="神勇战士 第二季 Bravest Warriors Season 2 (2013)" data-object_id="25748240" data-object_kind="1002" data-properties="{}" data-redir="" data-target_action="1" data-target_type="rec" data-text="" data-type="movie" href="/accounts/register?reason=recommend" share-id="25748240">推荐</a>
 </span>
 </div>
 <script type="text/javascript">
@@ -426,98 +426,52 @@ html
                 });
             </script>
 </div>
-<div id="collect_form_11534752"></div>
+<div id="collect_form_25748240"></div>
 <h2>
-<i class="">超魔神英雄传的分集短评</i>
+<i class="">神勇战士 第二季的分集短评</i>
               · · · · · ·
     </h2>
 <div class="episode_list">
-<a class=" item" href="/subject/11534752/episode/1/">1集</a>
-<a class=" item" href="/subject/11534752/episode/2/">2集</a>
-<a class=" item" href="/subject/11534752/episode/3/">3集</a>
-<a class=" item" href="/subject/11534752/episode/4/">4集</a>
-<a class=" item" href="/subject/11534752/episode/5/">5集</a>
-<a class=" item" href="/subject/11534752/episode/6/">6集</a>
-<a class=" item" href="/subject/11534752/episode/7/">7集</a>
-<a class=" item" href="/subject/11534752/episode/8/">8集</a>
-<a class=" item" href="/subject/11534752/episode/9/">9集</a>
-<a class=" item" href="/subject/11534752/episode/10/">10集</a>
-<a class=" item" href="/subject/11534752/episode/11/">11集</a>
-<a class=" item" href="/subject/11534752/episode/12/">12集</a>
-<a class=" item" href="/subject/11534752/episode/13/">13集</a>
-<a class=" item" href="/subject/11534752/episode/14/">14集</a>
-<a class=" item" href="/subject/11534752/episode/15/">15集</a>
-<a class=" item" href="/subject/11534752/episode/16/">16集</a>
-<a class=" item" href="/subject/11534752/episode/17/">17集</a>
-<a class=" item" href="/subject/11534752/episode/18/">18集</a>
-<a class=" item" href="/subject/11534752/episode/19/">19集</a>
-<a class="hide item" href="/subject/11534752/episode/20/">20集</a>
-<a class="hide item" href="/subject/11534752/episode/21/">21集</a>
-<a class="hide item" href="/subject/11534752/episode/22/">22集</a>
-<a class="hide item" href="/subject/11534752/episode/23/">23集</a>
-<a class="hide item" href="/subject/11534752/episode/24/">24集</a>
-<a class="hide item" href="/subject/11534752/episode/25/">25集</a>
-<a class="hide item" href="/subject/11534752/episode/26/">26集</a>
-<a class="hide item" href="/subject/11534752/episode/27/">27集</a>
-<a class="hide item" href="/subject/11534752/episode/28/">28集</a>
-<a class="hide item" href="/subject/11534752/episode/29/">29集</a>
-<a class="hide item" href="/subject/11534752/episode/30/">30集</a>
-<a class="hide item" href="/subject/11534752/episode/31/">31集</a>
-<a class="hide item" href="/subject/11534752/episode/32/">32集</a>
-<a class="hide item" href="/subject/11534752/episode/33/">33集</a>
-<a class="hide item" href="/subject/11534752/episode/34/">34集</a>
-<a class="hide item" href="/subject/11534752/episode/35/">35集</a>
-<a class="hide item" href="/subject/11534752/episode/36/">36集</a>
-<a class="hide item" href="/subject/11534752/episode/37/">37集</a>
-<a class="hide item" href="/subject/11534752/episode/38/">38集</a>
-<a class="hide item" href="/subject/11534752/episode/39/">39集</a>
-<a class="hide item" href="/subject/11534752/episode/40/">40集</a>
-<a class="hide item" href="/subject/11534752/episode/41/">41集</a>
-<a class="hide item" href="/subject/11534752/episode/42/">42集</a>
-<a class="hide item" href="/subject/11534752/episode/43/">43集</a>
-<a class="hide item" href="/subject/11534752/episode/44/">44集</a>
-<a class="hide item" href="/subject/11534752/episode/45/">45集</a>
-<a class="hide item" href="/subject/11534752/episode/46/">46集</a>
-<a class="hide item" href="/subject/11534752/episode/47/">47集</a>
-<a class="hide item" href="/subject/11534752/episode/48/">48集</a>
-<a class="hide item" href="/subject/11534752/episode/49/">49集</a>
-<a class="hide item" href="/subject/11534752/episode/50/">50集</a>
-<a class="hide item" href="/subject/11534752/episode/51/">51集</a>
-<a class="ep_more" href="#"><span></span></a>
+<a class=" item" href="/subject/25748240/episode/1/">1集</a>
+<a class=" item" href="/subject/25748240/episode/2/">2集</a>
+<a class=" item" href="/subject/25748240/episode/3/">3集</a>
+<a class=" item" href="/subject/25748240/episode/4/">4集</a>
+<a class=" item" href="/subject/25748240/episode/5/">5集</a>
+<a class=" item" href="/subject/25748240/episode/6/">6集</a>
+<a class=" item" href="/subject/25748240/episode/7/">7集</a>
+<a class=" item" href="/subject/25748240/episode/8/">8集</a>
+<a class=" item" href="/subject/25748240/episode/9/">9集</a>
+<a class=" item" href="/subject/25748240/episode/10/">10集</a>
+<a class=" item" href="/subject/25748240/episode/11/">11集</a>
+<a class=" item" href="/subject/25748240/episode/12/">12集</a>
 </div>
 <div class="related-info" style="margin-bottom:-10px;">
 <a name="intro"></a>
-<h2>超魔神英雄传的剧情简介  ·  ·  ·  ·  ·  ·</h2>
-<div class="indent" id="link-report">
-<span class="" property="v:summary">
-                                　　魔王暗黑达的力量潜入现生界，盗走了救世主战部渡的良心使他成为不良少年且忘记了关于创界山的一切，同时魔界又一次大举入侵创界山，第七界层神秘地消失。施巴拉古大师（港译：剑部武一郎）和忍部火美子来到现生界将战部渡带回创界山，经过一场和魔界魔神的战斗之后渡恢复了一切有关的记忆。为了使创界山恢复和平并找回自己的良心。战部渡与一批新老朋友们开始了又一次的征途。
-                        </span>
-</div>
 </div>
 <div class="related-pic" id="related-pic">
 <h2>
-<i class="">超魔神英雄传的电视剧图片</i>
+<i class="">神勇战士 第二季的电视剧图片</i>
               · · · · · ·
             <span class="pl">
             (
-                <a href="http://movie.douban.com/subject/11534752/all_photos">全部22</a> |  <a href="http://movie.douban.com/subject/11534752/mupload">添加图片</a>
+                <a href="http://movie.douban.com/subject/25748240/all_photos">全部23</a> |  <a href="http://movie.douban.com/subject/25748240/mupload">添加图片</a>
             ) </span>
 </h2>
 <ul class="related-pic-bd">
 <li>
-<a href="http://movie.douban.com/photos/photo/1787167991/"><img alt="图片" src="http://img3.douban.com/view/photo/albumicon/public/p1787167991.jpg"/></a>
+<a href="http://movie.douban.com/photos/photo/2170117232/"><img alt="图片" src="http://img3.douban.com/view/photo/albumicon/public/p2170117232.jpg"/></a>
 </li>
 <li>
-<a href="http://movie.douban.com/photos/photo/1787167988/"><img alt="图片" src="http://img3.doubanio.com/view/photo/albumicon/public/p1787167988.jpg"/></a>
+<a href="http://movie.douban.com/photos/photo/2189518459/"><img alt="图片" src="http://img3.doubanio.com/view/photo/albumicon/public/p2189518459.jpg"/></a>
 </li>
 <li>
-<a href="http://movie.douban.com/photos/photo/1787167961/"><img alt="图片" src="http://img3.douban.com/view/photo/albumicon/public/p1787167961.jpg"/></a>
+<a href="http://movie.douban.com/photos/photo/2189518450/"><img alt="图片" src="http://img3.douban.com/view/photo/albumicon/public/p2189518450.jpg"/></a>
 </li>
 <li>
-<a href="http://movie.douban.com/photos/photo/1787167940/"><img alt="图片" src="http://img3.douban.com/view/photo/albumicon/public/p1787167940.jpg"/></a>
+<a href="http://movie.douban.com/photos/photo/2189518436/"><img alt="图片" src="http://img3.doubanio.com/view/photo/albumicon/public/p2189518436.jpg"/></a>
 </li>
 <li>
-<a href="http://movie.douban.com/photos/photo/1787167914/"><img alt="图片" src="http://img3.douban.com/view/photo/albumicon/public/p1787167914.jpg"/></a>
+<a href="http://movie.douban.com/photos/photo/2189518426/"><img alt="图片" src="http://img3.doubanio.com/view/photo/albumicon/public/p2189518426.jpg"/></a>
 </li>
 </ul>
 </div>
@@ -532,83 +486,72 @@ html
               · · · · · ·
             <span class="pl">
             (
-                <a href="http://movie.douban.com/subject/11534752/discussion/">全部</a>
+                <a href="http://movie.douban.com/subject/25748240/discussion/">全部</a>
             ) </span>
 </h2>
 <div class="bd">
 <div class="mv-discussion-nav">
-<a class="on" href="http://movie.douban.com/subject/11534752/discussion/">最新</a>
-<a data-epid="hot" href="http://movie.douban.com/subject/11534752/discussion/?sort=vote">热门</a>
-<a data-epid="596127" data-num="1" href="http://movie.douban.com/subject/11534752/discussion_episode/1/">1集</a>
-<a data-epid="596128" data-num="2" href="http://movie.douban.com/subject/11534752/discussion_episode/2/">2集</a>
-<a data-epid="596129" data-num="3" href="http://movie.douban.com/subject/11534752/discussion_episode/3/">3集</a>
-<a data-epid="596130" data-num="4" href="http://movie.douban.com/subject/11534752/discussion_episode/4/">4集</a>
-<a data-epid="596131" data-num="5" href="http://movie.douban.com/subject/11534752/discussion_episode/5/">5集</a>
-<a data-epid="596132" data-num="6" href="http://movie.douban.com/subject/11534752/discussion_episode/6/">6集</a>
-<a data-epid="596133" data-num="7" href="http://movie.douban.com/subject/11534752/discussion_episode/7/">7集</a>
-<a data-epid="more" href="http://movie.douban.com/subject/11534752/discussion/" title="更多">…</a>
-<a class="more-item" data-epid="596134" data-num="8" href="http://movie.douban.com/subject/11534752/discussion_episode/8/">8集</a>
-<a class="more-item" data-epid="596135" data-num="9" href="http://movie.douban.com/subject/11534752/discussion_episode/9/">9集</a>
-<a class="more-item" data-epid="596136" data-num="10" href="http://movie.douban.com/subject/11534752/discussion_episode/10/">10集</a>
-<a class="more-item" data-epid="596137" data-num="11" href="http://movie.douban.com/subject/11534752/discussion_episode/11/">11集</a>
-<a class="more-item" data-epid="596138" data-num="12" href="http://movie.douban.com/subject/11534752/discussion_episode/12/">12集</a>
-<a class="more-item" data-epid="596139" data-num="13" href="http://movie.douban.com/subject/11534752/discussion_episode/13/">13集</a>
-<a class="more-item" data-epid="596140" data-num="14" href="http://movie.douban.com/subject/11534752/discussion_episode/14/">14集</a>
-<a class="more-item" data-epid="596141" data-num="15" href="http://movie.douban.com/subject/11534752/discussion_episode/15/">15集</a>
-<a class="more-item" data-epid="596142" data-num="16" href="http://movie.douban.com/subject/11534752/discussion_episode/16/">16集</a>
-<a class="more-item" data-epid="596143" data-num="17" href="http://movie.douban.com/subject/11534752/discussion_episode/17/">17集</a>
-<a class="more-item" data-epid="596144" data-num="18" href="http://movie.douban.com/subject/11534752/discussion_episode/18/">18集</a>
-<a class="more-item" data-epid="596145" data-num="19" href="http://movie.douban.com/subject/11534752/discussion_episode/19/">19集</a>
-<a class="more-item" data-epid="596146" data-num="20" href="http://movie.douban.com/subject/11534752/discussion_episode/20/">20集</a>
-<a class="more-item" data-epid="596147" data-num="21" href="http://movie.douban.com/subject/11534752/discussion_episode/21/">21集</a>
-<a class="more-item" data-epid="596148" data-num="22" href="http://movie.douban.com/subject/11534752/discussion_episode/22/">22集</a>
-<a class="more-item" data-epid="596149" data-num="23" href="http://movie.douban.com/subject/11534752/discussion_episode/23/">23集</a>
-<a class="more-item" data-epid="596150" data-num="24" href="http://movie.douban.com/subject/11534752/discussion_episode/24/">24集</a>
-<a class="more-item" data-epid="596151" data-num="25" href="http://movie.douban.com/subject/11534752/discussion_episode/25/">25集</a>
-<a class="more-item" data-epid="596152" data-num="26" href="http://movie.douban.com/subject/11534752/discussion_episode/26/">26集</a>
-<a class="more-item" data-epid="596153" data-num="27" href="http://movie.douban.com/subject/11534752/discussion_episode/27/">27集</a>
-<a class="more-item" data-epid="596154" data-num="28" href="http://movie.douban.com/subject/11534752/discussion_episode/28/">28集</a>
-<a class="more-item" data-epid="596155" data-num="29" href="http://movie.douban.com/subject/11534752/discussion_episode/29/">29集</a>
-<a class="more-item" data-epid="596156" data-num="30" href="http://movie.douban.com/subject/11534752/discussion_episode/30/">30集</a>
-<a class="more-item" data-epid="596157" data-num="31" href="http://movie.douban.com/subject/11534752/discussion_episode/31/">31集</a>
-<a class="more-item" data-epid="596158" data-num="32" href="http://movie.douban.com/subject/11534752/discussion_episode/32/">32集</a>
-<a class="more-item" data-epid="596159" data-num="33" href="http://movie.douban.com/subject/11534752/discussion_episode/33/">33集</a>
-<a class="more-item" data-epid="596160" data-num="34" href="http://movie.douban.com/subject/11534752/discussion_episode/34/">34集</a>
-<a class="more-item" data-epid="596161" data-num="35" href="http://movie.douban.com/subject/11534752/discussion_episode/35/">35集</a>
-<a class="more-item" data-epid="596162" data-num="36" href="http://movie.douban.com/subject/11534752/discussion_episode/36/">36集</a>
-<a class="more-item" data-epid="596163" data-num="37" href="http://movie.douban.com/subject/11534752/discussion_episode/37/">37集</a>
-<a class="more-item" data-epid="596164" data-num="38" href="http://movie.douban.com/subject/11534752/discussion_episode/38/">38集</a>
-<a class="more-item" data-epid="596165" data-num="39" href="http://movie.douban.com/subject/11534752/discussion_episode/39/">39集</a>
-<a class="more-item" data-epid="596166" data-num="40" href="http://movie.douban.com/subject/11534752/discussion_episode/40/">40集</a>
-<a class="more-item" data-epid="596167" data-num="41" href="http://movie.douban.com/subject/11534752/discussion_episode/41/">41集</a>
-<a class="more-item" data-epid="596168" data-num="42" href="http://movie.douban.com/subject/11534752/discussion_episode/42/">42集</a>
-<a class="more-item" data-epid="596169" data-num="43" href="http://movie.douban.com/subject/11534752/discussion_episode/43/">43集</a>
-<a class="more-item" data-epid="596170" data-num="44" href="http://movie.douban.com/subject/11534752/discussion_episode/44/">44集</a>
-<a class="more-item" data-epid="596171" data-num="45" href="http://movie.douban.com/subject/11534752/discussion_episode/45/">45集</a>
-<a class="more-item" data-epid="596172" data-num="46" href="http://movie.douban.com/subject/11534752/discussion_episode/46/">46集</a>
-<a class="more-item" data-epid="596173" data-num="47" href="http://movie.douban.com/subject/11534752/discussion_episode/47/">47集</a>
-<a class="more-item" data-epid="596174" data-num="48" href="http://movie.douban.com/subject/11534752/discussion_episode/48/">48集</a>
-<a class="more-item" data-epid="596175" data-num="49" href="http://movie.douban.com/subject/11534752/discussion_episode/49/">49集</a>
-<a class="more-item" data-epid="596176" data-num="50" href="http://movie.douban.com/subject/11534752/discussion_episode/50/">50集</a>
-<a class="more-item" data-epid="596177" data-num="51" href="http://movie.douban.com/subject/11534752/discussion_episode/51/">51集</a>
+<a class="on" href="http://movie.douban.com/subject/25748240/discussion/">最新</a>
+<a data-epid="hot" href="http://movie.douban.com/subject/25748240/discussion/?sort=vote">热门</a>
+<a data-epid="743212" data-num="1" href="http://movie.douban.com/subject/25748240/discussion_episode/1/">1集</a>
+<a data-epid="743213" data-num="2" href="http://movie.douban.com/subject/25748240/discussion_episode/2/">2集</a>
+<a data-epid="796991" data-num="3" href="http://movie.douban.com/subject/25748240/discussion_episode/3/">3集</a>
+<a data-epid="796992" data-num="4" href="http://movie.douban.com/subject/25748240/discussion_episode/4/">4集</a>
+<a data-epid="796993" data-num="5" href="http://movie.douban.com/subject/25748240/discussion_episode/5/">5集</a>
+<a data-epid="796994" data-num="6" href="http://movie.douban.com/subject/25748240/discussion_episode/6/">6集</a>
+<a data-epid="796995" data-num="7" href="http://movie.douban.com/subject/25748240/discussion_episode/7/">7集</a>
+<a data-epid="more" href="http://movie.douban.com/subject/25748240/discussion/" title="更多">…</a>
+<a class="more-item" data-epid="796996" data-num="8" href="http://movie.douban.com/subject/25748240/discussion_episode/8/">8集</a>
+<a class="more-item" data-epid="796997" data-num="9" href="http://movie.douban.com/subject/25748240/discussion_episode/9/">9集</a>
+<a class="more-item" data-epid="796998" data-num="10" href="http://movie.douban.com/subject/25748240/discussion_episode/10/">10集</a>
+<a class="more-item" data-epid="796999" data-num="11" href="http://movie.douban.com/subject/25748240/discussion_episode/11/">11集</a>
+<a class="more-item" data-epid="797000" data-num="12" href="http://movie.douban.com/subject/25748240/discussion_episode/12/">12集</a>
 </div>
 <div class="mv-discussion-list discussion-list">
-<div class="blank">
-  (还没有讨论, 
-  <a class=" j a_show_login" href="http://www.douban.com/register?reason=discussion" rel="nofollow">
-<span>来做第一个</span>
-</a>
-)
-</div>
+<table>
+<thead>
+<tr>
+<td>话题</td>
+<td>作者</td>
+<td nowrap="nowrap">回应</td>
+<td align="right">最后回应</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="title">
+<a href="http://movie.douban.com/subject/25748240/discussion/58887981/" title="窝糙就没人喜欢不可熊吗">窝糙就没人喜欢不可熊吗</a>
+</td>
+<td><a href="http://www.douban.com/people/3911882/">sidK</a></td>
+<td class="reply-num"></td>
+<td class="time">2014-09-24 10:44</td>
+</tr>
+</tbody>
+</table>
+<a href="http://movie.douban.com/subject/25748240/discussion/">&gt; 全部讨论1条</a>
 </div>
 <div class="mv-hot-discussion-list hide">
-<div class="blank">
-  (还没有讨论, 
-  <a class=" j a_show_login" href="http://www.douban.com/register?reason=discussion" rel="nofollow">
-<span>来做第一个</span>
-</a>
-)
-</div>
+<table>
+<thead>
+<tr>
+<td>话题</td>
+<td>作者</td>
+<td nowrap="nowrap">回应</td>
+<td align="right">最后回应</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="title">
+<a href="http://movie.douban.com/subject/25748240/discussion/58887981/" title="窝糙就没人喜欢不可熊吗">窝糙就没人喜欢不可熊吗</a>
+</td>
+<td><a href="http://www.douban.com/people/3911882/">sidK</a></td>
+<td class="reply-num"></td>
+<td class="time">2014-09-24 10:44</td>
+</tr>
+</tbody>
+</table>
+<a href="http://movie.douban.com/subject/25748240/discussion/?sort=vote">&gt; 全部讨论1条</a>
 </div>
 </div>
 </div>
@@ -629,102 +572,102 @@ html
 <div class="recommendations-bd">
 <dl class="">
 <dt>
-<a data-moreurl-dict='{"subject_id":"11534752","from":"tv-recommended-subject","bid":"Ij\/ssEASXL4"}' href="http://movie.douban.com/subject/3722625/?from=subject-page">
-<img alt="魔神英雄传2" class="" src="http://img3.douban.com/mpic/s3776340.jpg"/>
+<a data-moreurl-dict='{"subject_id":"25748240","from":"tv-recommended-subject","bid":"NlruqCMFdM0"}' href="http://movie.douban.com/subject/26268851/?from=subject-page">
+<img alt="天兵公园 第六季" class="" src="http://img3.doubanio.com/view/movie_poster_cover/spst/public/p2212993826.jpg"/>
 </a>
 </dt>
 <dd>
-<a class="" data-moreurl-dict='{"subject_id":"11534752","from":"tv-recommended-subject","bid":"Ij\/ssEASXL4"}' href="http://movie.douban.com/subject/3722625/?from=subject-page">魔神英雄传2</a>
+<a class="" data-moreurl-dict='{"subject_id":"25748240","from":"tv-recommended-subject","bid":"NlruqCMFdM0"}' href="http://movie.douban.com/subject/26268851/?from=subject-page">天兵公园 第六季</a>
 </dd>
 </dl>
 <dl class="">
 <dt>
-<a data-moreurl-dict='{"subject_id":"11534752","from":"tv-recommended-subject","bid":"Ij\/ssEASXL4"}' href="http://movie.douban.com/subject/3773947/?from=subject-page">
-<img alt="真魔神英雄传 魔神山篇" class="" src="http://img3.douban.com/mpic/s3820962.jpg"/>
+<a data-moreurl-dict='{"subject_id":"25748240","from":"tv-recommended-subject","bid":"NlruqCMFdM0"}' href="http://movie.douban.com/subject/26331162/?from=subject-page">
+<img alt="我的小马驹：友谊大魔法 第五季" class="" src="http://img3.doubanio.com/view/movie_poster_cover/spst/public/p2290632996.jpg"/>
 </a>
 </dt>
 <dd>
-<a class="" data-moreurl-dict='{"subject_id":"11534752","from":"tv-recommended-subject","bid":"Ij\/ssEASXL4"}' href="http://movie.douban.com/subject/3773947/?from=subject-page">真魔神英雄传 魔神山篇</a>
+<a class="" data-moreurl-dict='{"subject_id":"25748240","from":"tv-recommended-subject","bid":"NlruqCMFdM0"}' href="http://movie.douban.com/subject/26331162/?from=subject-page">我的小马驹：友谊大魔法 第五季</a>
 </dd>
 </dl>
 <dl class="">
 <dt>
-<a data-moreurl-dict='{"subject_id":"11534752","from":"tv-recommended-subject","bid":"Ij\/ssEASXL4"}' href="http://movie.douban.com/subject/2990288/?from=subject-page">
-<img alt="四驱兄弟II" class="" src="http://img3.douban.com/mpic/s4176971.jpg"/>
+<a data-moreurl-dict='{"subject_id":"25748240","from":"tv-recommended-subject","bid":"NlruqCMFdM0"}' href="http://movie.douban.com/subject/25710779/?from=subject-page">
+<img alt="碧与汪喵 第一季" class="" src="http://img3.douban.com/view/movie_poster_cover/spst/public/p2245710175.jpg"/>
 </a>
 </dt>
 <dd>
-<a class="" data-moreurl-dict='{"subject_id":"11534752","from":"tv-recommended-subject","bid":"Ij\/ssEASXL4"}' href="http://movie.douban.com/subject/2990288/?from=subject-page">四驱兄弟II</a>
+<a class="" data-moreurl-dict='{"subject_id":"25748240","from":"tv-recommended-subject","bid":"NlruqCMFdM0"}' href="http://movie.douban.com/subject/25710779/?from=subject-page">碧与汪喵 第一季</a>
 </dd>
 </dl>
 <dl class="">
 <dt>
-<a data-moreurl-dict='{"subject_id":"11534752","from":"tv-recommended-subject","bid":"Ij\/ssEASXL4"}' href="http://movie.douban.com/subject/6788330/?from=subject-page">
-<img alt="神奇宝贝：皮丘与皮卡丘" class="" src="http://img3.douban.com/mpic/s6861354.jpg"/>
+<a data-moreurl-dict='{"subject_id":"25748240","from":"tv-recommended-subject","bid":"NlruqCMFdM0"}' href="http://movie.douban.com/subject/25741912/?from=subject-page">
+<img alt="宇宙小子 第一季" class="" src="http://img3.douban.com/view/movie_poster_cover/spst/public/p2153244131.jpg"/>
 </a>
 </dt>
 <dd>
-<a class="" data-moreurl-dict='{"subject_id":"11534752","from":"tv-recommended-subject","bid":"Ij\/ssEASXL4"}' href="http://movie.douban.com/subject/6788330/?from=subject-page">神奇宝贝：皮丘与皮卡丘</a>
+<a class="" data-moreurl-dict='{"subject_id":"25748240","from":"tv-recommended-subject","bid":"NlruqCMFdM0"}' href="http://movie.douban.com/subject/25741912/?from=subject-page">宇宙小子 第一季</a>
 </dd>
 </dl>
 <dl class="">
 <dt>
-<a data-moreurl-dict='{"subject_id":"11534752","from":"tv-recommended-subject","bid":"Ij\/ssEASXL4"}' href="http://movie.douban.com/subject/3214254/?from=subject-page">
-<img alt="魔动王 最后的魔法大战" class="" src="http://img3.doubanio.com/mpic/s3283596.jpg"/>
+<a data-moreurl-dict='{"subject_id":"25748240","from":"tv-recommended-subject","bid":"NlruqCMFdM0"}' href="http://movie.douban.com/subject/20451424/?from=subject-page">
+<img alt="探险活宝 第三季" class="" src="http://img3.douban.com/view/movie_poster_cover/spst/public/p2218779805.jpg"/>
 </a>
 </dt>
 <dd>
-<a class="" data-moreurl-dict='{"subject_id":"11534752","from":"tv-recommended-subject","bid":"Ij\/ssEASXL4"}' href="http://movie.douban.com/subject/3214254/?from=subject-page">魔动王 最后的魔法大战</a>
+<a class="" data-moreurl-dict='{"subject_id":"25748240","from":"tv-recommended-subject","bid":"NlruqCMFdM0"}' href="http://movie.douban.com/subject/20451424/?from=subject-page">探险活宝 第三季</a>
 </dd>
 </dl>
 <dl class="">
 <dt>
-<a data-moreurl-dict='{"subject_id":"11534752","from":"tv-recommended-subject","bid":"Ij\/ssEASXL4"}' href="http://movie.douban.com/subject/5948610/?from=subject-page">
-<img alt="爆旋陀螺" class="" src="http://img3.doubanio.com/mpic/s4611898.jpg"/>
+<a data-moreurl-dict='{"subject_id":"25748240","from":"tv-recommended-subject","bid":"NlruqCMFdM0"}' href="http://movie.douban.com/subject/26311996/?from=subject-page">
+<img alt="阿甘妙世界 第三季" class="" src="http://img3.douban.com/view/movie_poster_cover/spst/public/p2236785693.jpg"/>
 </a>
 </dt>
 <dd>
-<a class="" data-moreurl-dict='{"subject_id":"11534752","from":"tv-recommended-subject","bid":"Ij\/ssEASXL4"}' href="http://movie.douban.com/subject/5948610/?from=subject-page">爆旋陀螺</a>
+<a class="" data-moreurl-dict='{"subject_id":"25748240","from":"tv-recommended-subject","bid":"NlruqCMFdM0"}' href="http://movie.douban.com/subject/26311996/?from=subject-page">阿甘妙世界 第三季</a>
 </dd>
 </dl>
 <dl class="">
 <dt>
-<a data-moreurl-dict='{"subject_id":"11534752","from":"tv-recommended-subject","bid":"Ij\/ssEASXL4"}' href="http://movie.douban.com/subject/2350766/?from=subject-page">
-<img alt="忍者神龟 第一季" class="" src="http://img3.doubanio.com/mpic/s2813018.jpg"/>
+<a data-moreurl-dict='{"subject_id":"25748240","from":"tv-recommended-subject","bid":"NlruqCMFdM0"}' href="http://movie.douban.com/subject/11516534/?from=subject-page">
+<img alt="阿甘妙世界 第一季" class="" src="http://img3.douban.com/mpic/s21863413.jpg"/>
 </a>
 </dt>
 <dd>
-<a class="" data-moreurl-dict='{"subject_id":"11534752","from":"tv-recommended-subject","bid":"Ij\/ssEASXL4"}' href="http://movie.douban.com/subject/2350766/?from=subject-page">忍者神龟 第一季</a>
+<a class="" data-moreurl-dict='{"subject_id":"25748240","from":"tv-recommended-subject","bid":"NlruqCMFdM0"}' href="http://movie.douban.com/subject/11516534/?from=subject-page">阿甘妙世界 第一季</a>
 </dd>
 </dl>
 <dl class="">
 <dt>
-<a data-moreurl-dict='{"subject_id":"11534752","from":"tv-recommended-subject","bid":"Ij\/ssEASXL4"}' href="http://movie.douban.com/subject/3444345/?from=subject-page">
-<img alt="圣斗士星矢(终于身世大白！一辉之谜)" class="" src="http://img3.doubanio.com/mpic/s3572749.jpg"/>
+<a data-moreurl-dict='{"subject_id":"25748240","from":"tv-recommended-subject","bid":"NlruqCMFdM0"}' href="http://movie.douban.com/subject/1958542/?from=subject-page">
+<img alt="PP鸡仔和整个儿世界" class="" src="http://img3.doubanio.com/mpic/s2665968.jpg"/>
 </a>
 </dt>
 <dd>
-<a class="" data-moreurl-dict='{"subject_id":"11534752","from":"tv-recommended-subject","bid":"Ij\/ssEASXL4"}' href="http://movie.douban.com/subject/3444345/?from=subject-page">圣斗士星矢(终于身世大白！一...</a>
+<a class="" data-moreurl-dict='{"subject_id":"25748240","from":"tv-recommended-subject","bid":"NlruqCMFdM0"}' href="http://movie.douban.com/subject/1958542/?from=subject-page">PP鸡仔和整个儿世界</a>
 </dd>
 </dl>
 <dl class="">
 <dt>
-<a data-moreurl-dict='{"subject_id":"11534752","from":"tv-recommended-subject","bid":"Ij\/ssEASXL4"}' href="http://movie.douban.com/subject/5159101/?from=subject-page">
-<img alt="新足球小将" class="" src="http://img3.doubanio.com/mpic/s4579366.jpg"/>
+<a data-moreurl-dict='{"subject_id":"25748240","from":"tv-recommended-subject","bid":"NlruqCMFdM0"}' href="http://movie.douban.com/subject/3443051/?from=subject-page">
+<img alt="人人都爱催眠蛤蟆" class="" src="http://img3.douban.com/view/movie_poster_cover/spst/public/p2267701135.jpg"/>
 </a>
 </dt>
 <dd>
-<a class="" data-moreurl-dict='{"subject_id":"11534752","from":"tv-recommended-subject","bid":"Ij\/ssEASXL4"}' href="http://movie.douban.com/subject/5159101/?from=subject-page">新足球小将</a>
+<a class="" data-moreurl-dict='{"subject_id":"25748240","from":"tv-recommended-subject","bid":"NlruqCMFdM0"}' href="http://movie.douban.com/subject/3443051/?from=subject-page">人人都爱催眠蛤蟆</a>
 </dd>
 </dl>
 <dl class="">
 <dt>
-<a data-moreurl-dict='{"subject_id":"11534752","from":"tv-recommended-subject","bid":"Ij\/ssEASXL4"}' href="http://movie.douban.com/subject/4707882/?from=subject-page">
-<img alt="铁胆火车侠" class="" src="http://img3.douban.com/view/movie_poster_cover/spst/public/p2305881594.jpg"/>
+<a data-moreurl-dict='{"subject_id":"25748240","from":"tv-recommended-subject","bid":"NlruqCMFdM0"}' href="http://movie.douban.com/subject/25919949/?from=subject-page">
+<img alt="橡果" class="" src="http://img3.douban.com/view/movie_poster_cover/spst/public/p2211677872.jpg"/>
 </a>
 </dt>
 <dd>
-<a class="" data-moreurl-dict='{"subject_id":"11534752","from":"tv-recommended-subject","bid":"Ij\/ssEASXL4"}' href="http://movie.douban.com/subject/4707882/?from=subject-page">铁胆火车侠</a>
+<a class="" data-moreurl-dict='{"subject_id":"25748240","from":"tv-recommended-subject","bid":"NlruqCMFdM0"}' href="http://movie.douban.com/subject/25919949/?from=subject-page">橡果</a>
 </dd>
 </dl>
 </div>
@@ -761,11 +704,11 @@ html
 <span>我来说两句</span>
 </a>
 <h2>
-<i class="">超魔神英雄传的短评</i>
+<i class="">神勇战士 第二季的短评</i>
               · · · · · ·
             <span class="pl">
             (
-                <a href="http://movie.douban.com/subject/11534752/comments">全部 76 条</a>
+                <a href="http://movie.douban.com/subject/25748240/comments">全部 36 条</a>
             ) </span>
 </h2>
 </div>
@@ -777,83 +720,85 @@ html
 </div>
 <div class="tab-bd">
 <div class="tab" id="hot-comments">
-<div class="comment-item" data-cid="592279330">
+<div class="comment-item" data-cid="968847496">
 <div class="comment">
 <h3>
 <span class="comment-vote">
-<span class="votes pr5">3</span>
-<input type="hidden" value="592279330"/>
+<span class="votes pr5">0</span>
+<input type="hidden" value="968847496"/>
 <a class="j a_show_login" href="javascript:;">有用</a>
 </span>
 <span class="comment-info">
-<a class="" href="http://www.douban.com/people/nadesico/">汝就做吾的犬吧</a>
+<a class="" href="http://www.douban.com/people/4638543/">Lucia</a>
 <span class="allstar30 rating" title="还行"></span>
 <span class="">
-                    2012-10-16
+                    2015-10-17
                 </span>
 </span>
 </h3>
-<p class=""> 这部《超》其实是和《2》撞车的，而且各种方面都比《2》逊色了不少，或许可以理解为平行世界…逊色的最重要一点是和初代故事的连贯性严重不行，除了主角三人组以外很多前作的角色都打酱油了，火妹子的爸爸甚至连出场都没有，虎王虽然有戏份，但实在无法与《2》里最后三个少年乘龙拯救创界山的设定相比
+<p class=""> 看到第二季差不多就看累了
         </p>
 </div>
 </div>
-<div class="comment-item" data-cid="980837559">
+<div class="comment-item" data-cid="741664609">
 <div class="comment">
 <h3>
 <span class="comment-vote">
 <span class="votes pr5">0</span>
-<input type="hidden" value="980837559"/>
+<input type="hidden" value="741664609"/>
 <a class="j a_show_login" href="javascript:;">有用</a>
 </span>
 <span class="comment-info">
-<a class="" href="http://www.douban.com/people/67962053/">广目无双</a>
-<span class="allstar40 rating" title="推荐"></span>
-<span class="">
-                    2015-11-25
-                </span>
-</span>
-</h3>
-<p class=""> 童年的回忆，没想到声优竟然是田中！天！
-        </p>
-</div>
-</div>
-<div class="comment-item" data-cid="923333199">
-<div class="comment">
-<h3>
-<span class="comment-vote">
-<span class="votes pr5">0</span>
-<input type="hidden" value="923333199"/>
-<a class="j a_show_login" href="javascript:;">有用</a>
-</span>
-<span class="comment-info">
-<a class="" href="http://www.douban.com/people/42443171/">一里独行</a>
+<a class="" href="http://www.douban.com/people/antarktos/">发糕鸟夜晚打鸣</a>
 <span class="allstar50 rating" title="力荐"></span>
 <span class="">
-                    2015-05-18
+                    2014-07-26
                 </span>
 </span>
 </h3>
-<p class=""> 这是我的童年
+<p class=""> 还能不能好了！！！！
         </p>
 </div>
 </div>
-<div class="comment-item" data-cid="755421302">
+<div class="comment-item" data-cid="874855994">
 <div class="comment">
 <h3>
 <span class="comment-vote">
 <span class="votes pr5">0</span>
-<input type="hidden" value="755421302"/>
+<input type="hidden" value="874855994"/>
 <a class="j a_show_login" href="javascript:;">有用</a>
 </span>
 <span class="comment-info">
-<a class="" href="http://www.douban.com/people/61501349/">MuDoNG</a>
+<a class="" href="http://www.douban.com/people/curayukie/">Quantus</a>
 <span class="allstar50 rating" title="力荐"></span>
 <span class="">
-                    2013-12-19
+                    2014-12-25
                 </span>
 </span>
 </h3>
-<p class=""> 童年
+<p class=""> 克里斯的苦恋好纠结
+        </p>
+</div>
+</div>
+<div class="comment-item" data-cid="831935579">
+<div class="comment">
+<h3>
+<span class="comment-vote">
+<span class="votes pr5">2</span>
+<input type="hidden" value="831935579"/>
+<a class="j a_show_login" href="javascript:;">有用</a>
+</span>
+<span class="comment-info">
+<a class="" href="http://www.douban.com/people/85949267/">作</a>
+<span class="allstar50 rating" title="力荐"></span>
+<span class="">
+                    2014-08-02
+                </span>
+</span>
+</h3>
+<p class=""> 贝丝应该跟克瑞斯在一起
+贝丝应该跟克瑞斯在一起
+贝丝应该跟克瑞斯在一起
         </p>
 </div>
 </div>
@@ -861,7 +806,7 @@ html
 
 
                 
-                &gt; <a data-moreurl-dict='{"subject_id":"11534752","from":"tv-more-comments","bid":"Ij\/ssEASXL4"}' href="comments?sort=new_score">更多短评76条</a>
+                &gt; <a data-moreurl-dict='{"subject_id":"25748240","from":"tv-more-comments","bid":"NlruqCMFdM0"}' href="comments?sort=new_score">更多短评36条</a>
 </div>
 <div class="tab" id="new-comments">
 <div id="normal">
@@ -889,11 +834,11 @@ html
 <div class="mod-hd">
 <a class="comment_btn j a_show_login" href="http://www.douban.com/register?reason=review" rel="nofollow"><span>我来评论这部电影</span></a>
 <h2>
-<i class="">超魔神英雄传的影评</i>
+<i class="">神勇战士 第二季的影评</i>
               · · · · · ·
             <span class="pl">
             (
-                <a href="http://movie.douban.com/subject/11534752/reviews">全部0</a>
+                <a href="http://movie.douban.com/subject/25748240/reviews">全部0</a>
             ) </span>
 </h2>
 </div>
@@ -918,7 +863,7 @@ html
 <input name="ck" type="hidden" value="None"/>
 <textarea class="comment" name="discussion" placeholder="我有话要说..."></textarea>
 <div class="comm-op">
-<input name="tv_id" type="hidden" value="11534752"/>
+<input name="tv_id" type="hidden" value="25748240"/>
 <select name="episode_number">
 <option value="0">整季</option>
 <option value="1">第1集</option>
@@ -933,45 +878,6 @@ html
 <option value="10">第10集</option>
 <option value="11">第11集</option>
 <option value="12">第12集</option>
-<option value="13">第13集</option>
-<option value="14">第14集</option>
-<option value="15">第15集</option>
-<option value="16">第16集</option>
-<option value="17">第17集</option>
-<option value="18">第18集</option>
-<option value="19">第19集</option>
-<option value="20">第20集</option>
-<option value="21">第21集</option>
-<option value="22">第22集</option>
-<option value="23">第23集</option>
-<option value="24">第24集</option>
-<option value="25">第25集</option>
-<option value="26">第26集</option>
-<option value="27">第27集</option>
-<option value="28">第28集</option>
-<option value="29">第29集</option>
-<option value="30">第30集</option>
-<option value="31">第31集</option>
-<option value="32">第32集</option>
-<option value="33">第33集</option>
-<option value="34">第34集</option>
-<option value="35">第35集</option>
-<option value="36">第36集</option>
-<option value="37">第37集</option>
-<option value="38">第38集</option>
-<option value="39">第39集</option>
-<option value="40">第40集</option>
-<option value="41">第41集</option>
-<option value="42">第42集</option>
-<option value="43">第43集</option>
-<option value="44">第44集</option>
-<option value="45">第45集</option>
-<option value="46">第46集</option>
-<option value="47">第47集</option>
-<option value="48">第48集</option>
-<option value="49">第49集</option>
-<option value="50">第50集</option>
-<option value="51">第51集</option>
 </select>
 <div class="op-bt"><input type="submit" value="我说"/><input type="reset" value="取消"/></div>
 </div>
@@ -980,42 +886,21 @@ html
 </div>
 </div>
 <div class="list-comm" id="comments">
-<div class="comm-mod comment-item" data-cid="479252">
+<div class="comm-mod comment-item" data-cid="438919">
 <div class="hd">
-<a href="http://www.douban.com/people/55889166/">
-<img alt="开腥[]" class="" src="http://img3.douban.com/icon/u55889166-10.jpg"/>
+<a href="http://www.douban.com/people/vo1canooo9/">
+<img alt="Dylan." class="" src="http://img3.douban.com/icon/u4921391-200.jpg"/>
 </a>
 </div>
 <div class="bd">
 <h4>
-<a class="" href="http://www.douban.com/people/55889166/">开腥[]</a>
-<span class="">539天前</span>
+<a class="" href="http://www.douban.com/people/vo1canooo9/">Dylan.</a>
+<span class="">642天前</span>
 </h4>
 <p>
-<span class="">最恶心有人说【啊我的腐女心可能就是从小看多尔克和圣树 之类的 然后没想到多尔克是女生】嗷嗷嗷嗷嗷从两年前我就不断地看到有人刷这个 烦死掉了我要吐了 奠定我反腐的根基嗷！ </span>
-<span class="vote-num">0</span>
-<a class="vote" data-did="479252" href="javascript:void(0)">有用</a>
-<a class="replys" data-hasrep="0" href="javascript:void(0)">
-<span class="">0回应</span>
-</a>
-</p>
-</div>
-</div>
-<div class="comm-mod comment-item" data-cid="356964">
-<div class="hd">
-<a href="http://www.douban.com/people/53698999/">
-<img alt="Times-" class="" src="http://img3.douban.com/icon/u53698999-22.jpg"/>
-</a>
-</div>
-<div class="bd">
-<h4>
-<a class="" href="http://www.douban.com/people/53698999/">Times-</a>
-<span class="">797天前</span>
-</h4>
-<p>
-<span class="">优酷传送门：http://www.youku.com/show_page/id_zeddd6aba61ad11e0bea1.html</span>
-<span class="vote-num">0</span>
-<a class="vote" data-did="356964" href="javascript:void(0)">有用</a>
+<span class="">[第2集] 这集真的。。。超级基。。简直no law to see。。</span>
+<span class="vote-num">1</span>
+<a class="vote" data-did="438919" href="javascript:void(0)">有用</a>
 <a class="replys" data-hasrep="0" href="javascript:void(0)">
 <span class="">0回应</span>
 </a>
@@ -1085,7 +970,7 @@ html
         </div>
     </div>
 </script>
-<p class="pl2">&gt; <a href="http://movie.douban.com/subject/11534752/tv_discuss">查看全部分集短评（2）</a></p>
+<p class="pl2">&gt; <a href="http://movie.douban.com/subject/25748240/tv_discuss">查看全部分集短评（1）</a></p>
 <script type="text/javascript">
         $(function(){if($.browser.msie && $.browser.version == 6.0){
             var $info = $('#info'),
@@ -1140,13 +1025,13 @@ html
     </h2>
 <div class="tags-body">
 <a class="" href="http://www.douban.com/tag/动画/?focus=movie">动画</a>
-<a class="" href="http://www.douban.com/tag/日本/?focus=movie">日本</a>
-<a class="" href="http://www.douban.com/tag/日本动画/?focus=movie">日本动画</a>
-<a class="" href="http://www.douban.com/tag/童年回忆/?focus=movie">童年回忆</a>
-<a class="" href="http://www.douban.com/tag/童年/?focus=movie">童年</a>
-<a class="" href="http://www.douban.com/tag/冒险/?focus=movie">冒险</a>
-<a class="" href="http://www.douban.com/tag/二次元/?focus=movie">二次元</a>
-<a class="" href="http://www.douban.com/tag/灵异/?focus=movie">灵异</a>
+<a class="" href="http://www.douban.com/tag/美国动画/?focus=movie">美国动画</a>
+<a class="" href="http://www.douban.com/tag/美国/?focus=movie">美国</a>
+<a class="" href="http://www.douban.com/tag/喜剧/?focus=movie">喜剧</a>
+<a class="" href="http://www.douban.com/tag/CartoonHangover/?focus=movie">CartoonHangover</a>
+<a class="" href="http://www.douban.com/tag/美剧/?focus=movie">美剧</a>
+<a class="" href="http://www.douban.com/tag/英语标签/?focus=movie">英语标签</a>
+<a class="" href="http://www.douban.com/tag/剧集/?focus=movie">剧集</a>
 </div>
 </div>
 <div id="subject-doulist">
@@ -1155,29 +1040,29 @@ html
               · · · · · ·
             <span class="pl">
             (
-                <a href="http://movie.douban.com/subject/11534752/doulists">全部</a>
+                <a href="http://movie.douban.com/subject/25748240/doulists">全部</a>
             ) </span>
 </h2>
 <ul>
 <li>
-<a href="http://www.douban.com/doulist/35682392/" target="_blank">岁月的尘埃，给曾经的记忆留一个备份~</a>
-<span>(KUDOUSHNIJI)</span>
+<a href="http://www.douban.com/doulist/39046135/" target="_blank">可爱 搞笑的欧美剧集动画片</a>
+<span>(Little 曼朵)</span>
 </li>
 <li>
-<a href="http://www.douban.com/doulist/39824606/" target="_blank">记忆中小时候看过的动画</a>
-<span>(Plasol)</span>
+<a href="http://www.douban.com/doulist/43424312/" target="_blank">我的美番入坑之路</a>
+<span>(Certain)</span>
 </li>
 <li>
-<a href="http://www.douban.com/doulist/1427843/" target="_blank">Robot系列部分收录</a>
-<span>(YYのBlackcat)</span>
+<a href="http://www.douban.com/doulist/35696797/" target="_blank">待看的各种剧</a>
+<span>(这位好汉……)</span>
 </li>
 <li>
-<a href="http://www.douban.com/doulist/1779720/" target="_blank">日本动漫</a>
-<span>(黑色星期天)</span>
+<a href="http://www.douban.com/doulist/41598860/" target="_blank">美番停不下来（附A/B站）</a>
+<span>(给我个电话亭，我要拯救地球！)</span>
 </li>
 <li>
-<a href="http://www.douban.com/doulist/37642962/" target="_blank">日本动画（含电视版剧场版ova，里番）</a>
-<span>(！！！)</span>
+<a href="http://www.douban.com/doulist/41176311/" target="_blank">【谁说动画只能小孩看】欢快而又怪异的美番</a>
+<span>(冰雪の尾巴)</span>
 </li>
 </ul>
 </div>
@@ -1188,51 +1073,51 @@ html
     </h2>
 <ul class="">
 <li class="">
-<a class="others-interest-avatar" href="http://www.douban.com/people/Nirvazure/">
-<img alt="Darkray" class="pil" src="http://img3.doubanio.com/icon/u88909044-8.jpg">
+<a class="others-interest-avatar" href="http://www.douban.com/people/58168547/">
+<img alt="风暴峭壁" class="pil" src="http://img3.douban.com/icon/u58168547-3.jpg">
 </img></a>
 <div class="others-interest-info">
-<a class="" href="http://www.douban.com/people/Nirvazure/">Darkray</a>
+<a class="" href="http://www.douban.com/people/58168547/">风暴峭壁</a>
 <div class="">
-                        昨天
-                        想看
-                        
-                    </div>
-</div>
-</li>
-<li class="">
-<a class="others-interest-avatar" href="http://www.douban.com/people/nononopanic/">
-<img alt="哎哟哎哟好烫红" class="pil" src="http://img3.douban.com/icon/u49556009-14.jpg">
-</img></a>
-<div class="others-interest-info">
-<a class="" href="http://www.douban.com/people/nononopanic/">哎哟哎哟好烫红</a>
-<div class="">
-                        1月8日
+                        1月13日
                         看过
                         <span class="allstar50" title="力荐"></span>
 </div>
 </div>
 </li>
 <li class="">
-<a class="others-interest-avatar" href="http://www.douban.com/people/wzfvolume/">
-<img alt="young" class="pil" src="http://img3.douban.com/icon/u43600399-75.jpg">
+<a class="others-interest-avatar" href="http://www.douban.com/people/102862195/">
+<img alt="Balanced-Man" class="pil" src="http://img3.douban.com/icon/u102862195-1.jpg">
 </img></a>
 <div class="others-interest-info">
-<a class="" href="http://www.douban.com/people/wzfvolume/">young</a>
+<a class="" href="http://www.douban.com/people/102862195/">Balanced-Man</a>
 <div class="">
-                        1月8日
-                        看过
+                        1月12日
+                        想看
                         
                     </div>
 </div>
 </li>
+<li class="">
+<a class="others-interest-avatar" href="http://www.douban.com/people/15565943/">
+<img alt="★" class="pil" src="http://img3.douban.com/icon/u15565943-33.jpg">
+</img></a>
+<div class="others-interest-info">
+<a class="" href="http://www.douban.com/people/15565943/">★</a>
+<div class="">
+                        1月11日
+                        在看
+                        <span class="allstar50" title="力荐"></span>
+</div>
+</div>
+</li>
 </ul>
 <div class="subject-others-interests-ft">
-<a href="http://movie.douban.com/subject/11534752/doings">13人在看</a>
+<a href="http://movie.douban.com/subject/25748240/doings">10人在看</a>
                  / 
-            <a href="http://movie.douban.com/subject/11534752/collections">530人看过</a>
+            <a href="http://movie.douban.com/subject/25748240/collections">93人看过</a>
                  / 
-            <a href="http://movie.douban.com/subject/11534752/wishes">55人想看</a>
+            <a href="http://movie.douban.com/subject/25748240/wishes">70人想看</a>
 </div>
 </div>
 <!-- douban ad begin -->
@@ -1256,8 +1141,8 @@ html
 </script>
 <!-- douban ad end -->
 <br/>
-<p class="pl">订阅超魔神英雄传的影评: <br/><span class="feed">
-<a href="http://movie.douban.com/feed/subject/11534752/reviews"> feed: rss 2.0</a></span></p>
+<p class="pl">订阅神勇战士 第二季的影评: <br/><span class="feed">
+<a href="http://movie.douban.com/feed/subject/25748240/reviews"> feed: rss 2.0</a></span></p>
 </div>
 <div class="extra">
 <!-- douban ad begin -->
@@ -1280,7 +1165,7 @@ html
 <div id="footer">
 <div class="footer-extra"></div>
 <span class="fleft gray-link" id="icp">
-    © 2005－2016 douban.com, all rights reserved
+    © 2005－2016 douban.com, all rights reserved 北京豆网科技有限公司
 </span>
 <a href="http://www.douban.com/hnypt/variformcyst.py" style="display: none;"></a>
 <span class="fright">
@@ -1295,8 +1180,13 @@ html
 </span>
 </div>
 </div>
-<script src="http://img3.douban.com/misc/mixed_static/2a87eedfa7fd0f0.js" type="text/javascript"></script>
-<link href="http://img3.douban.com/f/shire/ae32cb8310a09ba836b958b79d2cd1e706db2fed/css/ui/dialog.css" rel="stylesheet" type="text/css"/>
+<script src="http://img3.douban.com/misc/mixed_static/45a642720ba4252d.js" type="text/javascript"></script><script type="text/javascript">
+                var if_logined='false';
+var subject_id='25748240';
+Do.ready("handlebarsjs",function(){var d=$("#comment-tmpl").html();var c=Handlebars.compile(d);var a=Handlebars.compile('&gt; <a href="comments?sort=time">更多短评{{num}}条</a>');if_logined=(if_logined==="true");var b=$("#comments-section");b.delegate(".tab-hd a","click",function(g){g.preventDefault();var f=$(this);b.find(".tab-hd a").removeClass("on").end().find(".tab").hide().end().find("#"+f.data("id")+"-comments").show();f.addClass("on");$.get("/blank?track-"+f.attr("id"));return false}).delegate("#new-comments-tab","click",function(f){$.get("/j/subject/"+subject_id+"/comments",function(g){if(g.retcode===1){var e=g.result;var h=c({comments:g.result.normal,if_logined:if_logined});$("#new-comments #normal").html(h);if(g.result.spammed.length>0){$("#new-comments .fold-bd").append(c({comments:g.result.spammed,if_logined:if_logined}));$("#new-comments .fold-hd").removeClass("hide")}if(g.result.total_num>4){$("#new-comments #total-num").html(a({num:g.result.total_num}))}load_event_monitor($("#new-comments"))}})})});
+                $(function(){$("body").delegate(".btn-unfold","click",function(c){c.preventDefault();var b=$(c.target),a=b.parent(".fold-hd");a.slideUp().next().slideDown()})});
+            </script><script src="http://img3.douban.com/misc/mixed_static/a6569324ce9afdc.js" type="text/javascript"></script>
+<link href="http://img3.douban.com/f/shire/8377b9498330a2e6f056d863987cc7a37eb4d486/css/ui/dialog.css" rel="stylesheet" type="text/css"/>
 <link href="http://img3.douban.com/f/movie/7345d4b259505f1a074773ce6b54f0253df2bb88/css/movie/mod/reg_login_pop.css" rel="stylesheet" type="text/css"/>
 <script data-cfg-autoload="false" src="http://img3.douban.com/f/shire/29449d396dacb28fd9949c709ccf02a46b910156/js/do.js" type="text/javascript"></script>
 <script src="http://img3.douban.com/f/shire/4b3bad5e25de78678d700dd5353570dce3e6bbcc/js/ui/dialog.js" type="text/javascript"></script>
@@ -1310,8 +1200,8 @@ var account_pop={open:function(e,b){if(b){referrer="?referrer="+encodeURICompone
             existingNode = global.document.getElementsByTagName('script')[0],
             adSource = '//erebor.douban.com/',
             userId = '',
-            browserId = 'Ij/ssEASXL4',
-            criteria = '7:过去的时光|7:日本动画|7:冒险|7:儿时的回忆|7:童年|7:西村知道|7:井内秀治|7:动漫|7:童年回忆|7:日本|7:伊仓一恵|7:魔幻|7:动画|7:田中真弓|7:林原惠美|3:/subject/11534752/?from=subject-page',
+            browserId = 'NlruqCMFdM0',
+            criteria = '7:CartoonHangover|7:美国动画|7:科幻|7:彭德尔顿·沃德|7:剧集|7:美剧|7:英语标签|7:美国|7:FrederatorStudios|7:美国制造|7:喜剧|7:动画|7:短片|3:/subject/25748240/?from=subject-page',
             preview = '',
             debug = false,
             adSlots = ['dale_movie_subject_top_right', 'dale_movie_subject_top_middle'];
@@ -1408,10 +1298,10 @@ for(var i = 0, l = accounts.length; i < l; i++) {
     document.documentElement.firstChild.appendChild(ga);
 })()
 </script>
-<!-- dis1-docker-->
+<!-- sindar24c-docker-->
 <script>_SPLITTEST=''</script>
 <script>var _check_hijack = function () {
-    var _sig = "Ij/ssEAS", _login = false, bid = get_cookie('bid');
+    var _sig = "NlruqCMF", _login = false, bid = get_cookie('bid');
     if (location.protocol != "file:" && (
             typeof(bid) != "string" && _login ||
             typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
