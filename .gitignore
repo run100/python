@@ -1,4 +1,5 @@
 .idea/
 *pyc
 dbspider/global1.py
+dbspider/db.txt
 *.DS_Store

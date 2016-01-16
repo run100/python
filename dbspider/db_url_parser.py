@@ -49,13 +49,11 @@ class UrlParser(object):
 
         # 匹配标题 <span property="v:itemreviewed">寻龙诀</span>
         title_node = soup.find('span', property="v:itemreviewed")
-        if title_node is None:
+        if title_node is not None:
             res_data['title'] = title_node.get_text()
         else:
             print(page_url)
             exit('title is none')
-
-        exit()
 
         # 匹配评分 <strong class="ll rating_num" property="v:average">8.0</strong>
         average_node = soup.find('strong', property="v:average")
