@@ -21,7 +21,7 @@ class DownLoader(object):
             'Cache-Control': 'max-age=0'
         }
 
-        self.proxy_url = '120.195.199.92:80'
+        self.proxy_url = '61.162.184.7:8088'
         self.proxy = urllib2.ProxyHandler({'http': self.proxy_url})
         self.opener = urllib2.build_opener(self.proxy)
 
@@ -33,7 +33,7 @@ class DownLoader(object):
 
         try:
             #resp = urllib2.urlopen(url)
-            request = urllib2.Resquest(url, headers = self.headers)
+            request = urllib2.Request(url, headers = self.headers)
             resp = self.opener.open(request)
         except urllib2.HTTPError, e:
             print e.code
