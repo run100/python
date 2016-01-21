@@ -78,8 +78,14 @@ for db in databases:
         scp_cmd = "scp -P%s %s %s@%s:%s" % (scp_port, fname, scp_user, scp_ip, scp_dir)
         if os.system(sql_cmd) == 0:
             print( '%s, %s' % (db, ' remote is backup successfully!') )
+            #删除本地
+            os.remove(fname)
         else:
             print( '%s, %s' % (db, ' remote is backup Failed!!') )
+
+
+
+
 
 time.sleep(3)
 
