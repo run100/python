@@ -85,11 +85,13 @@ class ProxyIp(object):
         visiturl = 'http://ip.chinaz.com/getip.aspx'
         for line in lines:
             l = line.replace("\n", "").split(":")
-            proxy_url = "%s:%s" % (l[0], l[1])
+            proxy_url = "http://%s:%s" % (l[0], l[1])
 
             try:
-                #resp = urllib2.urlopen(visiturl, proxies=proxy_url)
-                urllib2.ProxyHandler({'http'})
+                resp = urllib.urlopen(visiturl, proxies={'http': proxy_url})
+                # proxy = urllib2.ProxyHandler({'http': proxy_url})
+                # opener = urllib2.build_opener(proxy)
+                # resp = opener.open(self.request)
                 if resp.getcode() == 200:
                     print(resp.read())
             except Exception, e:
