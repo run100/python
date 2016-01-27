@@ -84,7 +84,7 @@ class ProxyIp(object):
 
         visiturl = 'http://ip.chinaz.com/getip.aspx'
         for line in lines:
-            l = line.replace("\n", "").split(":")
+            l = line.strip("\n").split(":")
             proxy_url = "http://%s:%s" % (l[0], l[1])
 
             try:
