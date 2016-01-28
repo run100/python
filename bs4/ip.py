@@ -133,7 +133,9 @@ class ProxyIp(object):
 #print(__name__)
 if __name__ == '__main__':
 
-    url = 'http://www.xicidaili.com/nn/1'
-    clsip = ProxyIp(url)
-    clsip.parse()
-    print(clsip.verify())
+    for i in range(1, 100):
+        url = 'http://www.xicidaili.com/nn/' + str(i)
+        clsip = ProxyIp(url)
+        clsip.parse()
+        print(clsip.verify())
+        time.sleep(3)
