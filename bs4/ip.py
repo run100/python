@@ -15,6 +15,21 @@ import re
 import urllib
 import urllib2
 import socket
+import MySQLdb
+
+MYSQL_HOST = "127.0.0.1"
+MYSQL_USER = "root"
+MYSQL_PASSWD = "root"
+MYSQL_DB = "douban"
+MYSQL_CHARSET = "utf8"
+
+conn = MySQLdb.connect(host=MYSQL_HOST
+                       , user=MYSQL_USER
+                       , passwd=MYSQL_PASSWD
+                       , db=MYSQL_DB
+                       , charset=MYSQL_CHARSET)
+cursor = conn.cursor()
+
 
 class ProxyIp(object):
 
@@ -29,11 +44,6 @@ class ProxyIp(object):
         self.proxy_url = '221.211.121.110:9000'
         self.proxy = urllib2.ProxyHandler({'http': self.proxy_url})
         self.opener = urllib2.build_opener(self.proxy)
-
-
-
-
-
 
 
     def down(self):
@@ -74,6 +84,17 @@ class ProxyIp(object):
                 print(str)
                 f.write(str)
 
+    def insert_data(self, ip, port, lo):
+        try:
+            sql = "INSERT INTO douban_ip(ip, port, lo, addtime) VALUES(%s, %s, %s, %s)"
+            param = [ip, port, lo, time.strftime("%Y-%m-%d %H-%M-%S")]
+            n = cursor.execute(sql, param)
+            conn.commit()
+            return n
+        except MySQLdb.Error, e:
+            print "Mysql Error %d: %s" % (e.args[0], e.args[1])
+            conn.rollback()
+
     def verify(self):
 
         socket.setdefaulttimeout(3)
@@ -93,7 +114,15 @@ class ProxyIp(object):
                 # opener = urllib2.build_opener(proxy)
                 # resp = opener.open(self.request)
                 if resp.getcode() == 200:
-                    print(resp.read())
+                    pattern = re.compile(r"address:'(.*?)'", re.S)
+                    str = ''
+                    m = re.findall(pattern, resp.read())
+                    if m:
+                        str = m[0].strip()
+
+                    self.insert_data(l[0], l[1], str)
+                    #print(resp.read())
+
             except Exception, e:
                 print proxy_url
                 print e
@@ -103,7 +132,8 @@ class ProxyIp(object):
 
 #print(__name__)
 if __name__ == '__main__':
+
     url = 'http://www.xicidaili.com/nn/1'
     clsip = ProxyIp(url)
-    #clsip.parse()
+    clsip.parse()
     print(clsip.verify())
