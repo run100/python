@@ -18,8 +18,7 @@ import urllib
 import urllib2
 import socket
 import MySQLdb
-
-
+import Redis
 
 class IpCrawl:
     def __init__(self):
@@ -34,9 +33,11 @@ class IpCrawl:
         self.init_mysql()
 
     def init_mysql(self):
-
         self.conn = MySQLdb.connect(host="127.0.0.1", user="root", passwd="root", db="douban", charset="utf8")
         self.cursor = self.conn.cursor()
+
+    def init_redis(self):
+        
 
 
     def get_content(self, url):
@@ -81,6 +82,9 @@ class IpCrawl:
                     else:
                         print("%s 入库出错".decode('utf-8') % ip)
 
+    def in_redis_queue(self, ip, port):
+
+
     def in_douban_queue(self, ip, port, lo):
 
         #判断是否存在
@@ -105,6 +109,8 @@ class IpCrawl:
             print "Mysql Error %d: %s" % (e.args[0], e.args[1])
             self.conn.rollback()
             return 2
+
+
 
     def crawl(self, url):
         content = self.get_content(url)
