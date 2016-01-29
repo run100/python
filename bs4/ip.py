@@ -8,6 +8,9 @@ __mtime__ = '2016/1/27'
     I love animals. They taste delicious.
 """
 
+# http://www.cnblogs.com/hearzeus/p/5157016.html
+# http://www.xicidaili.com/nn/1
+
 import time
 import sys
 from bs4 import BeautifulSoup
@@ -133,7 +136,7 @@ class ProxyIp(object):
 #print(__name__)
 if __name__ == '__main__':
 
-    for i in range(1, 100):
+    for i in range(2, 100):
         url = 'http://www.xicidaili.com/nn/' + str(i)
         clsip = ProxyIp(url)
         clsip.parse()
