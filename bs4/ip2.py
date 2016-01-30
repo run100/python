@@ -18,7 +18,10 @@ import urllib
 import urllib2
 import socket
 import MySQLdb
-import Redis
+import redis
+
+NEW_URLS_KEY='new:urls:key'
+
 
 class IpCrawl:
     def __init__(self):
@@ -32,12 +35,18 @@ class IpCrawl:
         self.cursor = ''
         self.init_mysql()
 
+        self.redis = ''
+        self.init_redis()
+
+
     def init_mysql(self):
         self.conn = MySQLdb.connect(host="127.0.0.1", user="root", passwd="root", db="douban", charset="utf8")
         self.cursor = self.conn.cursor()
 
     def init_redis(self):
-        
+        self.redis = redis.StrictRedis('localhost', '6379', 0)
+
+
 
 
     def get_content(self, url):
@@ -71,22 +80,31 @@ class IpCrawl:
                     continue
                 port = tds[1].get_text().strip()
                 lo = tds[2].get_text().strip()
-                n = self.in_douban_queue(ip, port, lo)
+                n = self.in_redis_queue(ip, port)
 
-                if n == 0:
-                    str = "%s 入库,待验证".decode('utf-8') % ip
-                    print(str)
-                else:
-                    if n == 1:
-                        print("%s 已加入过".decode('utf-8') % ip)
-                    else:
-                        print("%s 入库出错".decode('utf-8') % ip)
+                str = "%s 入库,待验证".decode('utf-8') % ip
+                print(str)
+
+                # n = self.in_douban_queue(ip, port, lo)
+                #
+                # if n == 0:
+                #     str = "%s 入库,待验证".decode('utf-8') % ip
+                #     print(str)
+                # else:
+                #     if n == 1:
+                #         print("%s 已加入过".decode('utf-8') % ip)
+                #     else:
+                #         print("%s 入库出错".decode('utf-8') % ip)
 
     def in_redis_queue(self, ip, port):
 
+        ipstr = '%s:%s' % (ip, port)
+        if not self.redis.sismember(NEW_URLS_KEY, ipstr):
+            self.redis.sadd(NEW_URLS_KEY, ipstr)
+
+
 
     def in_douban_queue(self, ip, port, lo):
-
         #判断是否存在
         sqlif = "SELECT COUNT(1) as cnt FROM douban_ip_queue WHERE ip=%s "
         param = [ip]
@@ -115,8 +133,6 @@ class IpCrawl:
     def crawl(self, url):
         content = self.get_content(url)
         self.html_parse(content)
-
-
 
 
 if __name__ == '__main__':
