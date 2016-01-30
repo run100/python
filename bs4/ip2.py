@@ -96,13 +96,25 @@ class IpCrawl:
                 #     else:
                 #         print("%s 入库出错".decode('utf-8') % ip)
 
+    def veritfy(self, ipstr):
+        iparr = ipstr.split(':')
+        print(iparr[0], iparr[1])
+
     def in_redis_queue(self, ip, port):
 
         ipstr = '%s:%s' % (ip, port)
         if not self.redis.sismember(NEW_URLS_KEY, ipstr):
             self.redis.sadd(NEW_URLS_KEY, ipstr)
 
+    def do_redis_queue(self):
+        ips = self.redis.smembers(NEW_URLS_KEY)
+        ipslen = len(ips)
 
+        i = 0
+        while i<ipslen:
+            ipstr = self.redis.spop(NEW_URLS_KEY)
+            self.veritfy(ipstr)
+            i = i+1
 
     def in_douban_queue(self, ip, port, lo):
         #判断是否存在
@@ -139,5 +151,7 @@ if __name__ == '__main__':
     crawl = IpCrawl()
     url = 'http://haodailiip.com/guonei/1'
     crawl.crawl(url)
+
+    crawl.do_redis_queue()
 
 
