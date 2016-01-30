@@ -47,8 +47,6 @@ class IpCrawl:
         self.redis = redis.StrictRedis('localhost', '6379', 0)
 
 
-
-
     def get_content(self, url):
         #request
         request = urllib2.Request(url, headers=self.header)
@@ -98,7 +96,24 @@ class IpCrawl:
 
     def veritfy(self, ipstr):
         iparr = ipstr.split(':')
-        print(iparr[0], iparr[1])
+        #print(iparr[0], iparr[1])
+        visiturl = 'http://ip.chinaz.com/getip.aspx'
+        proxy_url = "http://%s" % (ipstr)
+        try:
+            resp = urllib.urlopen(visiturl, proxies={'http': proxy_url})
+            if resp.getcode() == 200:
+                pattern = re.compile(r"address:'(.*?)'", re.S)
+                str = ''
+                m = re.findall(pattern, resp.read())
+                if m:
+                    str = m[0].strip()
+                    print(str)
+
+        except Exception, e:
+            print proxy_url
+            print e
+
+
 
     def in_redis_queue(self, ip, port):
 
