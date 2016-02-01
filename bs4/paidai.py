@@ -16,6 +16,8 @@ from bs4 import BeautifulSoup
 
 ENABLE_URLS_KEY = 'enable:urls:key'
 
+INFO_LIST_KEY = 'info:list:key'
+
 class Paidai:
 
     def __init__(self):
@@ -66,16 +68,36 @@ class Paidai:
         soup = BeautifulSoup(content, 'html.parser', from_encoding='utf-8')
         lis = soup.find_all('li', style="padding-left:2px;")
         for li in lis:
-            #print(li)
 
-            #print(li.contents)
-            for child in li.contents:
-                print("====")
-                print(child)
+            item = []
+            #print(li.div.img['src'])
+            item.append(li.div.img['src'])
+            span = li.find_all('span')
+            span_node1 = span[0]
+
+            a = span_node1.find('a')
+            #print(a['href'])
+            #print(span_node1.get_text())
+            item.append(a['href'])
+            item.append(span_node1.get_text())
+
+            span_node2 = span[1]
+            #print(span_node2.contents[1].string.strip())
+            #print(span_node2.a.string)
+            #print(span_node2.em.string)
+            item.append(span_node2.contents[1].string.strip())
+            item.append(span_node2.a.string)
+            item.append(span_node2.em.string)
+            itemstr = ':'.join(item)
+            self.redis.sadd(INFO_LIST_KEY, itemstr)
+
+            # for child in li.contents:
+            #     print("====")
+            #     print(child)
             # for child in li.body.contents:
             #     print(child)
 
-            exit()
+            #exit()
 
 
             # print(li.get_text().strip())
