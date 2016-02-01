@@ -21,6 +21,7 @@ import MySQLdb
 import redis
 
 NEW_URLS_KEY='new:urls:key'
+ENABLE_URLS_KEY='enable:urls:key'
 
 
 class IpCrawl:
@@ -107,7 +108,10 @@ class IpCrawl:
                 m = re.findall(pattern, resp.read())
                 if m:
                     str = m[0].strip()
-                    print(str)
+                    # 加入redis
+                    if not self.redis.sismember(ENABLE_URLS_KEY, ipstr):
+                        self.redis.sadd(ENABLE_URLS_KEY, ipstr)
+                    # print(str)
 
         except Exception, e:
             print proxy_url
@@ -164,9 +168,9 @@ class IpCrawl:
 
 if __name__ == '__main__':
     crawl = IpCrawl()
-    url = 'http://haodailiip.com/guonei/1'
-    crawl.crawl(url)
-
-    crawl.do_redis_queue()
+    for i in range(1, 100):
+        url = 'http://haodailiip.com/guonei/%s' % (i)
+        crawl.crawl(url)
+        crawl.do_redis_queue()
 
 
