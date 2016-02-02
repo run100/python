@@ -29,7 +29,7 @@ class IpCrawl:
         self.header = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
         }
-        proxy = '61.160.250.25:3128'
+        proxy = '123.52.8.35:8090'
         self.proxy = urllib2.ProxyHandler({'http': proxy})
 
         self.conn = ''

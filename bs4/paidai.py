@@ -44,9 +44,9 @@ class Paidai:
     def down_url_con(self, url):
         request = urllib2.Request(url, headers= self.header)
 
-        #proxy_url = self.get_proxy_url()
+        proxy_url = self.get_proxy_url()
         #print(proxy_url)
-        proxy_url = '120.52.72.180:80'
+        #proxy_url = '120.52.72.180:80'
         proxy = urllib2.ProxyHandler({'http': proxy_url})
 
         opener = urllib2.build_opener(proxy)
@@ -121,5 +121,6 @@ class Paidai:
 
 if __name__ == '__main__':
     paidai = Paidai()
-    url = 'http://www.paidai.com/more.php?page=1'
-    paidai.crawl(url)
+    for i in range(1, 100):
+        url = 'http://www.paidai.com/more.php?page=%s' % (str(i))
+        paidai.crawl(url)
