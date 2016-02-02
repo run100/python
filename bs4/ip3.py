@@ -10,6 +10,7 @@ __mtime__ = '2016/2/2'
 
 import urllib2
 import redis
+import threading
 from bs4 import BeautifulSoup
 
 
@@ -75,4 +76,4 @@ class IpCrawl:
 
 if __name__ == '__main__':
     ipcrawl = IpCrawl()
-    ipcrawl.get_ips()
+    #ipcrawl.get_ips()
