@@ -23,7 +23,7 @@ raw_proxy_list = []
 check_proxy_list = []
 
 targets = []
-for i in range(1, 2):
+for i in range(1, 20):
     targets.append('http://www.xicidaili.com/nn/%s' % i)
 
 class ProxyGet(threading.Thread):
@@ -105,8 +105,8 @@ class ProxyCheck(threading.Thread):
         i = 0
         for proxy in self.proxy_list:
 
-            if i > 20:
-                exit()
+            # if i > 20:
+            #     exit()
 
             proxy_url = "%s:%s" % (proxy[0], proxy[1])
             print(proxy_url)
