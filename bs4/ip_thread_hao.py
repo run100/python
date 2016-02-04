@@ -24,15 +24,15 @@ ZADD_VERITY_IP_KEY = 'zadd:verify:ip:key'
 redis_handler = redis.StrictRedis('localhost', 6379, 0)
 
 # str1 = u'12903:23:中文'
-# redis_handler.zadd(ZADD_VERITY_IP_KEY, 2, str1)
+# redis_handler.zadd(ZADD_VERITY_IP_KEY, 2, u'58.252.2.5:8000:广东省 东莞市 联通')
 # exit()
 
 raw_proxy_list = []
 check_proxy_list = []
 
 targets = []
-for i in range(20, 21):
-    targets.append('http://www.xicidaili.com/nn/%s' % i)
+for i in range(9, 10):
+    targets.append('http://www.haodailiip.com/guonei/%s' % i)
 
 class ProxyGet(threading.Thread):
 
@@ -78,11 +78,11 @@ class ProxyGet(threading.Thread):
         i = 1
         for tr in trs:
             tds = tr.find_all('td')
-            if len(tds) == 10:
+            if len(tds) == 7:
                 #print(tds)
-                ip = tds[2].get_text().strip()
-                port = tds[3].get_text().strip()
-                lo = tds[4].get_text().strip()
+                ip = tds[0].get_text().strip()
+                port = tds[1].get_text().strip()
+                lo = tds[2].get_text().strip()
                 ipstr = "%s:%s" % (ip, port)
 
                 #raw_proxy_list.append(ipstr)
@@ -90,8 +90,6 @@ class ProxyGet(threading.Thread):
                 str1 = ":".join([ip, port, lo])
                 print(i, str1)
                 redis_handler.zadd(ZADD_ALL_IP_KEY, 2, str1)
-
-
                 #if not self.redis.sismember(ALL_IP_KEY, ipstr):
                 #    print(ipstr)
                     #self.redis.sadd(ALL_IP_KEY, ipstr)
