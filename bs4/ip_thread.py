@@ -14,10 +14,18 @@ import urllib2
 import redis
 from bs4 import BeautifulSoup
 import random
+import MySQLdb
 
 
+ALL_IP_KEY = 'smembers:all:ip:key'
+ZADD_ALL_IP_KEY = 'zadd:all:ip:key'
+ZADD_VERITY_IP_KEY = 'zadd:verify:ip:key'
 
-ALL_IP_KEY = 'all:ip:key'
+redis_handler = redis.StrictRedis('localhost', 6379, 0)
+
+# str1 = u'12903:23:中文'
+# redis_handler.zadd(ZADD_VERITY_IP_KEY, 2, str1)
+# exit()
 
 raw_proxy_list = []
 check_proxy_list = []
@@ -25,6 +33,8 @@ check_proxy_list = []
 targets = []
 for i in range(1, 20):
     targets.append('http://www.xicidaili.com/nn/%s' % i)
+
+
 
 class ProxyGet(threading.Thread):
 
@@ -67,6 +77,7 @@ class ProxyGet(threading.Thread):
 
         soup = BeautifulSoup(con, 'html.parser', from_encoding='utf-8')
         trs = soup.find_all('tr')
+        i = 1
         for tr in trs:
             tds = tr.find_all('td')
             if len(tds) == 10:
@@ -78,6 +89,10 @@ class ProxyGet(threading.Thread):
 
                 #raw_proxy_list.append(ipstr)
                 raw_proxy_list.append([ip, port, lo])
+                str1 = ":".join([ip, port, lo])
+                print(i, str1)
+                redis_handler.zadd(ZADD_ALL_IP_KEY, 2, str1)
+
 
                 #if not self.redis.sismember(ALL_IP_KEY, ipstr):
                 #    print(ipstr)
@@ -135,6 +150,10 @@ class ProxyCheck(threading.Thread):
                 if pos > 1:
                     print('success,add list')
                     check_proxy_list.append((proxy[0], proxy[1], proxy[2], timeused))
+                    str1 = ":".join([proxy[0], proxy[1], proxy[2], timeused])
+                    #print(i, str1)
+                    redis_handler.zadd(ZADD_VERITY_IP_KEY, 2, str1)
+                    #redis_handler.hmset(HSET_VERITY_IP_KEY, [proxy[0], proxy[1], proxy[2], timeused])
                 else:
                     print('error2')
                     continue
@@ -146,6 +165,19 @@ class ProxyCheck(threading.Thread):
 
     def run(self):
         self.checkProxy()
+
+def insert_data(iplist):
+
+    try:
+        conn = MySQLdb.connect(host='127.0.0.1', user='root', passwd='root', db='douban', charset='utf8')
+        cursor = conn.cursor()
+        cursor.execute('TRUNCATE TABLE douban_crawl_ip')
+        cursor.executemany("INSERT INTO douban_crawl_ip(ip, port, speed, lo) VALUES(%s, %s, %s, %s)", iplist)
+        cursor.commit()
+        cursor.close()
+        conn.close()
+    except MySQLdb.Error, e:
+        print "Mysql Error %d: %s" % (e.args[0], e.args[1])
 
 
 
@@ -160,7 +192,7 @@ if __name__ == '__main__':
 
     # 开启所有的线程
     for i in range(len(get_threads)):
-        time.sleep(1)
+        time.sleep(0.2)
         get_threads[i].start()
 
     # 等待所有的进程结束
@@ -175,7 +207,7 @@ if __name__ == '__main__':
     #开启20个线程负责校验，将抓取到的代理分成20份，每个线程校验一份
     # 50 一个组校验
     total = len(raw_proxy_list)
-    perpage = 50
+    perpage = 10
     pages = total / perpage
 
     #每页50,共
@@ -198,4 +230,10 @@ if __name__ == '__main__':
 
     print '.'*10+"总共有%s个代理通过校验" %len(check_proxy_list) +'.'*10
 
-    print(check_proxy_list)
+    #print(check_proxy_list)
+
+    print("入库操作")
+    insert_data(check_proxy_list)
+
+    print("完成")
+

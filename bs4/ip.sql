@@ -25,6 +25,5 @@ CREATE TABLE IF NOT EXISTS  douban_crawl_ip(
   port varchar(10) NOT NULL DEFAULT '',
   lo varchar(125) NOT NULL DEFAULT '',
   speed varchar(125) NOT NULL DEFAULT '',
-  addtime datetime DEFAULT NULL,
-  KEY `douban_ip_i_1` (`ip`)
+  addtime datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
