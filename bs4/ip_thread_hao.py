@@ -31,7 +31,7 @@ raw_proxy_list = []
 check_proxy_list = []
 
 targets = []
-for i in range(1, 10):
+for i in range(1, 100):
     targets.append('http://www.haodailiip.com/guonei/%s' % i)
 
 class ProxyGet(threading.Thread):
@@ -147,11 +147,11 @@ class ProxyCheck(threading.Thread):
                     print('success,add list')
                     ltmp = [proxy[0], proxy[1], proxy[2], timeused]
 
-                    str2 = ":".join(ltmp)
-                    print("verify", str2)
-                    redis_handler.zadd(ZADD_VERITY_IP_KEY, 3, str2)
+                    #str2 = ":".join(ltmp)
+                    #print("verify", str2)
+                    #redis_handler.zadd(ZADD_VERITY_IP_KEY, 3, str2)
 
-                    check_proxy_list.append(ltmp)
+                    check_proxy_list.append((proxy[0], proxy[1], proxy[2], timeused))
 
                     #redis_handler.hmset(HSET_VERITY_IP_KEY, [proxy[0], proxy[1], proxy[2], timeused])
                 else:
