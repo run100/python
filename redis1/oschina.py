@@ -43,4 +43,10 @@ if resp.getcode() == 200:
     for li in lis:
         print(type(li))
         print(li.h2.a.string)
-        print(li.p.)
+        pdate = li.find('p', class_=re.compile('date'))
+        print(type(pdate))
+        print(pdate.get_text())
+        pdetail = li.find('p', class_=re.compile('detail'))
+        print(pdetail.get_text())
+        
+
