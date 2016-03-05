@@ -52,9 +52,10 @@ if resp.getcode() == 200:
         pattern = re.compile(r'\d{4}/\d{2}/\d{2}', re.M)
         pstr = ptext.encode('utf-8')
         pmatch = pattern.findall(pstr)
-        print(pmatch[0])
+        if pmatch:
+            print(pmatch[0])
 
         pa = post.find('p', class_="align-right")
         print(pa.span.a['href'])
-        exit()
+
 
