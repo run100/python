@@ -79,8 +79,8 @@ for url in htmls:
 
 
 
-        break
+        #break
 
-    exit()
+    #exit()
 
 
